@@ -1,6 +1,6 @@
 # ArthaSetu v2 — XScore: Alternative Credit Scoring Platform
 
-**Bharat Bricks Hackathon 2026 · IIT Bombay**
+**Bharat Bricks Hackathon 2026 · IIT Delhi**
 
 ArthaSetu v2 is a full-stack alternative credit scoring platform built on Databricks. It computes **XScore** — a 5-component credit score for India's 400M credit-invisible citizens — using non-traditional data signals: UPI patterns, bill payments, land records, digital behavior, and financial literacy engagement.
 
@@ -196,24 +196,6 @@ Databricks Apps → Deploy `app/` directory → App is live!
 
 ---
 
-## 🎬 Demo Script (3 Minutes)
-
-**0:00–0:30 — The Problem:**
-> "Meet Rahul, a Swiggy delivery partner in Bangalore. He earns ₹15,000/month, pays rent and electricity on time, uses UPI daily. Banks won't lend to him — no CIBIL score. He's creditworthy. The system just can't see it."
-
-**0:30–1:15 — XScore (Bank View):**
-> Show Bank Dashboard. "ArthaSetu gives banks XScore." Show Rahul's score: 480, 5-component radar chart. SHAP shows: good UPI consistency, decent bill payments, but zero financial awareness. "The bank sees exactly why."
-
-**1:15–2:00 — The Flywheel:**
-> Rahul opens ArthaSetu, speaks in Hindi: "मुझे लोन के बारे में बताओ।" Voice responds. He completes an EMI basics module, scores 80%. Watch: CDF triggers, XScore recalculates, jumps from 480 to 530. "Literacy literally makes him more creditworthy."
-
-**2:00–2:30 — Time Travel + MLflow:**
-> Show Delta Lake Time Travel: Version 1 (480) → Version 3 (530) → Version 5 (680). Show MLflow: "Adding literacy features improved AUC by +6.89%."
-
-**2:30–3:00 — The Vision:**
-> "ArthaSetu serves 400M credit-invisible Indians. For banks, it's a ₹12 lakh crore lending market. For users, it's a path from invisible to creditworthy. Five signals, one score. XScore."
-
----
 
 ## 📊 Data Sources
 
