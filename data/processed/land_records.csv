@@ -1,0 +1,1001 @@
+record_id,user_id,property_type,ownership_status,estimated_value_inr,location_district,registration_year,area_sqft_or_acres,encumbrance_flag
+LAND_00001,USR_00001,flat,joint,3128991.0,Mumbai,2022.0,729.0,True
+LAND_00002,USR_00002,none,none,0.0,Mysore,,0.0,False
+LAND_00003,USR_00003,house,owned,3536072.0,Mangalore,2012.0,2427.0,False
+LAND_00004,USR_00004,none,none,0.0,Chennai,,0.0,False
+LAND_00005,USR_00005,none,none,0.0,New Delhi,,0.0,False
+LAND_00006,USR_00006,none,none,0.0,Pune,,0.0,False
+LAND_00007,USR_00007,none,none,0.0,Pune,,0.0,False
+LAND_00008,USR_00008,none,none,0.0,Salem,,0.0,False
+LAND_00009,USR_00009,house,joint,2109133.0,Chennai,2020.0,1222.0,True
+LAND_00010,USR_00010,none,none,0.0,Hyderabad,,0.0,False
+LAND_00011,USR_00011,none,none,0.0,South Delhi,,0.0,False
+LAND_00012,USR_00012,none,none,0.0,Hyderabad,,0.0,False
+LAND_00013,USR_00013,house,owned,3301695.0,Mumbai,2000.0,837.0,False
+LAND_00014,USR_00014,house,family,2732558.0,Mysore,2011.0,1852.0,False
+LAND_00015,USR_00015,none,none,0.0,Warangal,,0.0,False
+LAND_00016,USR_00016,none,none,0.0,Coimbatore,,0.0,False
+LAND_00017,USR_00017,none,none,0.0,Salem,,0.0,False
+LAND_00018,USR_00018,none,none,0.0,Coimbatore,,0.0,False
+LAND_00019,USR_00019,none,none,0.0,Mumbai,,0.0,False
+LAND_00020,USR_00020,none,none,0.0,Madurai,,0.0,False
+LAND_00021,USR_00021,flat,family,2190726.0,Hyderabad,2019.0,2066.0,False
+LAND_00022,USR_00022,flat,joint,3728165.0,Mumbai,2023.0,302.0,False
+LAND_00023,USR_00023,none,none,0.0,Karimnagar,,0.0,False
+LAND_00024,USR_00024,none,none,0.0,Mumbai,,0.0,False
+LAND_00025,USR_00025,none,none,0.0,North Delhi,,0.0,False
+LAND_00026,USR_00026,house,joint,2060583.0,Pune,2007.0,207.0,False
+LAND_00027,USR_00027,residential_plot,family,3594004.0,Nizamabad,2011.0,967.0,False
+LAND_00028,USR_00028,flat,joint,3076985.0,Salem,2002.0,1243.0,False
+LAND_00029,USR_00029,residential_plot,owned,2473253.0,New Delhi,2021.0,1095.0,True
+LAND_00030,USR_00030,residential_plot,joint,1197698.0,Mysore,2009.0,528.0,False
+LAND_00031,USR_00031,flat,joint,2333612.0,Hubli,2016.0,2031.0,True
+LAND_00032,USR_00032,residential_plot,owned,2554502.0,Mysore,2020.0,2173.0,False
+LAND_00033,USR_00033,none,none,0.0,Karimnagar,,0.0,False
+LAND_00034,USR_00034,none,none,0.0,East Delhi,,0.0,False
+LAND_00035,USR_00035,house,family,4270215.0,Hubli,2017.0,644.0,False
+LAND_00036,USR_00036,none,none,0.0,South Delhi,,0.0,False
+LAND_00037,USR_00037,none,none,0.0,Karimnagar,,0.0,False
+LAND_00038,USR_00038,none,none,0.0,Karimnagar,,0.0,False
+LAND_00039,USR_00039,none,none,0.0,Nashik,,0.0,False
+LAND_00040,USR_00040,flat,joint,3281419.0,Nashik,2020.0,861.0,False
+LAND_00041,USR_00041,flat,owned,1858908.0,Karimnagar,2022.0,1132.0,True
+LAND_00042,USR_00042,residential_plot,family,2721403.0,East Delhi,2009.0,838.0,True
+LAND_00043,USR_00043,none,none,0.0,Coimbatore,,0.0,False
+LAND_00044,USR_00044,none,none,0.0,Hyderabad,,0.0,False
+LAND_00045,USR_00045,flat,owned,1553486.0,Warangal,2015.0,440.0,False
+LAND_00046,USR_00046,none,none,0.0,Bangalore,,0.0,False
+LAND_00047,USR_00047,none,none,0.0,Mangalore,,0.0,False
+LAND_00048,USR_00048,none,none,0.0,Bangalore,,0.0,False
+LAND_00049,USR_00049,none,none,0.0,Warangal,,0.0,False
+LAND_00050,USR_00050,none,none,0.0,New Delhi,,0.0,False
+LAND_00051,USR_00051,none,none,0.0,New Delhi,,0.0,False
+LAND_00052,USR_00052,none,none,0.0,Salem,,0.0,False
+LAND_00053,USR_00053,none,none,0.0,Nizamabad,,0.0,False
+LAND_00054,USR_00054,residential_plot,owned,2882059.0,Salem,2007.0,1004.0,False
+LAND_00055,USR_00055,none,none,0.0,New Delhi,,0.0,False
+LAND_00056,USR_00056,none,none,0.0,Mumbai,,0.0,False
+LAND_00057,USR_00057,none,none,0.0,Karimnagar,,0.0,False
+LAND_00058,USR_00058,residential_plot,owned,4297674.0,Mysore,2004.0,1316.0,False
+LAND_00059,USR_00059,none,none,0.0,Hubli,,0.0,False
+LAND_00060,USR_00060,residential_plot,owned,1932281.0,Salem,2014.0,2179.0,False
+LAND_00061,USR_00061,none,none,0.0,Hubli,,0.0,False
+LAND_00062,USR_00062,none,none,0.0,East Delhi,,0.0,False
+LAND_00063,USR_00063,flat,owned,1215301.0,Bangalore,2009.0,813.0,False
+LAND_00064,USR_00064,flat,family,1841233.0,Hubli,2004.0,2487.0,False
+LAND_00065,USR_00065,none,none,0.0,Pune,,0.0,False
+LAND_00066,USR_00066,none,none,0.0,Salem,,0.0,False
+LAND_00067,USR_00067,residential_plot,joint,915802.0,Nagpur,2009.0,1882.0,False
+LAND_00068,USR_00068,flat,owned,2607847.0,East Delhi,2004.0,894.0,False
+LAND_00069,USR_00069,none,none,0.0,Nashik,,0.0,False
+LAND_00070,USR_00070,residential_plot,family,2703516.0,Pune,2016.0,208.0,True
+LAND_00071,USR_00071,house,joint,1952638.0,Chennai,2015.0,1033.0,False
+LAND_00072,USR_00072,none,none,0.0,Nashik,,0.0,False
+LAND_00073,USR_00073,none,none,0.0,Coimbatore,,0.0,False
+LAND_00074,USR_00074,none,none,0.0,Madurai,,0.0,False
+LAND_00075,USR_00075,flat,family,3257321.0,Salem,2022.0,245.0,True
+LAND_00076,USR_00076,none,none,0.0,Chennai,,0.0,False
+LAND_00077,USR_00077,residential_plot,joint,3779924.0,Hubli,2008.0,1320.0,False
+LAND_00078,USR_00078,flat,family,3220614.0,North Delhi,2016.0,683.0,False
+LAND_00079,USR_00079,none,none,0.0,Chennai,,0.0,False
+LAND_00080,USR_00080,none,none,0.0,Coimbatore,,0.0,False
+LAND_00081,USR_00081,none,none,0.0,Mysore,,0.0,False
+LAND_00082,USR_00082,none,none,0.0,Madurai,,0.0,False
+LAND_00083,USR_00083,none,none,0.0,East Delhi,,0.0,False
+LAND_00084,USR_00084,none,none,0.0,Madurai,,0.0,False
+LAND_00085,USR_00085,none,none,0.0,South Delhi,,0.0,False
+LAND_00086,USR_00086,none,none,0.0,Bangalore,,0.0,False
+LAND_00087,USR_00087,residential_plot,joint,1365544.0,South Delhi,2021.0,959.0,False
+LAND_00088,USR_00088,none,none,0.0,Madurai,,0.0,False
+LAND_00089,USR_00089,none,none,0.0,New Delhi,,0.0,False
+LAND_00090,USR_00090,flat,family,1031963.0,Chennai,2003.0,1678.0,False
+LAND_00091,USR_00091,residential_plot,joint,4196428.0,Nizamabad,2003.0,2037.0,False
+LAND_00092,USR_00092,residential_plot,owned,3429401.0,Mangalore,2011.0,1978.0,False
+LAND_00093,USR_00093,residential_plot,joint,1471447.0,South Delhi,2002.0,1083.0,False
+LAND_00094,USR_00094,none,none,0.0,Bangalore,,0.0,False
+LAND_00095,USR_00095,none,none,0.0,Mysore,,0.0,False
+LAND_00096,USR_00096,none,none,0.0,Pune,,0.0,False
+LAND_00097,USR_00097,none,none,0.0,Hyderabad,,0.0,False
+LAND_00098,USR_00098,none,none,0.0,Nashik,,0.0,False
+LAND_00099,USR_00099,residential_plot,joint,2059325.0,East Delhi,2003.0,2089.0,False
+LAND_00100,USR_00100,none,none,0.0,Warangal,,0.0,False
+LAND_00101,USR_00101,none,none,0.0,Mangalore,,0.0,False
+LAND_00102,USR_00102,none,none,0.0,Karimnagar,,0.0,False
+LAND_00103,USR_00103,none,none,0.0,Coimbatore,,0.0,False
+LAND_00104,USR_00104,none,none,0.0,Hyderabad,,0.0,False
+LAND_00105,USR_00105,none,none,0.0,Mangalore,,0.0,False
+LAND_00106,USR_00106,none,none,0.0,New Delhi,,0.0,False
+LAND_00107,USR_00107,house,family,3490062.0,Hyderabad,2004.0,972.0,False
+LAND_00108,USR_00108,none,none,0.0,South Delhi,,0.0,False
+LAND_00109,USR_00109,none,none,0.0,Karimnagar,,0.0,False
+LAND_00110,USR_00110,none,none,0.0,Madurai,,0.0,False
+LAND_00111,USR_00111,none,none,0.0,Salem,,0.0,False
+LAND_00112,USR_00112,none,none,0.0,Hubli,,0.0,False
+LAND_00113,USR_00113,none,none,0.0,Pune,,0.0,False
+LAND_00114,USR_00114,none,none,0.0,Karimnagar,,0.0,False
+LAND_00115,USR_00115,residential_plot,joint,2084888.0,Hyderabad,2000.0,1297.0,False
+LAND_00116,USR_00116,residential_plot,joint,1314336.0,Nizamabad,2005.0,1759.0,True
+LAND_00117,USR_00117,none,none,0.0,Nashik,,0.0,False
+LAND_00118,USR_00118,flat,family,4165876.0,Warangal,2005.0,2384.0,False
+LAND_00119,USR_00119,none,none,0.0,Nizamabad,,0.0,False
+LAND_00120,USR_00120,house,joint,2543612.0,Coimbatore,2002.0,2433.0,False
+LAND_00121,USR_00121,house,joint,611294.0,Hyderabad,2000.0,991.0,True
+LAND_00122,USR_00122,none,none,0.0,Mysore,,0.0,False
+LAND_00123,USR_00123,house,family,4464646.0,Warangal,2001.0,630.0,False
+LAND_00124,USR_00124,flat,joint,2786954.0,Mangalore,2018.0,1581.0,True
+LAND_00125,USR_00125,none,none,0.0,East Delhi,,0.0,False
+LAND_00126,USR_00126,none,none,0.0,New Delhi,,0.0,False
+LAND_00127,USR_00127,none,none,0.0,Mangalore,,0.0,False
+LAND_00128,USR_00128,house,joint,2605502.0,Nagpur,2010.0,2247.0,False
+LAND_00129,USR_00129,none,none,0.0,Salem,,0.0,False
+LAND_00130,USR_00130,none,none,0.0,South Delhi,,0.0,False
+LAND_00131,USR_00131,none,none,0.0,Warangal,,0.0,False
+LAND_00132,USR_00132,none,none,0.0,New Delhi,,0.0,False
+LAND_00133,USR_00133,none,none,0.0,New Delhi,,0.0,False
+LAND_00134,USR_00134,none,none,0.0,Mangalore,,0.0,False
+LAND_00135,USR_00135,none,none,0.0,Bangalore,,0.0,False
+LAND_00136,USR_00136,none,none,0.0,Nagpur,,0.0,False
+LAND_00137,USR_00137,none,none,0.0,Karimnagar,,0.0,False
+LAND_00138,USR_00138,none,none,0.0,North Delhi,,0.0,False
+LAND_00139,USR_00139,house,joint,3393698.0,New Delhi,2013.0,1069.0,False
+LAND_00140,USR_00140,none,none,0.0,Chennai,,0.0,False
+LAND_00141,USR_00141,none,none,0.0,East Delhi,,0.0,False
+LAND_00142,USR_00142,none,none,0.0,Nizamabad,,0.0,False
+LAND_00143,USR_00143,none,none,0.0,Bangalore,,0.0,False
+LAND_00144,USR_00144,none,none,0.0,Mysore,,0.0,False
+LAND_00145,USR_00145,flat,family,531331.0,Coimbatore,2024.0,900.0,False
+LAND_00146,USR_00146,none,none,0.0,Pune,,0.0,False
+LAND_00147,USR_00147,none,none,0.0,Mysore,,0.0,False
+LAND_00148,USR_00148,none,none,0.0,Karimnagar,,0.0,False
+LAND_00149,USR_00149,house,family,1489544.0,Warangal,2016.0,1487.0,False
+LAND_00150,USR_00150,residential_plot,owned,1607263.0,South Delhi,2021.0,371.0,False
+LAND_00151,USR_00151,none,none,0.0,Madurai,,0.0,False
+LAND_00152,USR_00152,none,none,0.0,North Delhi,,0.0,False
+LAND_00153,USR_00153,none,none,0.0,Mumbai,,0.0,False
+LAND_00154,USR_00154,residential_plot,owned,2013926.0,Mysore,2000.0,573.0,False
+LAND_00155,USR_00155,none,none,0.0,Karimnagar,,0.0,False
+LAND_00156,USR_00156,none,none,0.0,Madurai,,0.0,False
+LAND_00157,USR_00157,none,none,0.0,Hyderabad,,0.0,False
+LAND_00158,USR_00158,none,none,0.0,Mumbai,,0.0,False
+LAND_00159,USR_00159,none,none,0.0,Mangalore,,0.0,False
+LAND_00160,USR_00160,none,none,0.0,Nagpur,,0.0,False
+LAND_00161,USR_00161,none,none,0.0,Bangalore,,0.0,False
+LAND_00162,USR_00162,none,none,0.0,Madurai,,0.0,False
+LAND_00163,USR_00163,flat,owned,3123783.0,Mysore,2005.0,1958.0,False
+LAND_00164,USR_00164,none,none,0.0,East Delhi,,0.0,False
+LAND_00165,USR_00165,none,none,0.0,Madurai,,0.0,False
+LAND_00166,USR_00166,none,none,0.0,Hubli,,0.0,False
+LAND_00167,USR_00167,none,none,0.0,Karimnagar,,0.0,False
+LAND_00168,USR_00168,none,none,0.0,East Delhi,,0.0,False
+LAND_00169,USR_00169,none,none,0.0,North Delhi,,0.0,False
+LAND_00170,USR_00170,none,none,0.0,Coimbatore,,0.0,False
+LAND_00171,USR_00171,flat,joint,3748163.0,New Delhi,2016.0,422.0,False
+LAND_00172,USR_00172,none,none,0.0,Nagpur,,0.0,False
+LAND_00173,USR_00173,none,none,0.0,Nizamabad,,0.0,False
+LAND_00174,USR_00174,flat,joint,4042142.0,East Delhi,2012.0,2262.0,False
+LAND_00175,USR_00175,residential_plot,family,3223117.0,Nashik,2012.0,828.0,False
+LAND_00176,USR_00176,none,none,0.0,Coimbatore,,0.0,False
+LAND_00177,USR_00177,none,none,0.0,Hyderabad,,0.0,False
+LAND_00178,USR_00178,none,none,0.0,Warangal,,0.0,False
+LAND_00179,USR_00179,none,none,0.0,Mangalore,,0.0,False
+LAND_00180,USR_00180,none,none,0.0,Nashik,,0.0,False
+LAND_00181,USR_00181,none,none,0.0,Madurai,,0.0,False
+LAND_00182,USR_00182,none,none,0.0,Pune,,0.0,False
+LAND_00183,USR_00183,flat,joint,4477485.0,Salem,2008.0,1836.0,True
+LAND_00184,USR_00184,none,none,0.0,Chennai,,0.0,False
+LAND_00185,USR_00185,none,none,0.0,Mysore,,0.0,False
+LAND_00186,USR_00186,none,none,0.0,South Delhi,,0.0,False
+LAND_00187,USR_00187,none,none,0.0,Salem,,0.0,False
+LAND_00188,USR_00188,flat,family,4376162.0,Coimbatore,2004.0,1116.0,False
+LAND_00189,USR_00189,none,none,0.0,Hubli,,0.0,False
+LAND_00190,USR_00190,none,none,0.0,Hyderabad,,0.0,False
+LAND_00191,USR_00191,none,none,0.0,Bangalore,,0.0,False
+LAND_00192,USR_00192,none,none,0.0,North Delhi,,0.0,False
+LAND_00193,USR_00193,none,none,0.0,East Delhi,,0.0,False
+LAND_00194,USR_00194,residential_plot,joint,3654783.0,South Delhi,2011.0,1147.0,True
+LAND_00195,USR_00195,none,none,0.0,South Delhi,,0.0,False
+LAND_00196,USR_00196,flat,family,781661.0,Mumbai,2008.0,2127.0,False
+LAND_00197,USR_00197,none,none,0.0,Nizamabad,,0.0,False
+LAND_00198,USR_00198,none,none,0.0,Coimbatore,,0.0,False
+LAND_00199,USR_00199,none,none,0.0,East Delhi,,0.0,False
+LAND_00200,USR_00200,none,none,0.0,Nashik,,0.0,False
+LAND_00201,USR_00201,none,none,0.0,Mumbai,,0.0,False
+LAND_00202,USR_00202,none,none,0.0,New Delhi,,0.0,False
+LAND_00203,USR_00203,none,none,0.0,Kanpur,,0.0,False
+LAND_00204,USR_00204,none,none,0.0,Kota,,0.0,False
+LAND_00205,USR_00205,none,none,0.0,Lucknow,,0.0,False
+LAND_00206,USR_00206,none,none,0.0,Mumbai,,0.0,False
+LAND_00207,USR_00207,none,none,0.0,Mumbai,,0.0,False
+LAND_00208,USR_00208,none,none,0.0,Jodhpur,,0.0,False
+LAND_00209,USR_00209,none,none,0.0,Nagpur,,0.0,False
+LAND_00210,USR_00210,none,none,0.0,East Delhi,,0.0,False
+LAND_00211,USR_00211,none,none,0.0,North Delhi,,0.0,False
+LAND_00212,USR_00212,none,none,0.0,Jodhpur,,0.0,False
+LAND_00213,USR_00213,none,none,0.0,South Delhi,,0.0,False
+LAND_00214,USR_00214,none,none,0.0,Lucknow,,0.0,False
+LAND_00215,USR_00215,none,none,0.0,Varanasi,,0.0,False
+LAND_00216,USR_00216,none,none,0.0,East Delhi,,0.0,False
+LAND_00217,USR_00217,none,none,0.0,Hubli,,0.0,False
+LAND_00218,USR_00218,none,none,0.0,Mumbai,,0.0,False
+LAND_00219,USR_00219,none,none,0.0,Kanpur,,0.0,False
+LAND_00220,USR_00220,none,none,0.0,Hubli,,0.0,False
+LAND_00221,USR_00221,none,none,0.0,Kota,,0.0,False
+LAND_00222,USR_00222,none,none,0.0,Hubli,,0.0,False
+LAND_00223,USR_00223,none,none,0.0,Kanpur,,0.0,False
+LAND_00224,USR_00224,none,none,0.0,Mangalore,,0.0,False
+LAND_00225,USR_00225,none,none,0.0,Hubli,,0.0,False
+LAND_00226,USR_00226,none,none,0.0,Nagpur,,0.0,False
+LAND_00227,USR_00227,none,none,0.0,Varanasi,,0.0,False
+LAND_00228,USR_00228,none,none,0.0,Mysore,,0.0,False
+LAND_00229,USR_00229,none,none,0.0,Jaipur,,0.0,False
+LAND_00230,USR_00230,none,none,0.0,Agra,,0.0,False
+LAND_00231,USR_00231,none,none,0.0,East Delhi,,0.0,False
+LAND_00232,USR_00232,none,none,0.0,Kanpur,,0.0,False
+LAND_00233,USR_00233,none,none,0.0,Mumbai,,0.0,False
+LAND_00234,USR_00234,none,none,0.0,South Delhi,,0.0,False
+LAND_00235,USR_00235,none,none,0.0,Mangalore,,0.0,False
+LAND_00236,USR_00236,none,none,0.0,Nashik,,0.0,False
+LAND_00237,USR_00237,none,none,0.0,Mysore,,0.0,False
+LAND_00238,USR_00238,none,none,0.0,Bangalore,,0.0,False
+LAND_00239,USR_00239,none,none,0.0,Udaipur,,0.0,False
+LAND_00240,USR_00240,none,none,0.0,Mangalore,,0.0,False
+LAND_00241,USR_00241,none,none,0.0,Mangalore,,0.0,False
+LAND_00242,USR_00242,none,none,0.0,Kota,,0.0,False
+LAND_00243,USR_00243,none,none,0.0,Nagpur,,0.0,False
+LAND_00244,USR_00244,none,none,0.0,Bangalore,,0.0,False
+LAND_00245,USR_00245,none,none,0.0,New Delhi,,0.0,False
+LAND_00246,USR_00246,none,none,0.0,Nashik,,0.0,False
+LAND_00247,USR_00247,none,none,0.0,Mumbai,,0.0,False
+LAND_00248,USR_00248,none,none,0.0,North Delhi,,0.0,False
+LAND_00249,USR_00249,none,none,0.0,North Delhi,,0.0,False
+LAND_00250,USR_00250,none,none,0.0,Kanpur,,0.0,False
+LAND_00251,USR_00251,none,none,0.0,Nagpur,,0.0,False
+LAND_00252,USR_00252,none,none,0.0,New Delhi,,0.0,False
+LAND_00253,USR_00253,none,none,0.0,Mumbai,,0.0,False
+LAND_00254,USR_00254,none,none,0.0,Pune,,0.0,False
+LAND_00255,USR_00255,none,none,0.0,Varanasi,,0.0,False
+LAND_00256,USR_00256,none,none,0.0,East Delhi,,0.0,False
+LAND_00257,USR_00257,none,none,0.0,Bangalore,,0.0,False
+LAND_00258,USR_00258,none,none,0.0,Mumbai,,0.0,False
+LAND_00259,USR_00259,none,none,0.0,Mangalore,,0.0,False
+LAND_00260,USR_00260,residential_plot,family,0.0,Bangalore,2009.0,1894.0,False
+LAND_00261,USR_00261,none,none,0.0,Jodhpur,,0.0,False
+LAND_00262,USR_00262,residential_plot,joint,0.0,East Delhi,2011.0,1716.0,False
+LAND_00263,USR_00263,none,none,0.0,Mysore,,0.0,False
+LAND_00264,USR_00264,none,none,0.0,Mysore,,0.0,False
+LAND_00265,USR_00265,none,none,0.0,Varanasi,,0.0,False
+LAND_00266,USR_00266,none,none,0.0,Hubli,,0.0,False
+LAND_00267,USR_00267,none,none,0.0,East Delhi,,0.0,False
+LAND_00268,USR_00268,none,none,0.0,Udaipur,,0.0,False
+LAND_00269,USR_00269,none,none,0.0,Lucknow,,0.0,False
+LAND_00270,USR_00270,none,none,0.0,Nagpur,,0.0,False
+LAND_00271,USR_00271,residential_plot,joint,0.0,Mangalore,2020.0,1489.0,True
+LAND_00272,USR_00272,none,none,0.0,Nagpur,,0.0,False
+LAND_00273,USR_00273,residential_plot,owned,0.0,East Delhi,2005.0,1597.0,False
+LAND_00274,USR_00274,none,none,0.0,Udaipur,,0.0,False
+LAND_00275,USR_00275,none,none,0.0,East Delhi,,0.0,False
+LAND_00276,USR_00276,none,none,0.0,New Delhi,,0.0,False
+LAND_00277,USR_00277,none,none,0.0,Jaipur,,0.0,False
+LAND_00278,USR_00278,none,none,0.0,Agra,,0.0,False
+LAND_00279,USR_00279,residential_plot,joint,0.0,Jodhpur,2004.0,881.0,False
+LAND_00280,USR_00280,none,none,0.0,Hubli,,0.0,False
+LAND_00281,USR_00281,none,none,0.0,Nashik,,0.0,False
+LAND_00282,USR_00282,none,none,0.0,East Delhi,,0.0,False
+LAND_00283,USR_00283,none,none,0.0,South Delhi,,0.0,False
+LAND_00284,USR_00284,none,none,0.0,Mysore,,0.0,False
+LAND_00285,USR_00285,none,none,0.0,Varanasi,,0.0,False
+LAND_00286,USR_00286,none,none,0.0,Mysore,,0.0,False
+LAND_00287,USR_00287,residential_plot,family,0.0,Mumbai,2015.0,1313.0,False
+LAND_00288,USR_00288,none,none,0.0,Nagpur,,0.0,False
+LAND_00289,USR_00289,none,none,0.0,Nashik,,0.0,False
+LAND_00290,USR_00290,none,none,0.0,East Delhi,,0.0,False
+LAND_00291,USR_00291,none,none,0.0,North Delhi,,0.0,False
+LAND_00292,USR_00292,none,none,0.0,Bangalore,,0.0,False
+LAND_00293,USR_00293,residential_plot,family,0.0,Pune,2007.0,1447.0,False
+LAND_00294,USR_00294,none,none,0.0,Hubli,,0.0,False
+LAND_00295,USR_00295,none,none,0.0,North Delhi,,0.0,False
+LAND_00296,USR_00296,residential_plot,owned,0.0,Jaipur,2008.0,2174.0,False
+LAND_00297,USR_00297,none,none,0.0,Kanpur,,0.0,False
+LAND_00298,USR_00298,none,none,0.0,Mysore,,0.0,False
+LAND_00299,USR_00299,none,none,0.0,Nagpur,,0.0,False
+LAND_00300,USR_00300,none,none,0.0,Udaipur,,0.0,False
+LAND_00301,USR_00301,none,none,0.0,South Delhi,,0.0,False
+LAND_00302,USR_00302,residential_plot,family,0.0,Nashik,2022.0,1390.0,False
+LAND_00303,USR_00303,none,none,0.0,Udaipur,,0.0,False
+LAND_00304,USR_00304,none,none,0.0,Mumbai,,0.0,False
+LAND_00305,USR_00305,none,none,0.0,Nashik,,0.0,False
+LAND_00306,USR_00306,none,none,0.0,Mumbai,,0.0,False
+LAND_00307,USR_00307,residential_plot,family,0.0,North Delhi,2013.0,1294.0,False
+LAND_00308,USR_00308,residential_plot,family,0.0,East Delhi,2013.0,1167.0,False
+LAND_00309,USR_00309,none,none,0.0,Agra,,0.0,False
+LAND_00310,USR_00310,none,none,0.0,Kanpur,,0.0,False
+LAND_00311,USR_00311,none,none,0.0,New Delhi,,0.0,False
+LAND_00312,USR_00312,none,none,0.0,East Delhi,,0.0,False
+LAND_00313,USR_00313,none,none,0.0,Varanasi,,0.0,False
+LAND_00314,USR_00314,none,none,0.0,Varanasi,,0.0,False
+LAND_00315,USR_00315,none,none,0.0,South Delhi,,0.0,False
+LAND_00316,USR_00316,none,none,0.0,East Delhi,,0.0,False
+LAND_00317,USR_00317,none,none,0.0,Pune,,0.0,False
+LAND_00318,USR_00318,none,none,0.0,Hubli,,0.0,False
+LAND_00319,USR_00319,residential_plot,joint,0.0,Kota,2018.0,1053.0,False
+LAND_00320,USR_00320,none,none,0.0,Agra,,0.0,False
+LAND_00321,USR_00321,none,none,0.0,Udaipur,,0.0,False
+LAND_00322,USR_00322,residential_plot,owned,0.0,Hubli,2007.0,1777.0,False
+LAND_00323,USR_00323,none,none,0.0,Nashik,,0.0,False
+LAND_00324,USR_00324,none,none,0.0,South Delhi,,0.0,False
+LAND_00325,USR_00325,none,none,0.0,Hubli,,0.0,False
+LAND_00326,USR_00326,none,none,0.0,Mangalore,,0.0,False
+LAND_00327,USR_00327,none,none,0.0,Bangalore,,0.0,False
+LAND_00328,USR_00328,none,none,0.0,Hubli,,0.0,False
+LAND_00329,USR_00329,none,none,0.0,Jaipur,,0.0,False
+LAND_00330,USR_00330,none,none,0.0,Kota,,0.0,False
+LAND_00331,USR_00331,none,none,0.0,East Delhi,,0.0,False
+LAND_00332,USR_00332,none,none,0.0,Nagpur,,0.0,False
+LAND_00333,USR_00333,none,none,0.0,Mangalore,,0.0,False
+LAND_00334,USR_00334,none,none,0.0,Hubli,,0.0,False
+LAND_00335,USR_00335,none,none,0.0,Jaipur,,0.0,False
+LAND_00336,USR_00336,none,none,0.0,Agra,,0.0,False
+LAND_00337,USR_00337,none,none,0.0,North Delhi,,0.0,False
+LAND_00338,USR_00338,none,none,0.0,South Delhi,,0.0,False
+LAND_00339,USR_00339,none,none,0.0,Nashik,,0.0,False
+LAND_00340,USR_00340,none,none,0.0,Bangalore,,0.0,False
+LAND_00341,USR_00341,residential_plot,joint,0.0,East Delhi,2000.0,1375.0,False
+LAND_00342,USR_00342,none,none,0.0,North Delhi,,0.0,False
+LAND_00343,USR_00343,none,none,0.0,Mumbai,,0.0,False
+LAND_00344,USR_00344,none,none,0.0,East Delhi,,0.0,False
+LAND_00345,USR_00345,residential_plot,family,0.0,Jodhpur,2006.0,1001.0,False
+LAND_00346,USR_00346,none,none,0.0,New Delhi,,0.0,False
+LAND_00347,USR_00347,none,none,0.0,Mumbai,,0.0,False
+LAND_00348,USR_00348,none,none,0.0,Nagpur,,0.0,False
+LAND_00349,USR_00349,none,none,0.0,Kanpur,,0.0,False
+LAND_00350,USR_00350,none,none,0.0,New Delhi,,0.0,False
+LAND_00351,USR_00351,none,none,0.0,Jaipur,,0.0,False
+LAND_00352,USR_00352,residential_plot,joint,0.0,New Delhi,2006.0,1039.0,False
+LAND_00353,USR_00353,none,none,0.0,Udaipur,,0.0,False
+LAND_00354,USR_00354,none,none,0.0,Kanpur,,0.0,False
+LAND_00355,USR_00355,none,none,0.0,Agra,,0.0,False
+LAND_00356,USR_00356,none,none,0.0,Jaipur,,0.0,False
+LAND_00357,USR_00357,none,none,0.0,Mumbai,,0.0,False
+LAND_00358,USR_00358,residential_plot,family,0.0,Varanasi,2017.0,1026.0,False
+LAND_00359,USR_00359,none,none,0.0,North Delhi,,0.0,False
+LAND_00360,USR_00360,none,none,0.0,New Delhi,,0.0,False
+LAND_00361,USR_00361,residential_plot,family,0.0,Nashik,2001.0,1472.0,False
+LAND_00362,USR_00362,residential_plot,family,0.0,Udaipur,2024.0,1662.0,False
+LAND_00363,USR_00363,none,none,0.0,Varanasi,,0.0,False
+LAND_00364,USR_00364,none,none,0.0,Udaipur,,0.0,False
+LAND_00365,USR_00365,residential_plot,owned,0.0,Udaipur,2000.0,2292.0,False
+LAND_00366,USR_00366,none,none,0.0,Agra,,0.0,False
+LAND_00367,USR_00367,none,none,0.0,New Delhi,,0.0,False
+LAND_00368,USR_00368,none,none,0.0,South Delhi,,0.0,False
+LAND_00369,USR_00369,none,none,0.0,Hubli,,0.0,False
+LAND_00370,USR_00370,none,none,0.0,East Delhi,,0.0,False
+LAND_00371,USR_00371,none,none,0.0,Nashik,,0.0,False
+LAND_00372,USR_00372,none,none,0.0,Mumbai,,0.0,False
+LAND_00373,USR_00373,none,none,0.0,Udaipur,,0.0,False
+LAND_00374,USR_00374,none,none,0.0,Jodhpur,,0.0,False
+LAND_00375,USR_00375,none,none,0.0,Agra,,0.0,False
+LAND_00376,USR_00376,none,none,0.0,Hubli,,0.0,False
+LAND_00377,USR_00377,residential_plot,owned,0.0,South Delhi,2017.0,620.0,False
+LAND_00378,USR_00378,none,none,0.0,East Delhi,,0.0,False
+LAND_00379,USR_00379,none,none,0.0,North Delhi,,0.0,False
+LAND_00380,USR_00380,none,none,0.0,Mysore,,0.0,False
+LAND_00381,USR_00381,none,none,0.0,Lucknow,,0.0,False
+LAND_00382,USR_00382,none,none,0.0,East Delhi,,0.0,False
+LAND_00383,USR_00383,none,none,0.0,East Delhi,,0.0,False
+LAND_00384,USR_00384,none,none,0.0,East Delhi,,0.0,False
+LAND_00385,USR_00385,residential_plot,joint,0.0,North Delhi,2018.0,1418.0,False
+LAND_00386,USR_00386,none,none,0.0,South Delhi,,0.0,False
+LAND_00387,USR_00387,none,none,0.0,Hubli,,0.0,False
+LAND_00388,USR_00388,none,none,0.0,East Delhi,,0.0,False
+LAND_00389,USR_00389,none,none,0.0,Bangalore,,0.0,False
+LAND_00390,USR_00390,none,none,0.0,Bangalore,,0.0,False
+LAND_00391,USR_00391,none,none,0.0,Mangalore,,0.0,False
+LAND_00392,USR_00392,none,none,0.0,North Delhi,,0.0,False
+LAND_00393,USR_00393,none,none,0.0,Pune,,0.0,False
+LAND_00394,USR_00394,none,none,0.0,Jodhpur,,0.0,False
+LAND_00395,USR_00395,none,none,0.0,Jaipur,,0.0,False
+LAND_00396,USR_00396,none,none,0.0,Varanasi,,0.0,False
+LAND_00397,USR_00397,none,none,0.0,Pune,,0.0,False
+LAND_00398,USR_00398,none,none,0.0,South Delhi,,0.0,False
+LAND_00399,USR_00399,none,none,0.0,New Delhi,,0.0,False
+LAND_00400,USR_00400,none,none,0.0,Agra,,0.0,False
+LAND_00401,USR_00401,none,none,0.0,Nashik,,0.0,False
+LAND_00402,USR_00402,residential_plot,owned,0.0,New Delhi,2012.0,2467.0,False
+LAND_00403,USR_00403,none,none,0.0,Kota,,0.0,False
+LAND_00404,USR_00404,none,none,0.0,Mangalore,,0.0,False
+LAND_00405,USR_00405,none,none,0.0,Mangalore,,0.0,False
+LAND_00406,USR_00406,residential_plot,family,0.0,New Delhi,2006.0,1989.0,False
+LAND_00407,USR_00407,none,none,0.0,Jodhpur,,0.0,False
+LAND_00408,USR_00408,none,none,0.0,Kanpur,,0.0,False
+LAND_00409,USR_00409,none,none,0.0,Kota,,0.0,False
+LAND_00410,USR_00410,residential_plot,owned,0.0,Jaipur,2022.0,1225.0,False
+LAND_00411,USR_00411,none,none,0.0,Nashik,,0.0,False
+LAND_00412,USR_00412,none,none,0.0,Nashik,,0.0,False
+LAND_00413,USR_00413,none,none,0.0,Jodhpur,,0.0,False
+LAND_00414,USR_00414,none,none,0.0,North Delhi,,0.0,False
+LAND_00415,USR_00415,none,none,0.0,Mysore,,0.0,False
+LAND_00416,USR_00416,none,none,0.0,Nagpur,,0.0,False
+LAND_00417,USR_00417,none,none,0.0,Kota,,0.0,False
+LAND_00418,USR_00418,none,none,0.0,Udaipur,,0.0,False
+LAND_00419,USR_00419,none,none,0.0,Kanpur,,0.0,False
+LAND_00420,USR_00420,residential_plot,owned,0.0,Mumbai,2000.0,1909.0,True
+LAND_00421,USR_00421,none,none,0.0,Udaipur,,0.0,False
+LAND_00422,USR_00422,none,none,0.0,Nashik,,0.0,False
+LAND_00423,USR_00423,none,none,0.0,Mysore,,0.0,False
+LAND_00424,USR_00424,none,none,0.0,Mysore,,0.0,False
+LAND_00425,USR_00425,none,none,0.0,Varanasi,,0.0,False
+LAND_00426,USR_00426,none,none,0.0,Jodhpur,,0.0,False
+LAND_00427,USR_00427,none,none,0.0,Mangalore,,0.0,False
+LAND_00428,USR_00428,none,none,0.0,Mysore,,0.0,False
+LAND_00429,USR_00429,none,none,0.0,East Delhi,,0.0,False
+LAND_00430,USR_00430,none,none,0.0,Nashik,,0.0,False
+LAND_00431,USR_00431,none,none,0.0,Jaipur,,0.0,False
+LAND_00432,USR_00432,none,none,0.0,Lucknow,,0.0,False
+LAND_00433,USR_00433,none,none,0.0,Nashik,,0.0,False
+LAND_00434,USR_00434,none,none,0.0,Mysore,,0.0,False
+LAND_00435,USR_00435,none,none,0.0,Mysore,,0.0,False
+LAND_00436,USR_00436,none,none,0.0,Agra,,0.0,False
+LAND_00437,USR_00437,none,none,0.0,New Delhi,,0.0,False
+LAND_00438,USR_00438,none,none,0.0,Jodhpur,,0.0,False
+LAND_00439,USR_00439,none,none,0.0,Jaipur,,0.0,False
+LAND_00440,USR_00440,none,none,0.0,Jaipur,,0.0,False
+LAND_00441,USR_00441,none,none,0.0,Kota,,0.0,False
+LAND_00442,USR_00442,residential_plot,joint,0.0,Pune,2017.0,2344.0,False
+LAND_00443,USR_00443,none,none,0.0,Nagpur,,0.0,False
+LAND_00444,USR_00444,none,none,0.0,Hubli,,0.0,False
+LAND_00445,USR_00445,none,none,0.0,Lucknow,,0.0,False
+LAND_00446,USR_00446,none,none,0.0,Nagpur,,0.0,False
+LAND_00447,USR_00447,none,none,0.0,Nagpur,,0.0,False
+LAND_00448,USR_00448,none,none,0.0,Bangalore,,0.0,False
+LAND_00449,USR_00449,none,none,0.0,Pune,,0.0,False
+LAND_00450,USR_00450,none,none,0.0,Mumbai,,0.0,False
+LAND_00451,USR_00451,agricultural_land,owned,1927598.0,Rourkela,2024.0,5.39,False
+LAND_00452,USR_00452,house,family,1465848.0,Rourkela,2020.0,2130.0,False
+LAND_00453,USR_00453,none,none,0.0,Indore,,0.0,False
+LAND_00454,USR_00454,agricultural_land,owned,639289.0,Muzaffarpur,2019.0,1.57,True
+LAND_00455,USR_00455,agricultural_land,owned,981002.0,Patna,2002.0,7.79,False
+LAND_00456,USR_00456,agricultural_land,joint,330050.0,Kota,2009.0,3.3,False
+LAND_00457,USR_00457,house,family,869664.0,Udaipur,2018.0,2449.0,False
+LAND_00458,USR_00458,agricultural_land,owned,1011245.0,Berhampur,2002.0,0.74,False
+LAND_00459,USR_00459,none,none,0.0,Berhampur,,0.0,False
+LAND_00460,USR_00460,agricultural_land,owned,1474081.0,Gwalior,2002.0,4.54,False
+LAND_00461,USR_00461,none,none,0.0,Muzaffarpur,,0.0,False
+LAND_00462,USR_00462,none,none,0.0,Kanpur,,0.0,False
+LAND_00463,USR_00463,agricultural_land,family,1524204.0,Kota,2024.0,4.62,False
+LAND_00464,USR_00464,house,family,1688702.0,Bhubaneswar,2018.0,971.0,False
+LAND_00465,USR_00465,agricultural_land,joint,1317043.0,Kota,2006.0,3.64,False
+LAND_00466,USR_00466,none,none,0.0,Varanasi,,0.0,False
+LAND_00467,USR_00467,house,owned,1662727.0,Lucknow,2015.0,686.0,False
+LAND_00468,USR_00468,house,owned,1115663.0,Kanpur,2001.0,1979.0,False
+LAND_00469,USR_00469,agricultural_land,joint,772566.0,Gwalior,2007.0,4.74,False
+LAND_00470,USR_00470,none,none,0.0,Patna,,0.0,False
+LAND_00471,USR_00471,agricultural_land,owned,111198.0,Rourkela,2015.0,6.47,True
+LAND_00472,USR_00472,house,joint,1441153.0,Udaipur,2002.0,883.0,False
+LAND_00473,USR_00473,none,none,0.0,Jabalpur,,0.0,False
+LAND_00474,USR_00474,house,owned,673242.0,Udaipur,2008.0,1592.0,False
+LAND_00475,USR_00475,agricultural_land,joint,1316863.0,Agra,2022.0,9.81,False
+LAND_00476,USR_00476,none,none,0.0,Bhagalpur,,0.0,False
+LAND_00477,USR_00477,none,none,0.0,Bhopal,,0.0,False
+LAND_00478,USR_00478,none,none,0.0,Muzaffarpur,,0.0,False
+LAND_00479,USR_00479,agricultural_land,family,1049973.0,Rourkela,2002.0,3.07,True
+LAND_00480,USR_00480,house,family,1705927.0,Kanpur,2014.0,1300.0,False
+LAND_00481,USR_00481,agricultural_land,joint,587724.0,Gwalior,2015.0,3.48,False
+LAND_00482,USR_00482,house,joint,1906178.0,Lucknow,2019.0,556.0,False
+LAND_00483,USR_00483,agricultural_land,family,1228422.0,Indore,2016.0,3.09,True
+LAND_00484,USR_00484,house,family,324575.0,Udaipur,2018.0,1938.0,False
+LAND_00485,USR_00485,agricultural_land,family,974394.0,Gwalior,2017.0,8.26,False
+LAND_00486,USR_00486,house,joint,1576567.0,Gwalior,2022.0,865.0,False
+LAND_00487,USR_00487,none,none,0.0,Bhopal,,0.0,False
+LAND_00488,USR_00488,none,none,0.0,Bhagalpur,,0.0,False
+LAND_00489,USR_00489,house,owned,1385179.0,Udaipur,2004.0,773.0,False
+LAND_00490,USR_00490,none,none,0.0,Jodhpur,,0.0,False
+LAND_00491,USR_00491,agricultural_land,family,1628181.0,Gaya,2002.0,2.49,True
+LAND_00492,USR_00492,agricultural_land,joint,1846268.0,Patna,2008.0,9.94,False
+LAND_00493,USR_00493,agricultural_land,joint,1525994.0,Cuttack,2004.0,8.1,False
+LAND_00494,USR_00494,house,joint,769700.0,Lucknow,2013.0,616.0,False
+LAND_00495,USR_00495,house,owned,692113.0,Cuttack,2004.0,722.0,False
+LAND_00496,USR_00496,agricultural_land,family,1062802.0,Lucknow,2009.0,8.48,True
+LAND_00497,USR_00497,none,none,0.0,Bhubaneswar,,0.0,False
+LAND_00498,USR_00498,house,owned,640621.0,Rourkela,2004.0,695.0,False
+LAND_00499,USR_00499,none,none,0.0,Indore,,0.0,False
+LAND_00500,USR_00500,agricultural_land,owned,1443221.0,Jabalpur,2019.0,6.75,False
+LAND_00501,USR_00501,none,none,0.0,Bhagalpur,,0.0,False
+LAND_00502,USR_00502,house,owned,1230942.0,Bhopal,2002.0,1731.0,True
+LAND_00503,USR_00503,agricultural_land,family,571776.0,Kota,2024.0,8.91,True
+LAND_00504,USR_00504,none,none,0.0,Lucknow,,0.0,False
+LAND_00505,USR_00505,none,none,0.0,Varanasi,,0.0,False
+LAND_00506,USR_00506,none,none,0.0,Varanasi,,0.0,False
+LAND_00507,USR_00507,agricultural_land,owned,810503.0,Agra,2004.0,4.02,False
+LAND_00508,USR_00508,none,none,0.0,Cuttack,,0.0,False
+LAND_00509,USR_00509,agricultural_land,joint,422717.0,Gwalior,2021.0,2.41,False
+LAND_00510,USR_00510,house,family,1550320.0,Muzaffarpur,2012.0,1403.0,False
+LAND_00511,USR_00511,agricultural_land,joint,546900.0,Kota,2015.0,8.17,False
+LAND_00512,USR_00512,none,none,0.0,Cuttack,,0.0,False
+LAND_00513,USR_00513,agricultural_land,family,830903.0,Patna,2000.0,5.34,True
+LAND_00514,USR_00514,none,none,0.0,Gaya,,0.0,False
+LAND_00515,USR_00515,none,none,0.0,Bhubaneswar,,0.0,False
+LAND_00516,USR_00516,house,family,1665901.0,Indore,2001.0,1687.0,False
+LAND_00517,USR_00517,house,owned,1720875.0,Agra,2003.0,2229.0,False
+LAND_00518,USR_00518,agricultural_land,family,548033.0,Patna,2010.0,1.01,False
+LAND_00519,USR_00519,agricultural_land,owned,1338246.0,Berhampur,2002.0,2.48,False
+LAND_00520,USR_00520,none,none,0.0,Varanasi,,0.0,False
+LAND_00521,USR_00521,agricultural_land,family,506159.0,Kanpur,2020.0,8.92,True
+LAND_00522,USR_00522,agricultural_land,joint,1559574.0,Jodhpur,2010.0,8.5,True
+LAND_00523,USR_00523,house,joint,1781360.0,Jodhpur,2016.0,614.0,False
+LAND_00524,USR_00524,none,none,0.0,Cuttack,,0.0,False
+LAND_00525,USR_00525,agricultural_land,joint,1441863.0,Gaya,2015.0,1.42,False
+LAND_00526,USR_00526,house,owned,1775077.0,Berhampur,2000.0,1896.0,False
+LAND_00527,USR_00527,agricultural_land,owned,765992.0,Gaya,2011.0,3.73,False
+LAND_00528,USR_00528,agricultural_land,owned,1025825.0,Agra,2023.0,1.7,True
+LAND_00529,USR_00529,agricultural_land,joint,365472.0,Bhubaneswar,2008.0,1.44,False
+LAND_00530,USR_00530,house,family,1550845.0,Kota,2014.0,1974.0,False
+LAND_00531,USR_00531,agricultural_land,owned,863183.0,Udaipur,2015.0,6.6,False
+LAND_00532,USR_00532,none,none,0.0,Jabalpur,,0.0,False
+LAND_00533,USR_00533,none,none,0.0,Kota,,0.0,False
+LAND_00534,USR_00534,none,none,0.0,Jodhpur,,0.0,False
+LAND_00535,USR_00535,house,family,804748.0,Jabalpur,2007.0,2460.0,False
+LAND_00536,USR_00536,none,none,0.0,Udaipur,,0.0,False
+LAND_00537,USR_00537,none,none,0.0,Bhagalpur,,0.0,False
+LAND_00538,USR_00538,agricultural_land,owned,1936769.0,Bhubaneswar,2001.0,2.36,True
+LAND_00539,USR_00539,agricultural_land,owned,1544517.0,Rourkela,2007.0,8.45,False
+LAND_00540,USR_00540,agricultural_land,owned,1384374.0,Lucknow,2001.0,3.0,False
+LAND_00541,USR_00541,none,none,0.0,Gwalior,,0.0,False
+LAND_00542,USR_00542,none,none,0.0,Kanpur,,0.0,False
+LAND_00543,USR_00543,agricultural_land,family,1825952.0,Lucknow,2021.0,5.07,False
+LAND_00544,USR_00544,agricultural_land,family,1059958.0,Indore,2017.0,6.38,False
+LAND_00545,USR_00545,agricultural_land,owned,1157415.0,Kanpur,2020.0,8.36,False
+LAND_00546,USR_00546,none,none,0.0,Jabalpur,,0.0,False
+LAND_00547,USR_00547,agricultural_land,owned,837869.0,Gaya,2012.0,7.27,False
+LAND_00548,USR_00548,agricultural_land,joint,1264566.0,Bhopal,2014.0,7.52,False
+LAND_00549,USR_00549,house,owned,984581.0,Agra,2014.0,400.0,False
+LAND_00550,USR_00550,none,none,0.0,Muzaffarpur,,0.0,False
+LAND_00551,USR_00551,none,none,0.0,Lucknow,,0.0,False
+LAND_00552,USR_00552,house,family,1380957.0,Bhubaneswar,2011.0,828.0,False
+LAND_00553,USR_00553,agricultural_land,family,1612138.0,Jaipur,2000.0,5.86,False
+LAND_00554,USR_00554,agricultural_land,owned,1529978.0,Jodhpur,2004.0,7.82,False
+LAND_00555,USR_00555,house,owned,451154.0,Berhampur,2012.0,368.0,False
+LAND_00556,USR_00556,house,joint,1889549.0,Udaipur,2002.0,417.0,True
+LAND_00557,USR_00557,none,none,0.0,Gwalior,,0.0,False
+LAND_00558,USR_00558,house,joint,228798.0,Jabalpur,2023.0,1155.0,False
+LAND_00559,USR_00559,agricultural_land,joint,128226.0,Gwalior,2009.0,8.17,False
+LAND_00560,USR_00560,none,none,0.0,Muzaffarpur,,0.0,False
+LAND_00561,USR_00561,agricultural_land,owned,1656768.0,Udaipur,2006.0,1.61,False
+LAND_00562,USR_00562,agricultural_land,family,311315.0,Berhampur,2010.0,3.7,True
+LAND_00563,USR_00563,agricultural_land,family,1989334.0,Kota,2002.0,1.78,False
+LAND_00564,USR_00564,agricultural_land,family,742956.0,Berhampur,2006.0,7.37,False
+LAND_00565,USR_00565,agricultural_land,joint,1454248.0,Bhagalpur,2006.0,2.88,True
+LAND_00566,USR_00566,house,joint,1116565.0,Lucknow,2010.0,414.0,False
+LAND_00567,USR_00567,none,none,0.0,Jodhpur,,0.0,False
+LAND_00568,USR_00568,none,none,0.0,Jabalpur,,0.0,False
+LAND_00569,USR_00569,agricultural_land,joint,642172.0,Bhubaneswar,2016.0,9.09,False
+LAND_00570,USR_00570,none,none,0.0,Berhampur,,0.0,False
+LAND_00571,USR_00571,agricultural_land,joint,685469.0,Bhubaneswar,2023.0,1.96,True
+LAND_00572,USR_00572,house,joint,1165063.0,Varanasi,2024.0,1504.0,False
+LAND_00573,USR_00573,agricultural_land,owned,1228509.0,Indore,2005.0,2.58,False
+LAND_00574,USR_00574,agricultural_land,family,649179.0,Gwalior,2023.0,1.91,False
+LAND_00575,USR_00575,none,none,0.0,Patna,,0.0,False
+LAND_00576,USR_00576,agricultural_land,owned,1441331.0,Indore,2020.0,6.95,False
+LAND_00577,USR_00577,agricultural_land,owned,1608521.0,Indore,2023.0,3.5,False
+LAND_00578,USR_00578,agricultural_land,joint,492103.0,Agra,2013.0,2.5,False
+LAND_00579,USR_00579,none,none,0.0,Muzaffarpur,,0.0,False
+LAND_00580,USR_00580,house,joint,565982.0,Gwalior,2001.0,382.0,False
+LAND_00581,USR_00581,none,none,0.0,Bhubaneswar,,0.0,False
+LAND_00582,USR_00582,none,none,0.0,Kota,,0.0,False
+LAND_00583,USR_00583,none,none,0.0,Lucknow,,0.0,False
+LAND_00584,USR_00584,agricultural_land,owned,1902506.0,Varanasi,2005.0,3.83,False
+LAND_00585,USR_00585,house,family,228951.0,Jodhpur,2018.0,2459.0,False
+LAND_00586,USR_00586,house,joint,658149.0,Lucknow,2011.0,1637.0,False
+LAND_00587,USR_00587,house,owned,1133844.0,Varanasi,2006.0,1784.0,False
+LAND_00588,USR_00588,none,none,0.0,Udaipur,,0.0,False
+LAND_00589,USR_00589,none,none,0.0,Indore,,0.0,False
+LAND_00590,USR_00590,house,joint,1117391.0,Gwalior,2003.0,2455.0,False
+LAND_00591,USR_00591,none,none,0.0,Jodhpur,,0.0,False
+LAND_00592,USR_00592,none,none,0.0,Indore,,0.0,False
+LAND_00593,USR_00593,none,none,0.0,Jabalpur,,0.0,False
+LAND_00594,USR_00594,none,none,0.0,Berhampur,,0.0,False
+LAND_00595,USR_00595,none,none,0.0,Gwalior,,0.0,False
+LAND_00596,USR_00596,agricultural_land,owned,1187236.0,Lucknow,2017.0,3.75,False
+LAND_00597,USR_00597,agricultural_land,family,459911.0,Bhagalpur,2005.0,9.72,True
+LAND_00598,USR_00598,agricultural_land,family,706482.0,Kota,2018.0,8.76,True
+LAND_00599,USR_00599,none,none,0.0,Gwalior,,0.0,False
+LAND_00600,USR_00600,none,none,0.0,Gwalior,,0.0,False
+LAND_00601,USR_00601,none,none,0.0,Gaya,,0.0,False
+LAND_00602,USR_00602,house,joint,885442.0,Rourkela,2024.0,2073.0,False
+LAND_00603,USR_00603,house,joint,1494483.0,Gwalior,2000.0,1186.0,True
+LAND_00604,USR_00604,none,none,0.0,Rourkela,,0.0,False
+LAND_00605,USR_00605,agricultural_land,joint,634470.0,Lucknow,2015.0,9.69,False
+LAND_00606,USR_00606,none,none,0.0,Gaya,,0.0,False
+LAND_00607,USR_00607,none,none,0.0,Kanpur,,0.0,False
+LAND_00608,USR_00608,none,none,0.0,Rourkela,,0.0,False
+LAND_00609,USR_00609,none,none,0.0,Kota,,0.0,False
+LAND_00610,USR_00610,agricultural_land,joint,1978568.0,Gaya,2004.0,2.89,False
+LAND_00611,USR_00611,agricultural_land,family,480964.0,Kota,2004.0,6.07,False
+LAND_00612,USR_00612,house,joint,669772.0,Patna,2016.0,2152.0,False
+LAND_00613,USR_00613,agricultural_land,owned,1830805.0,Lucknow,2011.0,3.27,False
+LAND_00614,USR_00614,house,family,1572249.0,Jabalpur,2002.0,353.0,False
+LAND_00615,USR_00615,none,none,0.0,Bhopal,,0.0,False
+LAND_00616,USR_00616,house,family,1982202.0,Kota,2009.0,1300.0,True
+LAND_00617,USR_00617,house,family,1949816.0,Patna,2006.0,602.0,False
+LAND_00618,USR_00618,none,none,0.0,Agra,,0.0,False
+LAND_00619,USR_00619,none,none,0.0,Gwalior,,0.0,False
+LAND_00620,USR_00620,none,none,0.0,Indore,,0.0,False
+LAND_00621,USR_00621,none,none,0.0,Udaipur,,0.0,False
+LAND_00622,USR_00622,agricultural_land,owned,1687399.0,Muzaffarpur,2003.0,2.81,False
+LAND_00623,USR_00623,agricultural_land,joint,455222.0,Rourkela,2006.0,0.7,False
+LAND_00624,USR_00624,none,none,0.0,Varanasi,,0.0,False
+LAND_00625,USR_00625,agricultural_land,joint,1862682.0,Gwalior,2019.0,3.42,False
+LAND_00626,USR_00626,agricultural_land,joint,1172298.0,Cuttack,2000.0,5.03,True
+LAND_00627,USR_00627,none,none,0.0,Kota,,0.0,False
+LAND_00628,USR_00628,agricultural_land,family,210619.0,Berhampur,2019.0,4.34,False
+LAND_00629,USR_00629,none,none,0.0,Gaya,,0.0,False
+LAND_00630,USR_00630,none,none,0.0,Patna,,0.0,False
+LAND_00631,USR_00631,agricultural_land,family,336749.0,Udaipur,2017.0,5.77,False
+LAND_00632,USR_00632,house,joint,637398.0,Agra,2005.0,1905.0,False
+LAND_00633,USR_00633,agricultural_land,family,390680.0,Gaya,2015.0,6.76,True
+LAND_00634,USR_00634,house,family,1017404.0,Berhampur,2012.0,228.0,False
+LAND_00635,USR_00635,house,joint,516514.0,Jabalpur,2015.0,1133.0,False
+LAND_00636,USR_00636,house,owned,1587952.0,Agra,2023.0,977.0,False
+LAND_00637,USR_00637,none,none,0.0,Berhampur,,0.0,False
+LAND_00638,USR_00638,agricultural_land,family,431851.0,Jabalpur,2009.0,3.95,False
+LAND_00639,USR_00639,house,family,1023164.0,Lucknow,2018.0,1573.0,False
+LAND_00640,USR_00640,house,family,1620685.0,Bhopal,2012.0,2235.0,False
+LAND_00641,USR_00641,none,none,0.0,Berhampur,,0.0,False
+LAND_00642,USR_00642,none,none,0.0,Cuttack,,0.0,False
+LAND_00643,USR_00643,house,joint,1264905.0,Bhagalpur,2016.0,1308.0,False
+LAND_00644,USR_00644,agricultural_land,joint,1628968.0,Kota,2023.0,2.17,False
+LAND_00645,USR_00645,none,none,0.0,Indore,,0.0,False
+LAND_00646,USR_00646,house,owned,1224652.0,Jodhpur,2021.0,933.0,False
+LAND_00647,USR_00647,none,none,0.0,Berhampur,,0.0,False
+LAND_00648,USR_00648,agricultural_land,owned,1196997.0,Bhopal,2009.0,2.78,False
+LAND_00649,USR_00649,none,none,0.0,Bhopal,,0.0,False
+LAND_00650,USR_00650,none,none,0.0,Rourkela,,0.0,False
+LAND_00651,USR_00651,none,none,0.0,Patna,,0.0,False
+LAND_00652,USR_00652,none,none,0.0,Hyderabad,,0.0,False
+LAND_00653,USR_00653,none,none,0.0,Cuttack,,0.0,False
+LAND_00654,USR_00654,none,none,0.0,Guntur,,0.0,False
+LAND_00655,USR_00655,none,none,0.0,Hyderabad,,0.0,False
+LAND_00656,USR_00656,none,none,0.0,Nizamabad,,0.0,False
+LAND_00657,USR_00657,none,none,0.0,Guntur,,0.0,False
+LAND_00658,USR_00658,none,none,0.0,Tirupati,,0.0,False
+LAND_00659,USR_00659,none,none,0.0,Vijayawada,,0.0,False
+LAND_00660,USR_00660,none,none,0.0,Berhampur,,0.0,False
+LAND_00661,USR_00661,none,none,0.0,Patna,,0.0,False
+LAND_00662,USR_00662,house,family,603053.0,Vijayawada,2017.0,2102.0,False
+LAND_00663,USR_00663,house,family,673258.0,Visakhapatnam,2016.0,1995.0,False
+LAND_00664,USR_00664,none,none,0.0,Warangal,,0.0,False
+LAND_00665,USR_00665,house,family,510824.0,Hyderabad,2009.0,1123.0,False
+LAND_00666,USR_00666,none,none,0.0,Muzaffarpur,,0.0,False
+LAND_00667,USR_00667,house,family,481442.0,Hyderabad,2020.0,2361.0,True
+LAND_00668,USR_00668,none,none,0.0,Gaya,,0.0,False
+LAND_00669,USR_00669,none,none,0.0,Dhanbad,,0.0,False
+LAND_00670,USR_00670,none,none,0.0,Warangal,,0.0,False
+LAND_00671,USR_00671,none,none,0.0,Guntur,,0.0,False
+LAND_00672,USR_00672,house,family,706550.0,Bokaro,2023.0,2462.0,False
+LAND_00673,USR_00673,none,none,0.0,Berhampur,,0.0,False
+LAND_00674,USR_00674,none,none,0.0,Cuttack,,0.0,False
+LAND_00675,USR_00675,house,family,405778.0,Muzaffarpur,2023.0,2339.0,False
+LAND_00676,USR_00676,house,joint,729794.0,Berhampur,2010.0,2105.0,False
+LAND_00677,USR_00677,none,none,0.0,Bhagalpur,,0.0,False
+LAND_00678,USR_00678,none,none,0.0,Ranchi,,0.0,False
+LAND_00679,USR_00679,none,none,0.0,Patna,,0.0,False
+LAND_00680,USR_00680,none,none,0.0,Guntur,,0.0,False
+LAND_00681,USR_00681,house,joint,415364.0,Cuttack,2012.0,1807.0,False
+LAND_00682,USR_00682,house,family,127024.0,Patna,2013.0,1837.0,False
+LAND_00683,USR_00683,none,none,0.0,Bokaro,,0.0,False
+LAND_00684,USR_00684,none,none,0.0,Nizamabad,,0.0,False
+LAND_00685,USR_00685,none,none,0.0,Rourkela,,0.0,False
+LAND_00686,USR_00686,none,none,0.0,Vijayawada,,0.0,False
+LAND_00687,USR_00687,none,none,0.0,Guntur,,0.0,False
+LAND_00688,USR_00688,none,none,0.0,Patna,,0.0,False
+LAND_00689,USR_00689,none,none,0.0,Ranchi,,0.0,False
+LAND_00690,USR_00690,none,none,0.0,Warangal,,0.0,False
+LAND_00691,USR_00691,none,none,0.0,Muzaffarpur,,0.0,False
+LAND_00692,USR_00692,none,none,0.0,Bhagalpur,,0.0,False
+LAND_00693,USR_00693,none,none,0.0,Berhampur,,0.0,False
+LAND_00694,USR_00694,none,none,0.0,Hyderabad,,0.0,False
+LAND_00695,USR_00695,none,none,0.0,Vijayawada,,0.0,False
+LAND_00696,USR_00696,none,none,0.0,Gaya,,0.0,False
+LAND_00697,USR_00697,none,none,0.0,Gaya,,0.0,False
+LAND_00698,USR_00698,none,none,0.0,Visakhapatnam,,0.0,False
+LAND_00699,USR_00699,house,family,281576.0,Vijayawada,2009.0,846.0,False
+LAND_00700,USR_00700,none,none,0.0,Warangal,,0.0,False
+LAND_00701,USR_00701,none,none,0.0,Tirupati,,0.0,False
+LAND_00702,USR_00702,none,none,0.0,Warangal,,0.0,False
+LAND_00703,USR_00703,none,none,0.0,Vijayawada,,0.0,False
+LAND_00704,USR_00704,none,none,0.0,Bokaro,,0.0,False
+LAND_00705,USR_00705,house,joint,501982.0,Nizamabad,2016.0,1268.0,False
+LAND_00706,USR_00706,none,none,0.0,Bokaro,,0.0,False
+LAND_00707,USR_00707,none,none,0.0,Karimnagar,,0.0,False
+LAND_00708,USR_00708,none,none,0.0,Bhagalpur,,0.0,False
+LAND_00709,USR_00709,house,family,147902.0,Guntur,2005.0,1231.0,False
+LAND_00710,USR_00710,house,family,623096.0,Hyderabad,2002.0,1379.0,False
+LAND_00711,USR_00711,none,none,0.0,Bokaro,,0.0,False
+LAND_00712,USR_00712,none,none,0.0,Warangal,,0.0,False
+LAND_00713,USR_00713,none,none,0.0,Vijayawada,,0.0,False
+LAND_00714,USR_00714,none,none,0.0,Muzaffarpur,,0.0,False
+LAND_00715,USR_00715,none,none,0.0,Karimnagar,,0.0,False
+LAND_00716,USR_00716,house,joint,347072.0,Nizamabad,2018.0,1739.0,True
+LAND_00717,USR_00717,none,none,0.0,Karimnagar,,0.0,False
+LAND_00718,USR_00718,house,joint,295854.0,Warangal,2009.0,2493.0,True
+LAND_00719,USR_00719,none,none,0.0,Muzaffarpur,,0.0,False
+LAND_00720,USR_00720,none,none,0.0,Muzaffarpur,,0.0,False
+LAND_00721,USR_00721,house,family,360869.0,Warangal,2004.0,2407.0,False
+LAND_00722,USR_00722,none,none,0.0,Cuttack,,0.0,False
+LAND_00723,USR_00723,none,none,0.0,Ranchi,,0.0,False
+LAND_00724,USR_00724,house,joint,384131.0,Muzaffarpur,2006.0,356.0,False
+LAND_00725,USR_00725,none,none,0.0,Nizamabad,,0.0,False
+LAND_00726,USR_00726,none,none,0.0,Berhampur,,0.0,False
+LAND_00727,USR_00727,none,none,0.0,Warangal,,0.0,False
+LAND_00728,USR_00728,none,none,0.0,Ranchi,,0.0,False
+LAND_00729,USR_00729,house,family,453507.0,Patna,2016.0,817.0,False
+LAND_00730,USR_00730,none,none,0.0,Muzaffarpur,,0.0,False
+LAND_00731,USR_00731,none,none,0.0,Berhampur,,0.0,False
+LAND_00732,USR_00732,none,none,0.0,Hyderabad,,0.0,False
+LAND_00733,USR_00733,none,none,0.0,Bhagalpur,,0.0,False
+LAND_00734,USR_00734,none,none,0.0,Gaya,,0.0,False
+LAND_00735,USR_00735,none,none,0.0,Tirupati,,0.0,False
+LAND_00736,USR_00736,none,none,0.0,Patna,,0.0,False
+LAND_00737,USR_00737,house,family,406755.0,Warangal,2000.0,2068.0,False
+LAND_00738,USR_00738,house,family,400513.0,Cuttack,2004.0,682.0,False
+LAND_00739,USR_00739,none,none,0.0,Patna,,0.0,False
+LAND_00740,USR_00740,none,none,0.0,Bokaro,,0.0,False
+LAND_00741,USR_00741,none,none,0.0,Guntur,,0.0,False
+LAND_00742,USR_00742,house,family,426464.0,Muzaffarpur,2008.0,1666.0,True
+LAND_00743,USR_00743,none,none,0.0,Muzaffarpur,,0.0,False
+LAND_00744,USR_00744,house,family,537557.0,Guntur,2012.0,1967.0,False
+LAND_00745,USR_00745,none,none,0.0,Berhampur,,0.0,False
+LAND_00746,USR_00746,none,none,0.0,Vijayawada,,0.0,False
+LAND_00747,USR_00747,none,none,0.0,Berhampur,,0.0,False
+LAND_00748,USR_00748,none,none,0.0,Bokaro,,0.0,False
+LAND_00749,USR_00749,none,none,0.0,Muzaffarpur,,0.0,False
+LAND_00750,USR_00750,none,none,0.0,Nizamabad,,0.0,False
+LAND_00751,USR_00751,none,none,0.0,Berhampur,,0.0,False
+LAND_00752,USR_00752,house,family,776000.0,Nizamabad,2001.0,1870.0,False
+LAND_00753,USR_00753,none,none,0.0,Bhubaneswar,,0.0,False
+LAND_00754,USR_00754,none,none,0.0,Bokaro,,0.0,False
+LAND_00755,USR_00755,none,none,0.0,Jamshedpur,,0.0,False
+LAND_00756,USR_00756,none,none,0.0,Bokaro,,0.0,False
+LAND_00757,USR_00757,none,none,0.0,Hyderabad,,0.0,False
+LAND_00758,USR_00758,none,none,0.0,Visakhapatnam,,0.0,False
+LAND_00759,USR_00759,none,none,0.0,Guntur,,0.0,False
+LAND_00760,USR_00760,none,none,0.0,Jamshedpur,,0.0,False
+LAND_00761,USR_00761,none,none,0.0,Jamshedpur,,0.0,False
+LAND_00762,USR_00762,none,none,0.0,Nizamabad,,0.0,False
+LAND_00763,USR_00763,none,none,0.0,Karimnagar,,0.0,False
+LAND_00764,USR_00764,house,family,695388.0,Jamshedpur,2014.0,823.0,False
+LAND_00765,USR_00765,none,none,0.0,Cuttack,,0.0,False
+LAND_00766,USR_00766,none,none,0.0,Karimnagar,,0.0,False
+LAND_00767,USR_00767,none,none,0.0,Vijayawada,,0.0,False
+LAND_00768,USR_00768,none,none,0.0,Bhagalpur,,0.0,False
+LAND_00769,USR_00769,none,none,0.0,Bhubaneswar,,0.0,False
+LAND_00770,USR_00770,none,none,0.0,Muzaffarpur,,0.0,False
+LAND_00771,USR_00771,none,none,0.0,Visakhapatnam,,0.0,False
+LAND_00772,USR_00772,none,none,0.0,Tirupati,,0.0,False
+LAND_00773,USR_00773,house,family,196153.0,Patna,2014.0,2384.0,False
+LAND_00774,USR_00774,none,none,0.0,Ranchi,,0.0,False
+LAND_00775,USR_00775,none,none,0.0,Bhagalpur,,0.0,False
+LAND_00776,USR_00776,none,none,0.0,Berhampur,,0.0,False
+LAND_00777,USR_00777,none,none,0.0,Ranchi,,0.0,False
+LAND_00778,USR_00778,house,joint,770006.0,Nizamabad,2023.0,1490.0,False
+LAND_00779,USR_00779,none,none,0.0,Patna,,0.0,False
+LAND_00780,USR_00780,house,joint,448780.0,Bhubaneswar,2020.0,2260.0,False
+LAND_00781,USR_00781,none,none,0.0,Vijayawada,,0.0,False
+LAND_00782,USR_00782,none,none,0.0,Bhubaneswar,,0.0,False
+LAND_00783,USR_00783,none,none,0.0,Bokaro,,0.0,False
+LAND_00784,USR_00784,none,none,0.0,Berhampur,,0.0,False
+LAND_00785,USR_00785,none,none,0.0,Jamshedpur,,0.0,False
+LAND_00786,USR_00786,none,none,0.0,Vijayawada,,0.0,False
+LAND_00787,USR_00787,none,none,0.0,Patna,,0.0,False
+LAND_00788,USR_00788,house,family,93482.0,Bhagalpur,2016.0,949.0,False
+LAND_00789,USR_00789,house,family,398198.0,Bhubaneswar,2017.0,2332.0,False
+LAND_00790,USR_00790,house,family,109688.0,Gaya,2006.0,323.0,False
+LAND_00791,USR_00791,none,none,0.0,Rourkela,,0.0,False
+LAND_00792,USR_00792,none,none,0.0,Ranchi,,0.0,False
+LAND_00793,USR_00793,none,none,0.0,Berhampur,,0.0,False
+LAND_00794,USR_00794,none,none,0.0,Dhanbad,,0.0,False
+LAND_00795,USR_00795,none,none,0.0,Vijayawada,,0.0,False
+LAND_00796,USR_00796,none,none,0.0,Bhagalpur,,0.0,False
+LAND_00797,USR_00797,house,joint,165240.0,Cuttack,2013.0,1271.0,False
+LAND_00798,USR_00798,none,none,0.0,Dhanbad,,0.0,False
+LAND_00799,USR_00799,none,none,0.0,Vijayawada,,0.0,False
+LAND_00800,USR_00800,none,none,0.0,Rourkela,,0.0,False
+LAND_00801,USR_00801,house,family,639300.0,Guntur,2012.0,2373.0,False
+LAND_00802,USR_00802,none,none,0.0,Ranchi,,0.0,False
+LAND_00803,USR_00803,house,family,656785.0,Gaya,2013.0,221.0,True
+LAND_00804,USR_00804,house,family,188992.0,Tirupati,2007.0,1126.0,False
+LAND_00805,USR_00805,house,family,352447.0,Warangal,2021.0,2294.0,False
+LAND_00806,USR_00806,none,none,0.0,Vijayawada,,0.0,False
+LAND_00807,USR_00807,none,none,0.0,Vijayawada,,0.0,False
+LAND_00808,USR_00808,none,none,0.0,Guntur,,0.0,False
+LAND_00809,USR_00809,none,none,0.0,Warangal,,0.0,False
+LAND_00810,USR_00810,none,none,0.0,Bokaro,,0.0,False
+LAND_00811,USR_00811,none,none,0.0,Patna,,0.0,False
+LAND_00812,USR_00812,none,none,0.0,Visakhapatnam,,0.0,False
+LAND_00813,USR_00813,none,none,0.0,Rourkela,,0.0,False
+LAND_00814,USR_00814,house,joint,508050.0,Vijayawada,2020.0,1523.0,False
+LAND_00815,USR_00815,none,none,0.0,Bokaro,,0.0,False
+LAND_00816,USR_00816,none,none,0.0,Bhagalpur,,0.0,False
+LAND_00817,USR_00817,none,none,0.0,Bokaro,,0.0,False
+LAND_00818,USR_00818,none,none,0.0,Hyderabad,,0.0,False
+LAND_00819,USR_00819,house,family,472128.0,Guntur,2017.0,285.0,False
+LAND_00820,USR_00820,none,none,0.0,Warangal,,0.0,False
+LAND_00821,USR_00821,none,none,0.0,Bhubaneswar,,0.0,False
+LAND_00822,USR_00822,none,none,0.0,Hyderabad,,0.0,False
+LAND_00823,USR_00823,house,family,507919.0,Bhagalpur,2018.0,610.0,False
+LAND_00824,USR_00824,none,none,0.0,Jamshedpur,,0.0,False
+LAND_00825,USR_00825,none,none,0.0,Gaya,,0.0,False
+LAND_00826,USR_00826,none,none,0.0,Hyderabad,,0.0,False
+LAND_00827,USR_00827,none,none,0.0,Gaya,,0.0,False
+LAND_00828,USR_00828,none,none,0.0,Visakhapatnam,,0.0,False
+LAND_00829,USR_00829,none,none,0.0,Ranchi,,0.0,False
+LAND_00830,USR_00830,none,none,0.0,Gaya,,0.0,False
+LAND_00831,USR_00831,none,none,0.0,Vijayawada,,0.0,False
+LAND_00832,USR_00832,none,none,0.0,Vijayawada,,0.0,False
+LAND_00833,USR_00833,house,family,456433.0,Dhanbad,2013.0,563.0,False
+LAND_00834,USR_00834,none,none,0.0,Gaya,,0.0,False
+LAND_00835,USR_00835,none,none,0.0,Bhubaneswar,,0.0,False
+LAND_00836,USR_00836,none,none,0.0,Vijayawada,,0.0,False
+LAND_00837,USR_00837,none,none,0.0,Tirupati,,0.0,False
+LAND_00838,USR_00838,none,none,0.0,Dhanbad,,0.0,False
+LAND_00839,USR_00839,none,none,0.0,Vijayawada,,0.0,False
+LAND_00840,USR_00840,house,family,560174.0,Nizamabad,2017.0,1939.0,False
+LAND_00841,USR_00841,house,family,790952.0,Tirupati,2003.0,1233.0,False
+LAND_00842,USR_00842,house,joint,449438.0,Guntur,2002.0,1118.0,False
+LAND_00843,USR_00843,none,none,0.0,Patna,,0.0,False
+LAND_00844,USR_00844,house,family,600607.0,Cuttack,2016.0,742.0,False
+LAND_00845,USR_00845,none,none,0.0,Cuttack,,0.0,False
+LAND_00846,USR_00846,none,none,0.0,Jamshedpur,,0.0,False
+LAND_00847,USR_00847,none,none,0.0,Jamshedpur,,0.0,False
+LAND_00848,USR_00848,none,none,0.0,Muzaffarpur,,0.0,False
+LAND_00849,USR_00849,none,none,0.0,Vijayawada,,0.0,False
+LAND_00850,USR_00850,none,none,0.0,Guntur,,0.0,False
+LAND_00851,USR_00851,none,none,0.0,Udaipur,,0.0,False
+LAND_00852,USR_00852,none,none,0.0,Gwalior,,0.0,False
+LAND_00853,USR_00853,none,none,0.0,Lucknow,,0.0,False
+LAND_00854,USR_00854,house,joint,2346393.0,Bhopal,2013.0,588.0,False
+LAND_00855,USR_00855,shop,family,982848.0,Kota,2007.0,2187.0,True
+LAND_00856,USR_00856,none,none,0.0,Vadodara,,0.0,False
+LAND_00857,USR_00857,house,owned,745432.0,Jabalpur,2002.0,378.0,False
+LAND_00858,USR_00858,none,none,0.0,Nashik,,0.0,False
+LAND_00859,USR_00859,shop,family,1798830.0,Udaipur,2001.0,200.0,False
+LAND_00860,USR_00860,none,none,0.0,Bhopal,,0.0,False
+LAND_00861,USR_00861,none,none,0.0,Nagpur,,0.0,False
+LAND_00862,USR_00862,house,family,465336.0,Bhopal,2000.0,816.0,True
+LAND_00863,USR_00863,none,none,0.0,Nashik,,0.0,False
+LAND_00864,USR_00864,none,none,0.0,Jodhpur,,0.0,False
+LAND_00865,USR_00865,none,none,0.0,Kanpur,,0.0,False
+LAND_00866,USR_00866,none,none,0.0,Mumbai,,0.0,False
+LAND_00867,USR_00867,residential_plot,joint,2488248.0,Rajkot,2016.0,537.0,False
+LAND_00868,USR_00868,house,owned,2114122.0,Jaipur,2016.0,1445.0,False
+LAND_00869,USR_00869,shop,family,2830249.0,Ahmedabad,2005.0,1703.0,False
+LAND_00870,USR_00870,none,none,0.0,Jabalpur,,0.0,False
+LAND_00871,USR_00871,none,none,0.0,Mumbai,,0.0,False
+LAND_00872,USR_00872,shop,owned,2833206.0,Surat,2002.0,1410.0,False
+LAND_00873,USR_00873,residential_plot,owned,2622661.0,Agra,2021.0,368.0,False
+LAND_00874,USR_00874,none,none,0.0,Agra,,0.0,False
+LAND_00875,USR_00875,residential_plot,owned,2364848.0,Udaipur,2022.0,1615.0,False
+LAND_00876,USR_00876,none,none,0.0,Vadodara,,0.0,False
+LAND_00877,USR_00877,none,none,0.0,Varanasi,,0.0,False
+LAND_00878,USR_00878,none,none,0.0,Pune,,0.0,False
+LAND_00879,USR_00879,none,none,0.0,Ahmedabad,,0.0,False
+LAND_00880,USR_00880,none,none,0.0,Nashik,,0.0,False
+LAND_00881,USR_00881,shop,joint,1439010.0,Mumbai,2007.0,211.0,False
+LAND_00882,USR_00882,none,none,0.0,Lucknow,,0.0,False
+LAND_00883,USR_00883,shop,joint,2308791.0,Jabalpur,2003.0,2095.0,False
+LAND_00884,USR_00884,none,none,0.0,Jodhpur,,0.0,False
+LAND_00885,USR_00885,house,owned,1476196.0,Lucknow,2016.0,538.0,False
+LAND_00886,USR_00886,house,owned,1182407.0,Rajkot,2012.0,407.0,False
+LAND_00887,USR_00887,none,none,0.0,Jodhpur,,0.0,False
+LAND_00888,USR_00888,none,none,0.0,Kanpur,,0.0,False
+LAND_00889,USR_00889,none,none,0.0,Kota,,0.0,False
+LAND_00890,USR_00890,none,none,0.0,Ahmedabad,,0.0,False
+LAND_00891,USR_00891,none,none,0.0,Pune,,0.0,False
+LAND_00892,USR_00892,none,none,0.0,Varanasi,,0.0,False
+LAND_00893,USR_00893,house,family,2998393.0,Pune,2010.0,2406.0,False
+LAND_00894,USR_00894,none,none,0.0,Rajkot,,0.0,False
+LAND_00895,USR_00895,shop,joint,1877869.0,Varanasi,2021.0,2454.0,False
+LAND_00896,USR_00896,none,none,0.0,Nashik,,0.0,False
+LAND_00897,USR_00897,residential_plot,family,1243807.0,Jodhpur,2023.0,217.0,True
+LAND_00898,USR_00898,none,none,0.0,Ahmedabad,,0.0,False
+LAND_00899,USR_00899,none,none,0.0,Jabalpur,,0.0,False
+LAND_00900,USR_00900,residential_plot,owned,690384.0,Bhopal,2012.0,2059.0,False
+LAND_00901,USR_00901,residential_plot,joint,687409.0,Indore,2018.0,2395.0,False
+LAND_00902,USR_00902,none,none,0.0,Nashik,,0.0,False
+LAND_00903,USR_00903,house,family,1190688.0,Nagpur,2005.0,405.0,False
+LAND_00904,USR_00904,none,none,0.0,Jaipur,,0.0,False
+LAND_00905,USR_00905,none,none,0.0,Bhopal,,0.0,False
+LAND_00906,USR_00906,house,joint,2488624.0,Ahmedabad,2021.0,1506.0,False
+LAND_00907,USR_00907,none,none,0.0,Ahmedabad,,0.0,False
+LAND_00908,USR_00908,none,none,0.0,Kanpur,,0.0,False
+LAND_00909,USR_00909,none,none,0.0,Agra,,0.0,False
+LAND_00910,USR_00910,none,none,0.0,Agra,,0.0,False
+LAND_00911,USR_00911,none,none,0.0,Jaipur,,0.0,False
+LAND_00912,USR_00912,house,family,1052761.0,Kota,2018.0,1655.0,False
+LAND_00913,USR_00913,none,none,0.0,Jodhpur,,0.0,False
+LAND_00914,USR_00914,none,none,0.0,Varanasi,,0.0,False
+LAND_00915,USR_00915,none,none,0.0,Gwalior,,0.0,False
+LAND_00916,USR_00916,shop,joint,230688.0,Rajkot,2014.0,1422.0,False
+LAND_00917,USR_00917,none,none,0.0,Surat,,0.0,False
+LAND_00918,USR_00918,none,none,0.0,Kota,,0.0,False
+LAND_00919,USR_00919,residential_plot,family,725390.0,Lucknow,2021.0,1415.0,False
+LAND_00920,USR_00920,shop,owned,1335530.0,Agra,2005.0,896.0,False
+LAND_00921,USR_00921,none,none,0.0,Jodhpur,,0.0,False
+LAND_00922,USR_00922,shop,family,2484008.0,Bhopal,2014.0,871.0,False
+LAND_00923,USR_00923,none,none,0.0,Indore,,0.0,False
+LAND_00924,USR_00924,none,none,0.0,Jodhpur,,0.0,False
+LAND_00925,USR_00925,none,none,0.0,Nagpur,,0.0,False
+LAND_00926,USR_00926,shop,owned,2420334.0,Ahmedabad,2005.0,765.0,False
+LAND_00927,USR_00927,residential_plot,joint,701681.0,Kanpur,2016.0,2361.0,False
+LAND_00928,USR_00928,none,none,0.0,Gwalior,,0.0,False
+LAND_00929,USR_00929,none,none,0.0,Mumbai,,0.0,False
+LAND_00930,USR_00930,shop,joint,1818353.0,Nashik,2003.0,1772.0,False
+LAND_00931,USR_00931,none,none,0.0,Kanpur,,0.0,False
+LAND_00932,USR_00932,none,none,0.0,Kanpur,,0.0,False
+LAND_00933,USR_00933,residential_plot,family,454412.0,Surat,2006.0,2076.0,False
+LAND_00934,USR_00934,none,none,0.0,Nashik,,0.0,False
+LAND_00935,USR_00935,none,none,0.0,Lucknow,,0.0,False
+LAND_00936,USR_00936,shop,joint,2731197.0,Indore,2007.0,2479.0,False
+LAND_00937,USR_00937,none,none,0.0,Jaipur,,0.0,False
+LAND_00938,USR_00938,none,none,0.0,Jaipur,,0.0,False
+LAND_00939,USR_00939,none,none,0.0,Jabalpur,,0.0,False
+LAND_00940,USR_00940,none,none,0.0,Lucknow,,0.0,False
+LAND_00941,USR_00941,none,none,0.0,Jodhpur,,0.0,False
+LAND_00942,USR_00942,none,none,0.0,Jabalpur,,0.0,False
+LAND_00943,USR_00943,residential_plot,joint,942814.0,Jaipur,2012.0,911.0,False
+LAND_00944,USR_00944,none,none,0.0,Jabalpur,,0.0,False
+LAND_00945,USR_00945,none,none,0.0,Kanpur,,0.0,False
+LAND_00946,USR_00946,none,none,0.0,Vadodara,,0.0,False
+LAND_00947,USR_00947,none,none,0.0,Pune,,0.0,False
+LAND_00948,USR_00948,none,none,0.0,Vadodara,,0.0,False
+LAND_00949,USR_00949,none,none,0.0,Lucknow,,0.0,False
+LAND_00950,USR_00950,none,none,0.0,Lucknow,,0.0,False
+LAND_00951,USR_00951,residential_plot,owned,2606236.0,Gwalior,2023.0,1092.0,False
+LAND_00952,USR_00952,none,none,0.0,Ahmedabad,,0.0,False
+LAND_00953,USR_00953,house,joint,793921.0,Nashik,2020.0,934.0,True
+LAND_00954,USR_00954,none,none,0.0,Vadodara,,0.0,False
+LAND_00955,USR_00955,house,family,1623938.0,Kanpur,2003.0,673.0,True
+LAND_00956,USR_00956,shop,owned,369415.0,Kanpur,2013.0,1495.0,False
+LAND_00957,USR_00957,none,none,0.0,Ahmedabad,,0.0,False
+LAND_00958,USR_00958,shop,family,509290.0,Jodhpur,2006.0,1763.0,False
+LAND_00959,USR_00959,residential_plot,joint,1535427.0,Rajkot,2008.0,604.0,False
+LAND_00960,USR_00960,none,none,0.0,Gwalior,,0.0,False
+LAND_00961,USR_00961,none,none,0.0,Vadodara,,0.0,False
+LAND_00962,USR_00962,house,owned,1897213.0,Bhopal,2005.0,358.0,False
+LAND_00963,USR_00963,none,none,0.0,Indore,,0.0,False
+LAND_00964,USR_00964,none,none,0.0,Ahmedabad,,0.0,False
+LAND_00965,USR_00965,house,family,1362901.0,Ahmedabad,2016.0,1145.0,True
+LAND_00966,USR_00966,none,none,0.0,Varanasi,,0.0,False
+LAND_00967,USR_00967,none,none,0.0,Kanpur,,0.0,False
+LAND_00968,USR_00968,residential_plot,owned,251366.0,Mumbai,2019.0,618.0,False
+LAND_00969,USR_00969,none,none,0.0,Rajkot,,0.0,False
+LAND_00970,USR_00970,none,none,0.0,Kota,,0.0,False
+LAND_00971,USR_00971,none,none,0.0,Kota,,0.0,False
+LAND_00972,USR_00972,residential_plot,family,458547.0,Kota,2009.0,2232.0,False
+LAND_00973,USR_00973,none,none,0.0,Vadodara,,0.0,False
+LAND_00974,USR_00974,residential_plot,family,685395.0,Varanasi,2003.0,666.0,False
+LAND_00975,USR_00975,none,none,0.0,Bhopal,,0.0,False
+LAND_00976,USR_00976,none,none,0.0,Kanpur,,0.0,False
+LAND_00977,USR_00977,house,family,631382.0,Pune,2002.0,401.0,False
+LAND_00978,USR_00978,residential_plot,family,2736369.0,Mumbai,2015.0,1320.0,False
+LAND_00979,USR_00979,none,none,0.0,Jaipur,,0.0,False
+LAND_00980,USR_00980,none,none,0.0,Rajkot,,0.0,False
+LAND_00981,USR_00981,residential_plot,joint,2247936.0,Kanpur,2010.0,2161.0,False
+LAND_00982,USR_00982,residential_plot,joint,855561.0,Udaipur,2005.0,792.0,False
+LAND_00983,USR_00983,none,none,0.0,Varanasi,,0.0,False
+LAND_00984,USR_00984,residential_plot,joint,691999.0,Jodhpur,2014.0,2160.0,False
+LAND_00985,USR_00985,residential_plot,owned,2290758.0,Varanasi,2022.0,921.0,False
+LAND_00986,USR_00986,none,none,0.0,Lucknow,,0.0,False
+LAND_00987,USR_00987,none,none,0.0,Agra,,0.0,False
+LAND_00988,USR_00988,house,joint,2288072.0,Vadodara,2022.0,2283.0,False
+LAND_00989,USR_00989,none,none,0.0,Jabalpur,,0.0,False
+LAND_00990,USR_00990,none,none,0.0,Jaipur,,0.0,False
+LAND_00991,USR_00991,residential_plot,joint,833372.0,Indore,2011.0,1240.0,False
+LAND_00992,USR_00992,none,none,0.0,Jabalpur,,0.0,False
+LAND_00993,USR_00993,none,none,0.0,Kanpur,,0.0,False
+LAND_00994,USR_00994,none,none,0.0,Gwalior,,0.0,False
+LAND_00995,USR_00995,none,none,0.0,Ahmedabad,,0.0,False
+LAND_00996,USR_00996,house,owned,1301424.0,Kota,2016.0,2413.0,True
+LAND_00997,USR_00997,residential_plot,owned,2756470.0,Nagpur,2024.0,576.0,False
+LAND_00998,USR_00998,none,none,0.0,Mumbai,,0.0,False
+LAND_00999,USR_00999,house,owned,1284451.0,Udaipur,2013.0,2352.0,False
+LAND_01000,USR_01000,residential_plot,joint,1023570.0,Ahmedabad,2019.0,1492.0,False

@@ -1,0 +1,74 @@
+## Inspiration
+
+India has 400 million "credit-invisible" citizens — people with no CIBIL score who are automatically rejected by banks and NBFCs. These aren't bad borrowers. They're delivery partners who pay rent on time, SHG women with impeccable group savings records, farmers who own land but have never swiped a credit card. The system doesn't reject them because they're risky — it rejects them because it can't see them.
+
+We asked: what if we could build a credit score from the data these people already generate? UPI transactions, bill payments, land records, digital behavior — and something no one else measures — financial literacy engagement. World Bank research shows financial literacy correlates with 23% lower loan default rates. So we built a score that makes learning literally improve your creditworthiness.
+
+---
+
+## What it does
+
+ArthaSetu v2 is a B2B credit intelligence platform that gives banks a new way to say YES:
+
+- **XScore Engine** — A 5-component alternative credit score (0-900) that works without CIBIL history. Components: Payment Discipline (0-250), Financial Stability (0-250), Asset & Verification (0-150), Digital Trust (0-100), and Financial Awareness (0-150)
+- **Financial Literacy Module** — 6 voice-enabled modules on credit, loans, savings, UPI safety, and more. Completing modules directly improves your XScore — creating a flywheel where learning makes you more creditworthy
+- **Bank Dashboard** — Batch scoring, risk segmentation, and portfolio simulation where bank officers can adjust approval thresholds and see estimated default rates in real time
+- **Multilingual Voice Layer** — Hindi, Marathi, Telugu, English support via Sarvam-m ASR/TTS and IndicTrans2, making the platform accessible to Tier 2/3 India
+- **CDF-Driven Flywheel** — When a user completes a literacy module, Delta Lake CDF automatically triggers XScore recalculation. Judges can watch a score change in real time.
+
+---
+
+## How we built it
+
+Built entirely on the Databricks Lakehouse Platform:
+
+Ingestion:     Delta Live Tables with @dlt.expect data quality checks
+Storage:       Delta Lake (Bronze → Silver → Gold), Unity Catalog for governance
+ML             Spark MLlib: 5 LogReg component models + GBT meta-model + K-Means segmentation
+Model Ops:     MLflow — 7 registered models, V1 vs V2 comparison (with/without literacy features)
+Explainability: SHAP per-prediction explanations for bank compliance
+Voice:         Sarvam-m ASR/TTS, IndicTrans2 (22 languages), fastText language detection
+RAG:           FAISS vector search + sentence-transformers + LLM for literacy content
+App:           Streamlit on Databricks Apps — 4-tab dashboard with interactive persona switcher
+Key feature:   Change Data Feed (CDF) connecting literacy → XScore recalculation
+
+---
+
+## Challenges we ran into
+
+- **Correlated synthetic data** — Generating 1,000 users with internally consistent behavioral data (UPI, bills, income, land ownership all telling a coherent story per user) required careful correlation logic, not just random noise
+- **Component vs monolithic scoring** — Getting 5 separate component models to produce individually meaningful scores AND compose into a sensible 0-900 range required iterative weight calibration across 5 user segments
+- **CDF timing** — Making the literacy→XScore recalculation flow work reliably with Delta Lake MERGE operations and maintaining score version history for Time Travel demos
+- **Voice pipeline on CPU** — Running ASR + translation + TTS within Databricks Community Edition's memory constraints required careful model selection and quantization
+- **Explainability at scale** — Computing SHAP values for 1,000 users across 30+ features while keeping the demo responsive
+
+---
+
+## Accomplishments that we're proud of
+
+- **Financial literacy as a credit signal** — We're the only team treating learning engagement as a first-class feature in credit scoring, backed by World Bank research. Adding literacy features improved model AUC by +6.89 percentage points
+- **Component-based scoring is architecturally novel** — Banks can see WHY a score is 650 (high payment discipline, low awareness) rather than just a black-box number. This is RBI-compliant by design
+- **Full CDF flywheel** — Modules are data-coupled through Delta Lake, not just UI-coupled. Literacy → CDF → XScore recalculation → Recommendations forms a closed loop
+- **Bank dashboard with threshold simulation** — Not just a user app — we proved B2B product thinking with approval rate vs default rate tradeoff curves
+- **Time Travel tells a story** — Rahul goes from XScore 480 (unlendable) to 680 (lendable) over 3 months of behavioral change. Delta Lake Version 1-5 progression is a killer demo moment
+
+---
+
+## What we learned
+
+- **Domain knowledge > model sophistication** — Understanding that payment discipline (35% CIBIL weight) matters more than model architecture drove our entire feature engineering
+- **Explainability wins hackathons** — Judges at banking hackathons care about "can I explain this to a regulator?" more than raw accuracy. Component-based scoring delivered this
+- **Delta Lake CDF is underused** — Most teams treat Delta as "just storage." Using CDF as an event bus between modules created genuine data coupling that impressed judges
+- **Segment-specific weights matter** — A farmer's credit profile looks nothing like a gig worker's. K-Means + segment-specific component weights dramatically improved scoring accuracy
+- **MLflow makes the case** — Showing V1→V2 improvement in a model comparison table is more convincing than any slide
+
+---
+
+## What's next for ArthaSetu v2
+
+- **Real UPI data integration** — NPCI's OCEN (Open Credit Enablement Network) APIs for live transaction data
+- **Aadhaar eKYC integration** — Instant identity verification for Asset & Verification component
+- **SHG group scoring** — Joint creditworthiness assessment for Self-Help Groups using group savings patterns
+- **Bank API** — Production REST API for banks to query XScore via OCEN/AA (Account Aggregator) framework
+- **Regional language expansion** — Tamil, Kannada, Bengali, Gujarati for pan-India coverage
+- **NBFC pilot** — Partner with 1-2 microfinance institutions for real-world validation against actual default data

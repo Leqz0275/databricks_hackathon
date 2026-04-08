@@ -1,0 +1,1001 @@
+user_id,name,age,gender,state,district,language_pref,occupation,segment,monthly_income_range,monthly_income_actual,education,aadhaar_linked,pan_linked,bank_account_vintage_months,address_stability_years,shg_member,gig_platform,has_smartphone,primary_device_os,savings_ratio,bill_payment_timeliness,income_cv,nighttime_txn_ratio,default_flag,default_probability
+USR_00001,Deepak Gupta,35,M,Maharashtra,Mumbai,mr,software_engineer,salaried_urban,20K-50K,47309.79,graduate,True,False,47,3.7,False,none,True,android,0.1813,0.7741,0.02,0.1752,True,0.0728
+USR_00002,Rahul Mishra,40,M,Karnataka,Mysore,kn,govt_employee,salaried_urban,20K-50K,41439.45,graduate,True,True,7,0.8,False,none,True,android,0.2434,0.9748,0.0946,0.0075,False,0.0252
+USR_00003,Rekha Yadav,24,F,Karnataka,Mangalore,kn,software_engineer,salaried_urban,20K-50K,28420.24,postgraduate,True,True,21,6.2,False,none,True,android,0.2054,0.7044,0.02,0.1487,False,0.042
+USR_00004,Arun Kumar,27,M,Tamil Nadu,Chennai,ta,govt_employee,salaried_urban,20K-50K,39321.35,postgraduate,True,True,41,2.3,False,none,True,android,0.1767,0.9226,0.0299,0.0543,False,0.0164
+USR_00005,Vikram Mehta,33,M,Delhi,New Delhi,hi,accountant,salaried_urban,20K-50K,22831.81,postgraduate,True,True,28,0.8,False,none,True,android,0.2591,0.9236,0.1765,0.0221,False,0.0164
+USR_00006,Deepak Reddy,19,M,Maharashtra,Pune,mr,accountant,salaried_urban,50K+,57367.06,postgraduate,True,False,5,6.5,False,none,True,android,0.059,0.6966,0.1227,0.0653,False,0.052
+USR_00007,Sanjay Mehta,25,M,Maharashtra,Pune,mr,software_engineer,salaried_urban,20K-50K,44182.91,postgraduate,True,False,71,3.9,False,none,True,android,0.1617,0.6594,0.2182,0.032,False,0.056
+USR_00008,Rekha Gupta,24,F,Tamil Nadu,Salem,ta,govt_employee,salaried_urban,50K+,57782.01,postgraduate,True,True,51,3.3,False,none,True,android,0.1484,0.6213,0.02,0.0057,False,0.06
+USR_00009,Vikram Patel,32,M,Tamil Nadu,Chennai,ta,accountant,salaried_urban,20K-50K,44363.63,graduate,True,True,13,2.8,False,none,True,android,0.1824,0.9118,0.0342,0.0088,False,0.0252
+USR_00010,Vikram Saxena,37,M,Telangana,Hyderabad,te,teacher,salaried_urban,50K+,72109.36,postgraduate,True,True,58,0.8,False,none,True,android,0.2263,0.7091,0.0383,0.0058,False,0.042
+USR_00011,Vikram Pillai,28,M,Delhi,South Delhi,hi,govt_employee,salaried_urban,20K-50K,27843.99,postgraduate,True,True,61,7.9,False,none,True,android,0.2004,0.8536,0.2863,0.0195,False,0.0252
+USR_00012,Varun Sharma,29,M,Telangana,Hyderabad,te,teacher,salaried_urban,50K+,80000.0,graduate,True,True,16,14.3,False,none,True,android,0.214,0.6811,0.094,0.0349,False,0.0273
+USR_00013,Suresh Bhat,30,M,Maharashtra,Mumbai,mr,bank_clerk,salaried_urban,50K+,56409.75,graduate,True,False,5,2.7,False,none,True,android,0.2914,0.9229,0.1004,0.0384,False,0.0336
+USR_00014,Arun Saxena,43,M,Karnataka,Mysore,kn,accountant,salaried_urban,20K-50K,33643.12,postgraduate,True,True,3,3.6,False,none,True,android,0.1547,0.7013,0.1174,0.0244,True,0.0273
+USR_00015,Rahul Kumar,25,M,Telangana,Warangal,te,bank_clerk,salaried_urban,20K-50K,43956.41,graduate,True,True,93,8.4,False,none,True,android,0.2651,0.5349,0.02,0.1138,False,0.042
+USR_00016,Hemant Pandey,52,M,Tamil Nadu,Coimbatore,ta,bank_clerk,salaried_urban,50K+,55477.42,postgraduate,True,True,14,1.7,False,none,True,android,0.2625,0.8157,0.1027,0.0044,False,0.0273
+USR_00017,Hemant Verma,34,M,Tamil Nadu,Salem,ta,software_engineer,salaried_urban,20K-50K,37572.88,graduate,True,True,3,0.7,False,none,True,android,0.3493,0.7634,0.0394,0.0686,False,0.0273
+USR_00018,Arjun Patil,24,M,Tamil Nadu,Coimbatore,ta,software_engineer,salaried_urban,50K+,73506.47,graduate,True,False,38,3.4,False,none,True,android,0.233,0.8895,0.3612,0.025,False,0.0218
+USR_00019,Deepak Reddy,34,M,Maharashtra,Mumbai,mr,accountant,salaried_urban,50K+,69609.17,postgraduate,True,False,57,2.8,False,none,True,android,0.1788,0.9621,0.1037,0.0097,True,0.0218
+USR_00020,Gaurav Joshi,39,M,Tamil Nadu,Madurai,ta,govt_employee,salaried_urban,20K-50K,45724.67,postgraduate,True,True,3,10.5,False,none,True,android,0.2571,0.8519,0.0349,0.0243,False,0.0164
+USR_00021,Amit Verma,28,M,Telangana,Hyderabad,te,govt_employee,salaried_urban,50K+,70427.41,postgraduate,True,True,6,3.3,False,none,True,android,0.2139,0.8158,0.02,0.0365,False,0.042
+USR_00022,Deepak Mehta,25,M,Maharashtra,Mumbai,mr,govt_employee,salaried_urban,50K+,57693.12,graduate,True,True,42,4.8,False,none,True,android,0.2449,0.8598,0.2018,0.1222,False,0.0252
+USR_00023,Manoj Saxena,36,M,Telangana,Karimnagar,te,bank_clerk,salaried_urban,50K+,80000.0,postgraduate,True,True,57,4.2,False,none,True,android,0.2763,0.9433,0.0863,0.0018,False,0.0252
+USR_00024,Dinesh Singh,19,M,Maharashtra,Mumbai,mr,govt_employee,salaried_urban,50K+,80000.0,graduate,True,True,12,3.6,False,none,True,android,0.0506,0.6473,0.147,0.0122,False,0.06
+USR_00025,Shanti Agarwal,26,F,Delhi,North Delhi,hi,govt_employee,salaried_urban,50K+,54522.12,postgraduate,False,True,3,3.0,False,none,True,android,0.3715,0.85,0.1586,0.0158,False,0.0252
+USR_00026,Anjali Jain,35,F,Maharashtra,Pune,mr,teacher,salaried_urban,20K-50K,36416.24,graduate,True,True,3,13.1,False,none,True,android,0.1908,0.7499,0.02,0.0144,False,0.042
+USR_00027,Sunita Kumar,46,F,Telangana,Nizamabad,te,teacher,salaried_urban,50K+,58792.58,postgraduate,True,True,38,1.3,False,none,True,android,0.3698,0.9245,0.02,0.0062,False,0.0252
+USR_00028,Vikram Kumar,21,M,Tamil Nadu,Salem,ta,govt_employee,salaried_urban,50K+,59713.06,graduate,True,True,23,0.5,False,none,True,android,0.262,0.7239,0.0508,0.0478,True,0.042
+USR_00029,Manoj Saxena,28,M,Delhi,New Delhi,hi,software_engineer,salaried_urban,50K+,52684.39,graduate,True,True,16,3.9,False,none,True,android,0.2931,0.8443,0.2817,0.0428,False,0.042
+USR_00030,Kiran Shah,32,M,Karnataka,Mysore,kn,bank_clerk,salaried_urban,50K+,80000.0,graduate,True,True,22,3.2,False,none,True,android,0.101,0.7401,0.0218,0.0036,False,0.06
+USR_00031,Parvati Singh,34,F,Karnataka,Hubli,kn,software_engineer,salaried_urban,20K-50K,38975.89,postgraduate,True,True,3,1.5,False,none,True,android,0.1529,0.7611,0.1328,0.0813,False,0.042
+USR_00032,Kavita Mehta,43,F,Karnataka,Mysore,kn,teacher,salaried_urban,20K-50K,35888.79,postgraduate,True,False,49,6.6,False,none,True,android,0.1552,0.8067,0.0417,0.1335,False,0.056
+USR_00033,Vikram Das,30,M,Telangana,Karimnagar,te,govt_employee,salaried_urban,50K+,77597.39,graduate,False,True,50,5.6,False,none,True,android,0.3044,0.8488,0.2358,0.0048,False,0.042
+USR_00034,Rohit Singh,38,M,Delhi,East Delhi,hi,govt_employee,salaried_urban,50K+,56922.43,postgraduate,True,True,108,3.4,False,none,True,android,0.1896,0.4798,0.1116,0.0698,False,0.042
+USR_00035,Naveen Nair,36,M,Karnataka,Hubli,kn,software_engineer,salaried_urban,50K+,64287.24,postgraduate,True,True,3,2.7,False,none,True,android,0.2061,0.8206,0.02,0.0717,False,0.042
+USR_00036,Durga Mehta,38,F,Delhi,South Delhi,hi,govt_employee,salaried_urban,20K-50K,35986.18,graduate,True,True,3,4.8,False,none,True,android,0.2195,0.7643,0.0469,0.0232,False,0.042
+USR_00037,Gaurav Saxena,26,M,Telangana,Karimnagar,te,govt_employee,salaried_urban,20K-50K,45908.22,graduate,True,False,54,3.3,False,none,True,android,0.2686,0.847,0.02,0.0063,False,0.0364
+USR_00038,Asha Saxena,31,F,Telangana,Karimnagar,te,bank_clerk,salaried_urban,50K+,56889.48,postgraduate,True,True,49,3.5,False,none,True,android,0.1338,0.7668,0.0253,0.1651,False,0.078
+USR_00039,Pankaj Pandey,33,M,Maharashtra,Nashik,mr,accountant,salaried_urban,50K+,50252.48,graduate,True,True,3,3.2,False,none,True,android,0.202,0.8865,0.0878,0.1157,False,0.0164
+USR_00040,Parvati Choudhary,46,F,Maharashtra,Nashik,mr,software_engineer,salaried_urban,50K+,80000.0,postgraduate,True,False,11,0.8,False,none,True,android,0.1353,0.7461,0.3665,0.2142,False,0.0676
+USR_00041,Gaurav Tiwari,34,M,Telangana,Karimnagar,te,govt_employee,salaried_urban,50K+,80000.0,postgraduate,True,True,13,6.7,False,none,True,android,0.1281,0.7637,0.2699,0.1005,False,0.06
+USR_00042,Arjun Patil,43,M,Delhi,East Delhi,hi,teacher,salaried_urban,50K+,80000.0,graduate,True,True,157,0.7,False,none,True,android,0.1625,0.4835,0.1822,0.0316,False,0.0273
+USR_00043,Suresh Shah,19,M,Tamil Nadu,Coimbatore,ta,teacher,salaried_urban,20K-50K,39341.23,postgraduate,True,True,3,8.0,False,none,True,android,0.2004,0.8576,0.308,0.0466,False,0.0252
+USR_00044,Dinesh Mehta,19,M,Telangana,Hyderabad,te,software_engineer,salaried_urban,50K+,66464.57,postgraduate,False,True,34,1.8,False,none,True,android,0.11,0.9079,0.0734,0.0956,False,0.036
+USR_00045,Arjun Shah,48,M,Telangana,Warangal,te,software_engineer,salaried_urban,50K+,80000.0,postgraduate,True,True,75,2.1,False,none,True,android,0.2516,0.9121,0.0432,0.0446,False,0.0252
+USR_00046,Dinesh Pandey,29,M,Karnataka,Bangalore,kn,software_engineer,salaried_urban,20K-50K,31147.05,graduate,True,True,84,1.7,False,none,True,android,0.0369,0.8774,0.1983,0.1493,False,0.0234
+USR_00047,Geeta Das,18,F,Karnataka,Mangalore,kn,teacher,salaried_urban,20K-50K,48901.3,postgraduate,True,True,22,15.7,False,none,True,android,0.0346,0.8307,0.02,0.0082,False,0.039
+USR_00048,Pankaj Verma,31,M,Karnataka,Bangalore,kn,bank_clerk,salaried_urban,50K+,57896.81,graduate,True,True,7,1.7,False,none,True,android,0.1248,0.6989,0.0214,0.0021,False,0.039
+USR_00049,Arjun Bhat,27,M,Telangana,Warangal,te,bank_clerk,salaried_urban,20K-50K,36411.11,postgraduate,True,False,7,0.5,False,none,True,android,0.1914,0.747,0.02,0.0803,False,0.056
+USR_00050,Ravi Pandey,18,M,Delhi,New Delhi,hi,accountant,salaried_urban,20K-50K,37793.34,postgraduate,False,True,74,10.1,False,none,True,android,0.2171,0.8404,0.0204,0.0117,False,0.042
+USR_00051,Dinesh Rao,29,M,Delhi,New Delhi,hi,teacher,salaried_urban,20K-50K,20000.0,graduate,True,True,34,1.8,False,none,True,android,0.3316,0.6982,0.0717,0.038,True,0.042
+USR_00052,Sita Dubey,24,F,Tamil Nadu,Salem,ta,bank_clerk,salaried_urban,20K-50K,47506.0,postgraduate,True,True,27,1.1,False,none,False,feature_phone,0.1236,0.9317,0.0238,0.0198,False,0.0234
+USR_00053,Hemant Pandey,45,M,Telangana,Nizamabad,te,teacher,salaried_urban,50K+,71142.07,postgraduate,True,True,56,2.8,False,none,True,android,0.2062,0.8263,0.0334,0.0226,False,0.042
+USR_00054,Seema Pillai,44,F,Tamil Nadu,Salem,ta,bank_clerk,salaried_urban,50K+,72420.83,postgraduate,True,True,15,17.2,False,none,True,android,0.3528,0.6378,0.0282,0.0088,False,0.0273
+USR_00055,Manoj Kumar,27,M,Delhi,New Delhi,hi,accountant,salaried_urban,20K-50K,35389.91,graduate,True,True,6,9.1,False,none,True,android,0.2039,0.7154,0.1699,0.0149,False,0.042
+USR_00056,Geeta Agarwal,31,F,Maharashtra,Mumbai,mr,teacher,salaried_urban,50K+,61092.55,graduate,True,True,95,3.3,False,none,True,android,0.1218,0.6128,0.0391,0.0277,False,0.06
+USR_00057,Gaurav Das,18,M,Telangana,Karimnagar,te,teacher,salaried_urban,50K+,50971.01,postgraduate,True,True,4,3.8,False,none,True,android,0.2511,0.3168,0.041,0.0072,False,0.042
+USR_00058,Seema Das,19,F,Karnataka,Mysore,kn,software_engineer,salaried_urban,50K+,74779.23,postgraduate,True,True,10,4.6,False,none,True,android,0.1538,0.6818,0.0429,0.1326,False,0.042
+USR_00059,Sunita Mishra,34,F,Karnataka,Hubli,kn,bank_clerk,salaried_urban,20K-50K,39268.75,postgraduate,True,True,100,0.8,False,none,True,android,0.2069,0.8269,0.0225,0.0089,False,0.0273
+USR_00060,Sunita Das,32,F,Tamil Nadu,Salem,ta,software_engineer,salaried_urban,50K+,58545.48,postgraduate,True,True,39,3.0,False,none,True,android,0.1663,0.8898,0.0578,0.0237,False,0.0252
+USR_00061,Asha Singh,18,F,Karnataka,Hubli,kn,govt_employee,salaried_urban,20K-50K,43441.6,postgraduate,True,True,49,2.8,False,none,True,android,0.2262,0.695,0.02,0.1405,False,0.042
+USR_00062,Savitri Verma,32,F,Delhi,East Delhi,hi,bank_clerk,salaried_urban,20K-50K,27676.63,graduate,True,True,5,6.3,False,none,True,android,0.2915,0.5896,0.02,0.0187,False,0.0273
+USR_00063,Sunil Tiwari,38,M,Karnataka,Bangalore,kn,teacher,salaried_urban,20K-50K,35502.02,postgraduate,True,True,3,3.4,False,none,True,android,0.2383,0.6864,0.026,0.0641,False,0.042
+USR_00064,Pankaj Pandey,28,M,Karnataka,Hubli,kn,accountant,salaried_urban,50K+,70800.45,graduate,True,True,42,3.1,False,none,True,android,0.3085,0.9165,0.0876,0.0256,False,0.0164
+USR_00065,Ashok Jain,37,M,Maharashtra,Pune,mr,accountant,salaried_urban,20K-50K,48900.57,postgraduate,True,True,5,3.5,False,none,True,android,0.3957,0.6075,0.1228,0.0083,False,0.042
+USR_00066,Sunita Shah,36,F,Tamil Nadu,Salem,ta,govt_employee,salaried_urban,50K+,80000.0,postgraduate,True,True,19,5.3,False,none,False,feature_phone,0.3076,0.7764,0.02,0.1268,False,0.042
+USR_00067,Kiran Deshmukh,32,M,Maharashtra,Nagpur,mr,teacher,salaried_urban,50K+,77455.19,postgraduate,True,True,32,2.0,False,none,True,android,0.1874,0.6838,0.0425,0.0213,False,0.042
+USR_00068,Durga Singh,18,F,Delhi,East Delhi,hi,teacher,salaried_urban,20K-50K,43715.78,graduate,True,True,9,2.4,False,none,True,android,0.3335,0.8396,0.2463,0.0225,False,0.042
+USR_00069,Pooja Nair,46,F,Maharashtra,Nashik,mr,accountant,salaried_urban,50K+,78464.71,graduate,True,True,3,4.4,False,none,True,android,0.1785,0.7496,0.02,0.0693,False,0.042
+USR_00070,Ashok Bhat,33,M,Maharashtra,Pune,mr,accountant,salaried_urban,50K+,54122.87,postgraduate,True,True,8,0.8,False,none,True,android,0.1885,0.8774,0.1494,0.0302,False,0.0252
+USR_00071,Usha Tiwari,18,F,Tamil Nadu,Chennai,ta,bank_clerk,salaried_urban,50K+,77372.06,graduate,True,True,18,3.3,False,none,True,android,0.1726,0.8186,0.1033,0.0263,False,0.0273
+USR_00072,Pankaj Naidu,36,M,Maharashtra,Nashik,mr,accountant,salaried_urban,50K+,72696.58,graduate,False,True,3,1.0,False,none,True,android,0.3017,0.9432,0.1609,0.0098,False,0.0252
+USR_00073,Rajesh Mehta,22,M,Tamil Nadu,Coimbatore,ta,govt_employee,salaried_urban,50K+,66501.36,graduate,True,False,3,1.1,False,none,True,android,0.2569,0.6501,0.0347,0.1133,False,0.0364
+USR_00074,Rohit Das,23,M,Tamil Nadu,Madurai,ta,teacher,salaried_urban,50K+,56967.23,graduate,True,True,19,8.9,False,none,True,android,0.0999,0.6484,0.0892,0.0156,False,0.06
+USR_00075,Shanti Bhat,21,F,Tamil Nadu,Salem,ta,accountant,salaried_urban,50K+,80000.0,postgraduate,False,False,28,2.3,False,none,False,feature_phone,0.2169,0.6941,0.0554,0.0011,False,0.0364
+USR_00076,Seema Agarwal,31,F,Tamil Nadu,Chennai,ta,accountant,salaried_urban,50K+,56551.05,postgraduate,False,True,36,1.2,False,none,True,android,0.0632,0.8498,0.02,0.0159,False,0.039
+USR_00077,Gaurav Singh,33,M,Karnataka,Hubli,kn,software_engineer,salaried_urban,20K-50K,33807.2,postgraduate,True,True,11,3.2,False,none,True,android,0.2823,0.6555,0.02,0.1229,False,0.0273
+USR_00078,Arun Dubey,44,M,Delhi,North Delhi,hi,teacher,salaried_urban,20K-50K,23942.94,graduate,True,False,26,0.5,False,none,True,android,0.0976,0.9113,0.0282,0.0247,False,0.048
+USR_00079,Deepak Dubey,24,M,Tamil Nadu,Chennai,ta,bank_clerk,salaried_urban,20K-50K,29117.79,postgraduate,True,True,45,1.4,False,none,True,android,0.124,0.9071,0.02,0.0152,False,0.036
+USR_00080,Rahul Verma,33,M,Tamil Nadu,Coimbatore,ta,software_engineer,salaried_urban,20K-50K,39716.55,postgraduate,True,True,24,3.6,False,none,True,android,0.2098,0.9252,0.1303,0.0342,False,0.0252
+USR_00081,Savitri Pillai,26,F,Karnataka,Mysore,kn,govt_employee,salaried_urban,50K+,80000.0,postgraduate,True,True,10,6.8,False,none,True,android,0.2506,0.9754,0.2493,0.0074,False,0.0164
+USR_00082,Gaurav Joshi,41,M,Tamil Nadu,Madurai,ta,software_engineer,salaried_urban,20K-50K,48533.27,graduate,True,True,7,3.1,False,none,True,android,0.2497,0.7723,0.1179,0.0946,False,0.042
+USR_00083,Manoj Mehta,31,M,Delhi,East Delhi,hi,software_engineer,salaried_urban,20K-50K,25729.51,postgraduate,True,True,9,17.6,False,none,True,android,0.2344,0.7359,0.1195,0.0176,False,0.042
+USR_00084,Durga Bhat,33,F,Tamil Nadu,Madurai,ta,govt_employee,salaried_urban,20K-50K,49215.12,graduate,True,True,71,7.4,False,none,True,android,0.2545,0.9069,0.0261,0.0064,False,0.0252
+USR_00085,Ashok Das,33,M,Delhi,South Delhi,hi,software_engineer,salaried_urban,20K-50K,41286.0,graduate,True,True,14,5.2,False,none,True,android,0.1851,0.8715,0.2171,0.0478,False,0.0252
+USR_00086,Sanjay Jain,40,M,Karnataka,Bangalore,kn,bank_clerk,salaried_urban,50K+,51673.06,postgraduate,True,True,100,6.4,False,none,True,android,0.2852,0.5992,0.2069,0.207,False,0.0546
+USR_00087,Seema Rao,28,F,Delhi,South Delhi,hi,teacher,salaried_urban,50K+,80000.0,postgraduate,True,True,19,5.4,False,none,True,android,0.1664,0.9109,0.02,0.0009,False,0.0252
+USR_00088,Geeta Sharma,23,F,Tamil Nadu,Madurai,ta,govt_employee,salaried_urban,20K-50K,49311.09,postgraduate,True,True,17,4.6,False,none,True,android,0.2187,0.8842,0.095,0.0091,False,0.0164
+USR_00089,Varun Sharma,33,M,Delhi,New Delhi,hi,govt_employee,salaried_urban,50K+,60886.02,postgraduate,True,True,33,2.9,False,none,True,android,0.149,0.7162,0.02,0.1739,False,0.078
+USR_00090,Sunita Joshi,27,F,Tamil Nadu,Chennai,ta,software_engineer,salaried_urban,50K+,80000.0,postgraduate,True,False,42,0.7,False,none,True,android,0.1543,0.7038,0.0899,0.0434,False,0.056
+USR_00091,Hemant Patel,27,M,Telangana,Nizamabad,te,software_engineer,salaried_urban,20K-50K,42817.31,postgraduate,True,True,79,12.5,False,none,True,android,0.2229,0.9159,0.0466,0.015,False,0.0164
+USR_00092,Deepak Pillai,32,M,Karnataka,Mangalore,kn,software_engineer,salaried_urban,20K-50K,49341.83,postgraduate,False,True,3,1.0,False,none,True,android,0.3436,0.7622,0.0655,0.0449,False,0.042
+USR_00093,Gaurav Kumar,28,M,Delhi,South Delhi,hi,govt_employee,salaried_urban,50K+,75920.55,graduate,False,True,40,3.3,False,none,True,android,0.2467,0.6783,0.1232,0.0907,False,0.042
+USR_00094,Sachin Yadav,35,M,Karnataka,Bangalore,kn,bank_clerk,salaried_urban,50K+,76607.34,graduate,True,True,34,5.6,False,none,True,android,0.2935,0.7947,0.02,0.0852,False,0.0273
+USR_00095,Kiran Singh,32,M,Karnataka,Mysore,kn,bank_clerk,salaried_urban,50K+,80000.0,graduate,True,True,3,1.4,False,none,True,android,0.2153,0.7329,0.1513,0.0057,False,0.042
+USR_00096,Rohit Singh,21,M,Maharashtra,Pune,mr,accountant,salaried_urban,50K+,55244.92,graduate,True,True,118,1.7,False,none,True,android,0.3262,0.8316,0.1164,0.0035,False,0.042
+USR_00097,Naveen Choudhary,40,M,Telangana,Hyderabad,te,accountant,salaried_urban,20K-50K,33162.41,postgraduate,True,True,3,3.5,False,none,False,feature_phone,0.2956,0.6563,0.02,0.0195,False,0.042
+USR_00098,Gaurav Kumar,27,M,Maharashtra,Nashik,mr,teacher,salaried_urban,50K+,80000.0,graduate,True,True,41,2.4,False,none,True,android,0.1947,0.8664,0.1141,0.0531,False,0.0252
+USR_00099,Rohit Joshi,37,M,Delhi,East Delhi,hi,govt_employee,salaried_urban,20K-50K,45743.87,postgraduate,True,True,103,2.2,False,none,True,android,0.1082,0.6037,0.024,0.0016,False,0.06
+USR_00100,Deepak Shah,30,M,Telangana,Warangal,te,accountant,salaried_urban,20K-50K,30307.86,postgraduate,True,True,71,2.6,False,none,True,android,0.3155,0.788,0.1431,0.0492,False,0.042
+USR_00101,Lakshmi Kumar,33,F,Karnataka,Mangalore,kn,software_engineer,salaried_urban,50K+,66395.18,postgraduate,True,True,57,2.6,False,none,True,android,0.1459,0.94,0.0313,0.0799,False,0.0234
+USR_00102,Nitin Iyer,31,M,Telangana,Karimnagar,te,software_engineer,salaried_urban,20K-50K,41827.32,postgraduate,False,True,3,0.5,False,none,True,android,0.0488,0.9867,0.1187,0.0983,False,0.036
+USR_00103,Prakash Pillai,24,M,Tamil Nadu,Coimbatore,ta,software_engineer,salaried_urban,20K-50K,49054.82,postgraduate,True,True,9,17.3,False,none,True,android,0.1997,0.6669,0.0395,0.0365,False,0.042
+USR_00104,Naveen Naidu,46,M,Telangana,Hyderabad,te,software_engineer,salaried_urban,20K-50K,45292.98,postgraduate,True,True,3,0.5,False,none,True,android,0.1454,0.7968,0.1612,0.0112,True,0.06
+USR_00105,Renu Dubey,43,F,Karnataka,Mangalore,kn,software_engineer,salaried_urban,50K+,72376.12,graduate,True,True,3,11.0,False,none,True,android,0.2048,0.7296,0.0415,0.0843,False,0.042
+USR_00106,Rajesh Reddy,37,M,Delhi,New Delhi,hi,software_engineer,salaried_urban,50K+,80000.0,graduate,True,True,21,4.1,False,none,True,android,0.2158,0.875,0.0284,0.0087,False,0.0252
+USR_00107,Anjali Joshi,29,F,Telangana,Hyderabad,te,govt_employee,salaried_urban,50K+,59245.47,postgraduate,True,True,134,1.6,False,none,True,android,0.2418,0.4027,0.0259,0.2804,True,0.0546
+USR_00108,Arjun Joshi,31,M,Delhi,South Delhi,hi,software_engineer,salaried_urban,50K+,50765.88,postgraduate,True,True,8,4.6,False,none,True,android,0.2096,0.9578,0.1358,0.0277,False,0.0252
+USR_00109,Renu Verma,22,F,Telangana,Karimnagar,te,software_engineer,salaried_urban,20K-50K,27834.41,postgraduate,True,True,158,0.5,False,none,True,android,0.218,0.8771,0.231,0.0274,False,0.0252
+USR_00110,Priya Nair,46,F,Tamil Nadu,Madurai,ta,govt_employee,salaried_urban,50K+,64906.78,graduate,True,True,87,0.9,False,none,True,android,0.0739,0.7507,0.1258,0.1199,False,0.06
+USR_00111,Arun Pillai,27,M,Tamil Nadu,Salem,ta,teacher,salaried_urban,20K-50K,38220.56,postgraduate,True,True,127,0.8,False,none,True,android,0.198,0.8856,0.0445,0.0449,False,0.0252
+USR_00112,Pankaj Naidu,40,M,Karnataka,Hubli,kn,bank_clerk,salaried_urban,20K-50K,43252.14,graduate,True,True,125,1.2,False,none,True,android,0.1104,0.5576,0.3501,0.0302,False,0.039
+USR_00113,Pankaj Deshmukh,32,M,Maharashtra,Pune,mr,govt_employee,salaried_urban,20K-50K,29928.95,postgraduate,True,True,14,7.1,False,none,True,android,0.0755,0.8908,0.02,0.0667,False,0.036
+USR_00114,Pankaj Nair,36,M,Telangana,Karimnagar,te,accountant,salaried_urban,20K-50K,43963.91,graduate,True,True,66,6.6,False,none,True,android,0.3661,0.8452,0.0314,0.0029,False,0.0273
+USR_00115,Anita Verma,37,F,Telangana,Hyderabad,te,teacher,salaried_urban,50K+,51049.79,graduate,True,True,3,0.5,False,none,True,android,0.2586,0.8799,0.4315,0.1678,False,0.0328
+USR_00116,Sachin Rao,32,M,Telangana,Nizamabad,te,accountant,salaried_urban,50K+,72136.06,graduate,True,True,21,2.9,False,none,True,android,0.2277,0.9096,0.0368,0.061,False,0.0252
+USR_00117,Deepa Agarwal,36,F,Maharashtra,Nashik,mr,govt_employee,salaried_urban,20K-50K,32807.49,graduate,True,True,126,0.5,False,none,True,android,0.1501,0.8522,0.2893,0.0575,False,0.0252
+USR_00118,Ravi Mehta,24,M,Telangana,Warangal,te,teacher,salaried_urban,50K+,80000.0,postgraduate,True,True,73,3.4,False,none,True,android,0.1954,0.75,0.0501,0.0527,False,0.042
+USR_00119,Renu Pillai,34,F,Telangana,Nizamabad,te,teacher,salaried_urban,20K-50K,36977.61,graduate,True,True,180,0.5,False,none,True,android,0.1949,0.8005,0.2108,0.0259,False,0.042
+USR_00120,Suresh Joshi,43,M,Tamil Nadu,Coimbatore,ta,teacher,salaried_urban,50K+,80000.0,postgraduate,True,True,59,5.7,False,none,True,android,0.1018,0.6236,0.0786,0.0003,False,0.06
+USR_00121,Nitin Choudhary,23,M,Telangana,Hyderabad,te,software_engineer,salaried_urban,20K-50K,28106.55,postgraduate,True,True,18,4.8,False,none,True,android,0.1207,0.8635,0.0925,0.0552,False,0.036
+USR_00122,Neha Pillai,27,F,Karnataka,Mysore,kn,govt_employee,salaried_urban,20K-50K,37968.73,graduate,True,True,17,8.0,False,none,True,android,0.3802,0.2805,0.0478,0.0254,False,0.0273
+USR_00123,Rajesh Reddy,40,M,Telangana,Warangal,te,govt_employee,salaried_urban,50K+,80000.0,graduate,True,True,33,5.8,False,none,True,android,0.2476,0.8831,0.02,0.1362,False,0.0252
+USR_00124,Hemant Rao,35,M,Karnataka,Mangalore,kn,bank_clerk,salaried_urban,20K-50K,36982.22,postgraduate,True,True,23,1.2,False,none,True,android,0.1775,0.8959,0.0373,0.0471,False,0.0252
+USR_00125,Ravi Bhat,24,M,Delhi,East Delhi,hi,govt_employee,salaried_urban,50K+,72844.82,postgraduate,True,False,19,0.5,False,none,True,android,0.244,0.4961,0.0838,0.0148,False,0.056
+USR_00126,Prakash Mishra,33,M,Delhi,New Delhi,hi,govt_employee,salaried_urban,20K-50K,49608.78,graduate,True,True,59,3.2,False,none,True,android,0.2442,0.8725,0.171,0.1078,False,0.0164
+USR_00127,Asha Naidu,26,F,Karnataka,Mangalore,kn,teacher,salaried_urban,20K-50K,38354.15,postgraduate,False,True,33,2.1,False,none,True,android,0.1005,0.6681,0.1101,0.005,False,0.06
+USR_00128,Deepa Singh,27,F,Maharashtra,Nagpur,mr,bank_clerk,salaried_urban,20K-50K,35797.72,postgraduate,True,True,31,0.7,False,none,True,android,0.3716,0.8088,0.02,0.0514,False,0.042
+USR_00129,Suresh Sharma,39,M,Tamil Nadu,Salem,ta,bank_clerk,salaried_urban,50K+,80000.0,postgraduate,True,True,9,2.0,False,none,True,android,0.1929,0.9121,0.1264,0.059,False,0.0252
+USR_00130,Sunita Gupta,34,F,Delhi,South Delhi,hi,govt_employee,salaried_urban,20K-50K,40381.17,postgraduate,True,True,31,1.3,False,none,True,android,0.1119,0.774,0.1611,0.0133,True,0.06
+USR_00131,Ravi Shah,25,M,Telangana,Warangal,te,govt_employee,salaried_urban,50K+,75523.83,graduate,True,True,37,3.0,False,none,True,android,0.2087,0.6398,0.0626,0.0031,False,0.042
+USR_00132,Sachin Choudhary,47,M,Delhi,New Delhi,hi,accountant,salaried_urban,50K+,62511.7,graduate,True,True,6,4.7,False,none,True,android,0.2061,0.9502,0.1411,0.0214,False,0.0252
+USR_00133,Renu Saxena,40,F,Delhi,New Delhi,hi,govt_employee,salaried_urban,50K+,63795.22,graduate,True,True,94,1.1,False,none,True,android,0.1126,0.7947,0.0736,0.0489,False,0.06
+USR_00134,Varun Dubey,38,M,Karnataka,Mangalore,kn,bank_clerk,salaried_urban,50K+,53992.37,graduate,True,True,4,7.0,False,none,True,android,0.1753,0.752,0.0305,0.0223,False,0.0273
+USR_00135,Neha Choudhary,18,F,Karnataka,Bangalore,kn,govt_employee,salaried_urban,50K+,61265.66,postgraduate,True,True,18,2.4,False,none,True,android,0.2311,0.8933,0.0234,0.1334,False,0.0164
+USR_00136,Sita Shah,31,F,Maharashtra,Nagpur,mr,accountant,salaried_urban,50K+,51663.67,postgraduate,True,True,17,8.4,False,none,False,feature_phone,0.1921,0.7993,0.02,0.0258,False,0.042
+USR_00137,Hemant Shah,36,M,Telangana,Karimnagar,te,accountant,salaried_urban,20K-50K,34905.2,graduate,True,True,15,14.9,False,none,True,android,0.2869,0.5536,0.02,0.0349,False,0.042
+USR_00138,Sunil Shah,29,M,Delhi,North Delhi,hi,accountant,salaried_urban,20K-50K,32654.33,graduate,True,True,16,0.5,False,none,True,android,0.1756,0.7617,0.0374,0.0353,False,0.042
+USR_00139,Usha Mehta,24,F,Delhi,New Delhi,hi,govt_employee,salaried_urban,20K-50K,47199.72,postgraduate,True,True,36,1.0,False,none,False,feature_phone,0.3225,0.9258,0.02,0.0594,False,0.0164
+USR_00140,Asha Bhat,31,F,Tamil Nadu,Chennai,ta,teacher,salaried_urban,20K-50K,39121.1,postgraduate,True,True,42,0.5,False,none,True,android,0.1758,0.8294,0.0366,0.0489,False,0.042
+USR_00141,Dinesh Patel,18,M,Delhi,East Delhi,hi,accountant,salaried_urban,50K+,72657.09,postgraduate,True,True,5,8.7,False,none,False,feature_phone,0.0906,0.6524,0.1467,0.0006,False,0.039
+USR_00142,Vikram Das,29,M,Telangana,Nizamabad,te,accountant,salaried_urban,20K-50K,39702.69,postgraduate,True,True,3,1.2,False,none,True,android,-0.0073,0.7375,0.02,0.0138,False,0.06
+USR_00143,Sunil Patil,31,M,Karnataka,Bangalore,kn,teacher,salaried_urban,50K+,63038.12,graduate,True,True,4,3.2,False,none,True,android,0.2957,0.9291,0.1337,0.0323,False,0.0164
+USR_00144,Rohit Gupta,31,M,Karnataka,Mysore,kn,bank_clerk,salaried_urban,20K-50K,28883.27,graduate,True,True,22,6.1,False,none,True,android,0.0709,0.6366,0.0294,0.0919,False,0.06
+USR_00145,Suresh Kumar,49,M,Tamil Nadu,Coimbatore,ta,accountant,salaried_urban,20K-50K,39241.59,postgraduate,False,True,38,9.0,False,none,True,android,0.3041,0.9587,0.0718,0.057,False,0.0252
+USR_00146,Pankaj Kumar,32,M,Maharashtra,Pune,mr,accountant,salaried_urban,20K-50K,43202.33,postgraduate,True,True,3,0.5,False,none,True,android,0.2148,0.8655,0.1083,0.0102,False,0.0252
+USR_00147,Amit Naidu,41,M,Karnataka,Mysore,kn,govt_employee,salaried_urban,50K+,66659.95,graduate,True,True,11,0.5,False,none,True,android,0.2797,0.9177,0.0955,0.0745,False,0.0252
+USR_00148,Arjun Yadav,27,M,Telangana,Karimnagar,te,bank_clerk,salaried_urban,50K+,60002.01,postgraduate,True,True,3,13.8,False,none,True,android,0.3732,0.6547,0.0873,0.0689,False,0.042
+USR_00149,Savitri Jain,36,F,Telangana,Warangal,te,govt_employee,salaried_urban,50K+,76786.28,postgraduate,True,False,4,1.7,False,none,True,android,0.1164,0.5738,0.02,0.011,False,0.08
+USR_00150,Nitin Tiwari,33,M,Delhi,South Delhi,hi,accountant,salaried_urban,50K+,56542.11,graduate,True,True,12,6.8,False,none,True,android,0.2653,0.778,0.1845,0.0652,False,0.042
+USR_00151,Sunil Verma,37,M,Tamil Nadu,Madurai,ta,accountant,salaried_urban,50K+,79950.89,graduate,True,True,7,3.2,False,none,True,android,0.232,0.7786,0.132,0.0391,False,0.0273
+USR_00152,Rajesh Bhat,20,M,Delhi,North Delhi,hi,govt_employee,salaried_urban,50K+,55054.54,postgraduate,True,True,12,3.3,False,none,True,android,0.4081,0.8183,0.02,0.031,False,0.0273
+USR_00153,Geeta Pillai,30,F,Maharashtra,Mumbai,mr,bank_clerk,salaried_urban,20K-50K,35581.11,postgraduate,False,False,57,0.9,False,none,True,android,0.3336,0.8902,0.0808,0.0003,False,0.0336
+USR_00154,Rohit Patil,23,M,Karnataka,Mysore,kn,teacher,salaried_urban,20K-50K,36527.44,postgraduate,True,True,114,1.8,False,none,True,android,0.2519,0.8244,0.5609,0.023,False,0.0504
+USR_00155,Neha Deshmukh,45,F,Telangana,Karimnagar,te,teacher,salaried_urban,20K-50K,42613.39,postgraduate,True,True,78,3.6,False,none,True,android,0.0865,0.5054,0.0887,0.0328,False,0.06
+USR_00156,Sunita Pandey,27,F,Tamil Nadu,Madurai,ta,teacher,salaried_urban,20K-50K,39897.91,graduate,True,True,31,3.3,False,none,True,android,0.2148,0.7984,0.0314,0.0872,False,0.042
+USR_00157,Anjali Mehta,25,F,Telangana,Hyderabad,te,teacher,salaried_urban,20K-50K,49932.56,postgraduate,True,True,3,1.6,False,none,True,android,0.2557,0.9964,0.0398,0.0285,False,0.0252
+USR_00158,Parvati Nair,38,F,Maharashtra,Mumbai,mr,govt_employee,salaried_urban,20K-50K,48373.43,postgraduate,True,True,32,5.3,False,none,True,android,0.1903,0.4894,0.02,0.0264,False,0.042
+USR_00159,Hemant Naidu,29,M,Karnataka,Mangalore,kn,govt_employee,salaried_urban,50K+,77286.74,postgraduate,True,True,30,3.5,False,none,True,android,0.1609,0.8222,0.0355,0.1412,False,0.042
+USR_00160,Anjali Shah,38,F,Maharashtra,Nagpur,mr,software_engineer,salaried_urban,20K-50K,41496.47,postgraduate,True,True,74,7.4,False,none,True,android,0.0724,0.8957,0.02,0.0042,False,0.036
+USR_00161,Kiran Choudhary,31,M,Karnataka,Bangalore,kn,bank_clerk,salaried_urban,50K+,80000.0,postgraduate,True,True,20,5.2,False,none,True,android,0.1518,0.8021,0.3138,0.0036,False,0.042
+USR_00162,Nitin Agarwal,27,M,Tamil Nadu,Madurai,ta,accountant,salaried_urban,20K-50K,48036.51,graduate,True,True,10,1.1,False,none,True,android,0.1837,0.7634,0.0597,0.075,False,0.042
+USR_00163,Naveen Deshmukh,31,M,Karnataka,Mysore,kn,teacher,salaried_urban,20K-50K,37082.25,postgraduate,False,True,3,0.5,False,none,True,android,0.0061,0.8381,0.2762,0.0027,False,0.06
+USR_00164,Asha Das,32,F,Delhi,East Delhi,hi,bank_clerk,salaried_urban,20K-50K,26762.58,postgraduate,False,False,47,15.9,False,none,True,android,0.1577,0.9514,0.0623,0.1788,False,0.0437
+USR_00165,Sachin Rao,19,M,Tamil Nadu,Madurai,ta,teacher,salaried_urban,50K+,79672.04,postgraduate,True,True,4,0.7,False,none,True,android,0.1412,0.6268,0.1967,0.0642,False,0.06
+USR_00166,Parvati Kumar,53,F,Karnataka,Hubli,kn,accountant,salaried_urban,50K+,53656.34,postgraduate,True,True,28,0.5,False,none,True,android,0.1706,0.6881,0.0531,0.0526,False,0.042
+USR_00167,Savitri Jain,39,F,Telangana,Karimnagar,te,bank_clerk,salaried_urban,20K-50K,37626.89,graduate,True,False,25,6.6,False,none,True,android,0.2059,0.7906,0.0299,0.009,False,0.0364
+USR_00168,Rekha Sharma,41,F,Delhi,East Delhi,hi,accountant,salaried_urban,20K-50K,36769.81,graduate,True,False,26,0.9,False,none,True,android,0.1712,0.7482,0.0689,0.0056,False,0.056
+USR_00169,Sunita Bhat,31,F,Delhi,North Delhi,hi,govt_employee,salaried_urban,50K+,75745.46,graduate,True,True,17,6.0,False,none,True,android,0.2404,0.6519,0.1007,0.08,False,0.0273
+USR_00170,Amit Naidu,38,M,Tamil Nadu,Coimbatore,ta,accountant,salaried_urban,20K-50K,46307.06,postgraduate,True,True,27,0.7,False,none,True,android,0.2786,0.8834,0.2244,0.0531,False,0.0164
+USR_00171,Sanjay Joshi,28,M,Delhi,New Delhi,hi,govt_employee,salaried_urban,20K-50K,46164.52,postgraduate,True,False,34,0.5,False,none,True,android,0.1069,0.8043,0.0541,0.2071,False,0.104
+USR_00172,Anita Dubey,41,F,Maharashtra,Nagpur,mr,bank_clerk,salaried_urban,50K+,80000.0,postgraduate,True,True,6,8.5,False,none,True,android,0.1049,0.6525,0.221,0.0041,False,0.06
+USR_00173,Rohit Nair,52,M,Telangana,Nizamabad,te,accountant,salaried_urban,20K-50K,36229.52,graduate,True,True,70,6.8,False,none,True,android,0.2477,0.8649,0.1724,0.0307,False,0.0252
+USR_00174,Pooja Nair,31,F,Delhi,East Delhi,hi,govt_employee,salaried_urban,20K-50K,20409.55,postgraduate,True,True,63,1.6,False,none,True,android,0.2437,0.8018,0.0428,0.0299,False,0.042
+USR_00175,Geeta Saxena,29,F,Maharashtra,Nashik,mr,software_engineer,salaried_urban,50K+,67860.86,postgraduate,True,False,34,1.7,False,none,True,android,0.3006,0.6602,0.02,0.0564,False,0.0364
+USR_00176,Ashok Iyer,41,M,Tamil Nadu,Coimbatore,ta,govt_employee,salaried_urban,20K-50K,31927.6,postgraduate,True,True,3,0.8,False,none,True,android,0.1678,0.7504,0.0719,0.0182,False,0.042
+USR_00177,Rohit Agarwal,21,M,Telangana,Hyderabad,te,software_engineer,salaried_urban,50K+,75451.95,postgraduate,True,True,100,8.2,False,none,True,android,0.0947,0.7858,0.2377,0.0555,False,0.06
+USR_00178,Rani Patil,24,F,Telangana,Warangal,te,bank_clerk,salaried_urban,50K+,53094.72,graduate,True,True,21,2.5,False,none,True,android,0.2113,0.9126,0.2502,0.0164,False,0.0252
+USR_00179,Amit Mishra,31,M,Karnataka,Mangalore,kn,teacher,salaried_urban,20K-50K,42011.11,postgraduate,True,True,86,5.6,False,none,True,android,0.26,0.9063,0.02,0.0608,False,0.0252
+USR_00180,Lakshmi Mishra,24,F,Maharashtra,Nashik,mr,software_engineer,salaried_urban,50K+,51871.47,graduate,False,True,9,0.5,False,none,True,android,0.0492,0.9145,0.02,0.1166,False,0.0234
+USR_00181,Arun Patil,23,M,Tamil Nadu,Madurai,ta,accountant,salaried_urban,50K+,59343.83,postgraduate,True,False,32,8.9,False,none,True,android,0.2719,0.9114,0.539,0.0968,False,0.0262
+USR_00182,Arun Choudhary,26,M,Maharashtra,Pune,mr,bank_clerk,salaried_urban,50K+,50726.5,graduate,True,True,64,3.7,False,none,False,feature_phone,0.2212,0.8329,0.0563,0.0191,False,0.042
+USR_00183,Deepak Patil,40,M,Tamil Nadu,Salem,ta,bank_clerk,salaried_urban,50K+,80000.0,postgraduate,True,False,33,8.9,False,none,True,android,0.1718,0.9616,0.1213,0.0136,False,0.0218
+USR_00184,Lakshmi Singh,24,F,Tamil Nadu,Chennai,ta,accountant,salaried_urban,50K+,50606.89,graduate,True,True,17,2.7,False,none,True,android,0.2339,0.824,0.02,0.0147,False,0.042
+USR_00185,Amit Patel,45,M,Karnataka,Mysore,kn,bank_clerk,salaried_urban,20K-50K,41937.8,postgraduate,True,True,3,0.6,False,none,True,android,0.0234,0.9767,0.0329,0.0116,False,0.036
+USR_00186,Rekha Saxena,30,F,Delhi,South Delhi,hi,accountant,salaried_urban,50K+,50137.55,graduate,True,True,3,1.0,False,none,True,android,0.2868,0.7724,0.02,0.048,False,0.042
+USR_00187,Sita Dubey,29,F,Tamil Nadu,Salem,ta,govt_employee,salaried_urban,20K-50K,36365.21,postgraduate,True,True,25,8.3,False,none,True,android,0.3521,0.8618,0.0548,0.0265,False,0.0252
+USR_00188,Ravi Pillai,26,M,Tamil Nadu,Coimbatore,ta,accountant,salaried_urban,50K+,55638.4,graduate,True,True,33,1.5,False,none,False,feature_phone,0.2407,0.7746,0.0926,0.058,False,0.042
+USR_00189,Usha Kumar,29,F,Karnataka,Hubli,kn,teacher,salaried_urban,20K-50K,35006.93,postgraduate,True,True,21,1.8,False,none,True,android,0.1831,0.6844,0.1135,0.0225,False,0.0273
+USR_00190,Manoj Rao,30,M,Telangana,Hyderabad,te,accountant,salaried_urban,20K-50K,48066.61,graduate,True,False,36,9.8,False,none,True,android,0.2015,0.8372,0.2327,0.0034,False,0.056
+USR_00191,Varun Gupta,22,M,Karnataka,Bangalore,kn,accountant,salaried_urban,50K+,52219.02,graduate,True,True,3,2.2,False,none,True,android,0.1897,0.9464,0.1056,0.0934,False,0.0252
+USR_00192,Rani Deshmukh,37,F,Delhi,North Delhi,hi,software_engineer,salaried_urban,20K-50K,38610.8,postgraduate,True,True,40,1.3,False,none,True,android,0.342,0.9197,0.1728,0.0974,False,0.0252
+USR_00193,Asha Jain,30,F,Delhi,East Delhi,hi,software_engineer,salaried_urban,50K+,69154.72,graduate,True,False,13,3.5,False,none,True,android,0.3043,0.8505,0.0563,0.0077,False,0.0336
+USR_00194,Deepak Deshmukh,43,M,Delhi,South Delhi,hi,teacher,salaried_urban,20K-50K,44203.74,postgraduate,True,True,6,0.5,False,none,True,android,0.2624,0.7393,0.0527,0.0186,False,0.042
+USR_00195,Shanti Deshmukh,39,F,Delhi,South Delhi,hi,govt_employee,salaried_urban,50K+,80000.0,graduate,False,False,16,1.0,False,none,True,android,0.1979,0.8404,0.0704,0.1662,False,0.0728
+USR_00196,Pankaj Gupta,22,M,Maharashtra,Mumbai,mr,bank_clerk,salaried_urban,20K-50K,41991.56,graduate,True,True,3,2.0,False,none,True,android,0.1912,0.5974,0.02,0.1561,False,0.0546
+USR_00197,Rahul Sharma,37,M,Telangana,Nizamabad,te,software_engineer,salaried_urban,20K-50K,43750.16,postgraduate,True,True,33,7.0,False,none,True,android,0.1914,0.7857,0.0807,0.039,False,0.0273
+USR_00198,Anjali Choudhary,18,F,Tamil Nadu,Coimbatore,ta,bank_clerk,salaried_urban,50K+,64537.31,graduate,True,True,20,1.4,False,none,True,android,0.2401,0.8521,0.0315,0.1697,False,0.0213
+USR_00199,Deepak Agarwal,18,M,Delhi,East Delhi,hi,teacher,salaried_urban,50K+,67436.55,graduate,True,True,31,0.6,False,none,True,android,0.3659,0.7224,0.0969,0.0112,False,0.042
+USR_00200,Sachin Deshmukh,39,M,Maharashtra,Nashik,mr,software_engineer,salaried_urban,20K-50K,41508.52,graduate,True,True,23,3.1,False,none,True,android,0.1915,0.7815,0.02,0.0782,False,0.042
+USR_00201,Parvati Pandey,29,F,Maharashtra,Mumbai,mr,freelancer,gig_worker,10K-20K,17434.58,graduate,True,True,11,8.4,False,dunzo,False,feature_phone,0.1102,0.6414,0.101,0.0114,True,0.1125
+USR_00202,Dinesh Patel,35,M,Delhi,New Delhi,hi,delivery_partner,gig_worker,10K-20K,15759.88,graduate,True,False,25,2.7,False,ola,True,android,0.19,0.7552,0.5272,0.0723,False,0.126
+USR_00203,Sunil Jain,31,M,Uttar Pradesh,Kanpur,hi,freelancer,gig_worker,20K-50K,20729.64,secondary,True,True,8,0.5,False,uber,True,android,0.0644,0.8078,0.2955,0.1304,False,0.1125
+USR_00204,Sanjay Sharma,35,M,Rajasthan,Kota,hi,daily_wage,gig_worker,10K-20K,19850.89,graduate,True,True,41,5.1,False,ola,False,feature_phone,0.0489,0.5138,0.4896,0.0163,False,0.1125
+USR_00205,Ravi Rao,34,M,Uttar Pradesh,Lucknow,hi,delivery_partner,gig_worker,20K-50K,24556.25,secondary,True,True,12,0.5,False,zomato,True,android,0.138,0.6763,0.3224,0.0726,False,0.1125
+USR_00206,Neha Patil,22,F,Maharashtra,Mumbai,mr,freelancer,gig_worker,20K-50K,23018.81,graduate,True,True,3,2.7,False,dunzo,True,android,0.1656,0.793,0.1287,0.0059,False,0.0788
+USR_00207,Suresh Tiwari,18,M,Maharashtra,Mumbai,mr,daily_wage,gig_worker,20K-50K,21781.26,graduate,True,True,3,2.8,False,dunzo,True,android,0.1327,0.7973,0.0793,0.0165,False,0.1125
+USR_00208,Kiran Patel,21,M,Rajasthan,Jodhpur,hi,freelancer,gig_worker,20K-50K,27869.2,graduate,True,True,13,2.6,False,uber,True,android,0.0645,0.9055,0.1329,0.0522,False,0.0675
+USR_00209,Asha Jain,18,F,Maharashtra,Nagpur,mr,cab_driver,gig_worker,20K-50K,21526.23,graduate,True,True,31,3.9,False,ola,True,android,0.0968,0.4823,0.2412,0.0367,False,0.1125
+USR_00210,Usha Tiwari,31,F,Delhi,East Delhi,hi,freelancer,gig_worker,20K-50K,23399.13,secondary,True,False,11,2.7,False,uber,True,android,0.0393,0.6763,0.4143,0.0191,False,0.15
+USR_00211,Pankaj Deshmukh,27,M,Delhi,North Delhi,hi,freelancer,gig_worker,10K-20K,19925.74,secondary,True,False,3,1.3,False,swiggy,True,android,0.0538,0.8348,0.134,0.0158,False,0.15
+USR_00212,Sachin Sharma,36,M,Rajasthan,Jodhpur,hi,cab_driver,gig_worker,10K-20K,16531.11,graduate,True,True,56,8.9,False,ola,True,android,0.15,0.7877,0.0281,0.0581,False,0.1125
+USR_00213,Rekha Agarwal,18,F,Delhi,South Delhi,hi,daily_wage,gig_worker,10K-20K,18954.11,graduate,True,False,36,4.9,False,ola,True,android,0.1572,0.9111,0.4567,0.0517,False,0.063
+USR_00214,Prakash Agarwal,35,M,Uttar Pradesh,Lucknow,hi,delivery_partner,gig_worker,10K-20K,18914.97,secondary,True,False,113,2.8,False,dunzo,True,android,0.044,0.9319,0.1385,0.0027,False,0.0585
+USR_00215,Nitin Singh,23,M,Uttar Pradesh,Varanasi,hi,delivery_partner,gig_worker,20K-50K,30000.0,secondary,True,False,62,7.6,False,dunzo,True,android,0.1298,0.5854,0.2808,0.0175,False,0.15
+USR_00216,Naveen Pandey,29,M,Delhi,East Delhi,hi,freelancer,gig_worker,20K-50K,23249.79,secondary,False,False,48,1.5,False,swiggy,True,android,0.0078,0.2752,0.6628,0.0169,False,0.18
+USR_00217,Anita Rao,22,F,Karnataka,Hubli,kn,daily_wage,gig_worker,10K-20K,18739.15,secondary,True,True,4,2.9,False,ola,True,android,0.1393,0.8818,0.0398,0.0267,False,0.0675
+USR_00218,Pankaj Singh,18,M,Maharashtra,Mumbai,mr,cab_driver,gig_worker,10K-20K,10000.0,secondary,True,False,27,3.6,False,ola,True,android,0.0647,0.7289,0.3395,0.0187,False,0.15
+USR_00219,Durga Shah,32,F,Uttar Pradesh,Kanpur,hi,delivery_partner,gig_worker,20K-50K,26655.79,graduate,True,False,26,14.9,False,ola,True,android,0.1338,0.6,0.1284,0.0232,False,0.15
+USR_00220,Suresh Pandey,21,M,Karnataka,Hubli,kn,cab_driver,gig_worker,20K-50K,21362.49,secondary,True,True,67,0.5,False,ola,True,android,0.0841,0.6669,0.1523,0.018,False,0.1125
+USR_00221,Dinesh Singh,26,M,Rajasthan,Kota,hi,freelancer,gig_worker,10K-20K,10365.23,graduate,False,False,49,2.6,False,uber,True,android,0.0817,0.7447,0.0654,0.0076,False,0.15
+USR_00222,Neha Singh,21,F,Karnataka,Hubli,kn,freelancer,gig_worker,20K-50K,30000.0,secondary,True,False,31,0.6,False,zomato,True,android,0.1246,0.5656,0.0903,0.0212,False,0.15
+USR_00223,Varun Joshi,25,M,Uttar Pradesh,Kanpur,hi,cab_driver,gig_worker,20K-50K,24101.54,secondary,True,False,22,8.8,False,uber,True,android,0.0544,0.865,0.2263,0.0138,False,0.09
+USR_00224,Rohit Dubey,25,M,Karnataka,Mangalore,kn,daily_wage,gig_worker,20K-50K,30000.0,graduate,True,True,3,1.3,False,ola,True,android,0.0805,0.4458,0.02,0.0091,False,0.1125
+USR_00225,Asha Mishra,18,F,Karnataka,Hubli,kn,cab_driver,gig_worker,10K-20K,17976.61,graduate,True,False,3,7.4,False,ola,True,android,0.0457,0.7397,0.1723,0.045,True,0.15
+USR_00226,Prakash Mishra,29,M,Maharashtra,Nagpur,mr,daily_wage,gig_worker,20K-50K,21576.72,secondary,True,False,143,0.8,False,zomato,True,android,0.027,0.7287,0.1944,0.0634,False,0.15
+USR_00227,Lakshmi Patil,32,F,Uttar Pradesh,Varanasi,hi,cab_driver,gig_worker,10K-20K,11922.45,secondary,True,False,39,0.7,False,dunzo,True,android,0.1987,0.6281,0.3018,0.0126,False,0.105
+USR_00228,Amit Pandey,25,M,Karnataka,Mysore,kn,freelancer,gig_worker,20K-50K,28464.72,graduate,True,True,46,0.5,False,uber,False,feature_phone,0.0438,0.6463,0.0378,0.017,False,0.1125
+USR_00229,Radha Verma,32,F,Rajasthan,Jaipur,hi,cab_driver,gig_worker,10K-20K,18601.51,graduate,True,True,179,0.5,False,uber,True,android,0.0281,0.7727,0.2582,0.0221,False,0.1125
+USR_00230,Usha Das,28,F,Uttar Pradesh,Agra,hi,daily_wage,gig_worker,10K-20K,15208.89,graduate,True,False,29,1.8,False,swiggy,False,feature_phone,0.1433,0.3916,0.0322,0.0353,False,0.15
+USR_00231,Sanjay Pandey,23,M,Delhi,East Delhi,hi,delivery_partner,gig_worker,20K-50K,26318.17,secondary,True,False,108,3.5,False,uber,True,android,0.2381,0.6304,0.6736,0.1464,False,0.126
+USR_00232,Manoj Deshmukh,34,M,Uttar Pradesh,Kanpur,hi,freelancer,gig_worker,10K-20K,18542.85,graduate,False,True,54,2.6,False,dunzo,True,android,0.1537,0.4811,0.1208,0.0966,False,0.0788
+USR_00233,Anita Sharma,18,F,Maharashtra,Mumbai,mr,cab_driver,gig_worker,20K-50K,21656.63,secondary,True,True,59,7.2,False,zomato,False,feature_phone,0.1789,0.7342,0.2324,0.0166,False,0.0788
+USR_00234,Arjun Kumar,30,M,Delhi,South Delhi,hi,freelancer,gig_worker,10K-20K,16347.26,graduate,True,False,4,5.8,False,swiggy,True,android,0.0735,0.5955,0.1088,0.0181,False,0.15
+USR_00235,Sunil Singh,32,M,Karnataka,Mangalore,kn,cab_driver,gig_worker,10K-20K,12631.76,secondary,True,True,48,7.5,False,ola,True,android,-0.0581,0.4522,0.1391,0.1161,False,0.0731
+USR_00236,Varun Kumar,31,M,Maharashtra,Nashik,mr,daily_wage,gig_worker,10K-20K,15748.23,secondary,True,False,32,4.3,False,uber,True,android,0.1938,0.8227,0.4551,0.0438,False,0.105
+USR_00237,Kamla Sharma,32,F,Karnataka,Mysore,kn,daily_wage,gig_worker,10K-20K,10962.72,secondary,True,True,12,5.0,False,ola,True,android,0.0493,0.6894,0.3584,0.0626,False,0.1125
+USR_00238,Rajesh Bhat,33,M,Karnataka,Bangalore,kn,daily_wage,gig_worker,10K-20K,19415.04,secondary,True,True,42,5.2,False,zomato,True,android,0.0462,0.8305,0.8,0.0971,True,0.135
+USR_00239,Sunil Sharma,18,M,Rajasthan,Udaipur,hi,cab_driver,gig_worker,20K-50K,30000.0,graduate,True,False,29,11.8,False,uber,True,android,0.155,0.3169,0.3978,0.0243,False,0.105
+USR_00240,Deepak Deshmukh,26,M,Karnataka,Mangalore,kn,delivery_partner,gig_worker,20K-50K,23990.32,secondary,False,False,9,4.9,False,dunzo,True,android,0.0955,0.8027,0.5955,0.0099,False,0.18
+USR_00241,Suresh Sharma,21,M,Karnataka,Mangalore,kn,delivery_partner,gig_worker,20K-50K,22047.23,secondary,True,True,18,0.6,False,ola,True,android,0.1909,0.7405,0.4779,0.0144,False,0.0788
+USR_00242,Arun Kumar,35,M,Rajasthan,Kota,hi,freelancer,gig_worker,20K-50K,30000.0,secondary,True,True,64,9.5,False,zomato,False,feature_phone,0.0856,0.7959,0.122,0.066,False,0.1125
+USR_00243,Hemant Pillai,18,M,Maharashtra,Nagpur,mr,delivery_partner,gig_worker,10K-20K,15205.39,secondary,True,False,55,1.3,False,dunzo,True,android,0.0679,0.8975,0.1405,0.1445,False,0.09
+USR_00244,Rekha Agarwal,38,F,Karnataka,Bangalore,kn,cab_driver,gig_worker,20K-50K,30000.0,secondary,True,True,36,0.9,False,uber,True,android,0.2016,0.7985,0.8,0.0035,False,0.0945
+USR_00245,Rahul Nair,19,M,Delhi,New Delhi,hi,freelancer,gig_worker,10K-20K,11756.5,graduate,True,True,127,0.5,False,swiggy,False,feature_phone,0.0862,0.8816,0.1276,0.0253,False,0.0675
+USR_00246,Kiran Iyer,20,M,Maharashtra,Nashik,mr,freelancer,gig_worker,10K-20K,15342.37,secondary,True,False,23,1.3,False,swiggy,True,android,0.1559,0.6563,0.8,0.0176,False,0.126
+USR_00247,Seema Iyer,28,F,Maharashtra,Mumbai,mr,cab_driver,gig_worker,20K-50K,21642.59,graduate,True,False,35,4.2,False,ola,True,android,0.015,0.6583,0.0949,0.0455,False,0.15
+USR_00248,Dinesh Iyer,25,M,Delhi,North Delhi,hi,delivery_partner,gig_worker,20K-50K,22341.58,secondary,True,False,31,4.8,False,ola,False,feature_phone,0.0108,0.9558,0.8,0.0255,False,0.0702
+USR_00249,Shanti Patil,31,F,Delhi,North Delhi,hi,freelancer,gig_worker,10K-20K,17142.81,secondary,True,False,40,15.1,False,dunzo,True,android,0.1136,0.6012,0.1708,0.015,False,0.15
+USR_00250,Sachin Bhat,40,M,Uttar Pradesh,Kanpur,hi,cab_driver,gig_worker,10K-20K,16424.17,secondary,True,True,3,3.6,False,uber,True,android,0.2055,0.8598,0.6298,0.0671,False,0.0567
+USR_00251,Durga Mehta,29,F,Maharashtra,Nagpur,mr,delivery_partner,gig_worker,10K-20K,15124.11,graduate,True,False,10,0.5,False,swiggy,True,android,0.0104,0.8594,0.0254,0.1513,False,0.117
+USR_00252,Asha Pillai,30,F,Delhi,New Delhi,hi,freelancer,gig_worker,20K-50K,23968.6,graduate,True,False,62,10.8,False,dunzo,True,android,-0.032,0.5713,0.0213,0.0232,False,0.15
+USR_00253,Rajesh Gupta,34,M,Maharashtra,Mumbai,mr,freelancer,gig_worker,20K-50K,21269.31,graduate,False,False,27,1.3,False,uber,True,android,0.1413,0.8023,0.1817,0.0497,False,0.15
+USR_00254,Kamla Singh,33,F,Maharashtra,Pune,mr,delivery_partner,gig_worker,10K-20K,13313.82,secondary,True,False,20,2.3,False,dunzo,True,android,0.1231,0.7929,0.02,0.0179,False,0.15
+USR_00255,Vikram Kumar,33,M,Uttar Pradesh,Varanasi,hi,freelancer,gig_worker,10K-20K,15173.91,secondary,False,False,24,10.5,False,uber,True,android,0.0803,0.7727,0.0904,0.0087,False,0.15
+USR_00256,Naveen Joshi,31,M,Delhi,East Delhi,hi,cab_driver,gig_worker,10K-20K,13199.62,graduate,True,True,76,6.7,False,dunzo,True,android,0.0245,0.8746,0.2301,0.0221,False,0.0675
+USR_00257,Asha Patel,20,F,Karnataka,Bangalore,kn,daily_wage,gig_worker,20K-50K,30000.0,secondary,True,False,56,1.5,False,dunzo,True,android,0.0427,0.8058,0.627,0.0054,False,0.18
+USR_00258,Manoj Dubey,35,M,Maharashtra,Mumbai,mr,cab_driver,gig_worker,10K-20K,10000.0,graduate,True,False,25,0.9,False,swiggy,True,android,0.1134,0.7093,0.2829,0.0087,False,0.0975
+USR_00259,Arun Deshmukh,31,M,Karnataka,Mangalore,kn,daily_wage,gig_worker,10K-20K,13471.94,secondary,True,True,42,1.0,False,zomato,True,android,0.1228,0.4331,0.02,0.0091,False,0.1125
+USR_00260,Ashok Gupta,24,M,Karnataka,Bangalore,kn,daily_wage,gig_worker,20K-50K,23705.78,graduate,True,False,15,0.5,False,uber,True,android,0.0885,0.765,0.8,0.0479,False,0.18
+USR_00261,Sachin Rao,22,M,Rajasthan,Jodhpur,hi,daily_wage,gig_worker,10K-20K,10000.0,secondary,True,True,20,3.1,False,ola,True,android,0.193,0.6422,0.1593,0.1022,False,0.0788
+USR_00262,Priya Nair,31,F,Delhi,East Delhi,hi,delivery_partner,gig_worker,20K-50K,30000.0,secondary,False,False,4,3.7,False,ola,True,android,0.0531,0.775,0.6781,0.0114,False,0.18
+USR_00263,Durga Gupta,32,F,Karnataka,Mysore,kn,delivery_partner,gig_worker,10K-20K,10000.0,graduate,True,False,3,6.3,False,ola,True,android,0.1008,0.8061,0.35,0.0146,False,0.15
+USR_00264,Deepa Rao,36,F,Karnataka,Mysore,kn,delivery_partner,gig_worker,20K-50K,21084.55,graduate,True,True,62,7.4,False,zomato,True,android,-0.0869,0.8742,0.6425,0.0314,False,0.081
+USR_00265,Sunita Kumar,25,F,Uttar Pradesh,Varanasi,hi,cab_driver,gig_worker,10K-20K,18576.52,secondary,True,True,58,9.3,False,uber,True,android,0.0241,0.4971,0.0207,0.0523,False,0.1125
+USR_00266,Sanjay Verma,25,M,Karnataka,Hubli,kn,cab_driver,gig_worker,10K-20K,15339.18,secondary,True,False,58,2.3,False,dunzo,True,android,-0.0062,0.7176,0.1872,0.0641,False,0.15
+USR_00267,Sanjay Joshi,25,M,Delhi,East Delhi,hi,cab_driver,gig_worker,20K-50K,30000.0,graduate,False,False,3,1.0,False,ola,True,android,0.1574,0.3481,0.4446,0.0398,False,0.105
+USR_00268,Kamla Naidu,38,F,Rajasthan,Udaipur,hi,daily_wage,gig_worker,20K-50K,23608.14,secondary,True,False,50,6.5,False,swiggy,True,android,-0.0115,0.4727,0.0651,0.1106,False,0.15
+USR_00269,Deepa Rao,32,F,Uttar Pradesh,Lucknow,hi,delivery_partner,gig_worker,20K-50K,23060.78,secondary,False,True,51,3.6,False,zomato,True,android,0.0974,0.7193,0.0511,0.0321,False,0.1125
+USR_00270,Arjun Yadav,19,M,Maharashtra,Nagpur,mr,delivery_partner,gig_worker,20K-50K,29050.2,secondary,True,False,8,1.5,False,swiggy,True,android,0.0194,0.5973,0.024,0.0596,False,0.15
+USR_00271,Arun Iyer,34,M,Karnataka,Mangalore,kn,delivery_partner,gig_worker,20K-50K,30000.0,graduate,False,False,38,6.4,False,zomato,True,android,0.0463,0.9036,0.3035,0.0196,True,0.09
+USR_00272,Pooja Singh,20,F,Maharashtra,Nagpur,mr,freelancer,gig_worker,10K-20K,15672.46,secondary,True,True,42,1.0,False,dunzo,True,android,-0.0421,0.6671,0.0624,0.0046,False,0.1125
+USR_00273,Nitin Dubey,32,M,Delhi,East Delhi,hi,daily_wage,gig_worker,10K-20K,13680.38,secondary,True,True,20,0.5,False,zomato,True,android,0.1948,0.5624,0.3297,0.0195,False,0.0788
+USR_00274,Ravi Gupta,32,M,Rajasthan,Udaipur,hi,delivery_partner,gig_worker,10K-20K,17793.41,secondary,True,False,180,7.0,False,swiggy,True,android,0.0425,0.6392,0.8,0.0138,False,0.18
+USR_00275,Priya Yadav,31,F,Delhi,East Delhi,hi,freelancer,gig_worker,10K-20K,19236.27,secondary,False,False,5,0.5,False,ola,True,android,0.0397,0.8661,0.3187,0.0132,False,0.09
+USR_00276,Arun Reddy,37,M,Delhi,New Delhi,hi,daily_wage,gig_worker,20K-50K,25729.35,graduate,True,True,3,7.3,False,ola,True,android,0.1657,0.8184,0.8,0.0707,False,0.0945
+USR_00277,Parvati Saxena,35,F,Rajasthan,Jaipur,hi,delivery_partner,gig_worker,20K-50K,30000.0,secondary,True,False,17,1.0,False,dunzo,True,android,0.0406,0.7339,0.225,0.0119,True,0.15
+USR_00278,Naveen Pillai,35,M,Uttar Pradesh,Agra,hi,cab_driver,gig_worker,20K-50K,24914.71,graduate,True,True,45,3.6,False,swiggy,False,feature_phone,0.0747,0.7997,0.0549,0.0347,False,0.1125
+USR_00279,Anita Reddy,38,F,Rajasthan,Jodhpur,hi,cab_driver,gig_worker,20K-50K,30000.0,secondary,False,True,37,1.3,False,ola,True,android,0.1662,0.8712,0.3664,0.0304,False,0.0472
+USR_00280,Renu Rao,34,F,Karnataka,Hubli,kn,delivery_partner,gig_worker,20K-50K,24172.35,secondary,True,True,6,0.5,False,uber,True,android,0.1218,0.7518,0.2303,0.0335,False,0.1125
+USR_00281,Rekha Patel,30,F,Maharashtra,Nashik,mr,delivery_partner,gig_worker,10K-20K,12864.34,secondary,True,True,30,1.3,False,dunzo,True,android,0.055,0.5806,0.02,0.0016,False,0.1125
+USR_00282,Dinesh Tiwari,20,M,Delhi,East Delhi,hi,delivery_partner,gig_worker,10K-20K,18842.79,graduate,True,True,33,8.5,False,ola,True,android,0.1066,0.6742,0.4868,0.2946,False,0.0951
+USR_00283,Seema Das,20,F,Delhi,South Delhi,hi,delivery_partner,gig_worker,20K-50K,22447.83,graduate,True,False,22,7.5,False,ola,True,android,0.086,0.7489,0.5094,0.0957,False,0.18
+USR_00284,Renu Patil,21,F,Karnataka,Mysore,kn,freelancer,gig_worker,10K-20K,18627.79,graduate,True,False,8,1.0,False,ola,True,android,-0.0584,0.7049,0.4273,0.1717,False,0.195
+USR_00285,Rohit Rao,25,M,Uttar Pradesh,Varanasi,hi,delivery_partner,gig_worker,10K-20K,10123.37,secondary,True,False,57,1.6,False,dunzo,True,android,0.043,0.703,0.1317,0.056,True,0.15
+USR_00286,Deepak Verma,23,M,Karnataka,Mysore,kn,delivery_partner,gig_worker,20K-50K,22841.03,graduate,False,False,15,8.0,False,ola,True,android,-0.0734,0.7313,0.2113,0.0078,False,0.15
+USR_00287,Seema Tiwari,29,F,Maharashtra,Mumbai,mr,cab_driver,gig_worker,10K-20K,11304.27,graduate,False,False,24,0.5,False,uber,True,android,0.1425,0.4791,0.1627,0.0307,False,0.15
+USR_00288,Sunita Reddy,31,F,Maharashtra,Nagpur,mr,cab_driver,gig_worker,20K-50K,30000.0,secondary,True,False,39,6.0,False,ola,True,android,0.0469,0.8032,0.2016,0.0677,False,0.15
+USR_00289,Pankaj Reddy,33,M,Maharashtra,Nashik,mr,cab_driver,gig_worker,10K-20K,10000.0,secondary,True,False,65,1.8,False,uber,True,android,-0.0375,0.48,0.4312,0.0067,False,0.15
+USR_00290,Anita Joshi,29,F,Delhi,East Delhi,hi,delivery_partner,gig_worker,10K-20K,12105.85,graduate,True,False,31,2.7,False,uber,False,feature_phone,-0.0187,0.5364,0.2538,0.0102,False,0.15
+USR_00291,Varun Kumar,18,M,Delhi,North Delhi,hi,freelancer,gig_worker,10K-20K,13905.33,graduate,True,False,7,7.0,False,uber,True,android,0.0228,0.7563,0.0463,0.0235,False,0.15
+USR_00292,Ashok Mehta,22,M,Karnataka,Bangalore,kn,cab_driver,gig_worker,20K-50K,30000.0,graduate,True,False,3,3.3,False,uber,False,feature_phone,0.1121,0.8837,0.6216,0.0144,False,0.108
+USR_00293,Parvati Gupta,32,F,Maharashtra,Pune,mr,freelancer,gig_worker,20K-50K,22515.55,graduate,True,False,35,5.5,False,dunzo,True,android,0.11,0.8591,0.1997,0.1268,False,0.09
+USR_00294,Sachin Bhat,21,M,Karnataka,Hubli,kn,freelancer,gig_worker,10K-20K,14918.1,secondary,True,True,86,2.5,False,uber,True,android,0.2073,0.749,0.4402,0.0254,False,0.0788
+USR_00295,Gaurav Pillai,23,M,Delhi,North Delhi,hi,daily_wage,gig_worker,20K-50K,23311.06,secondary,True,False,3,0.9,False,dunzo,True,android,0.0913,0.3502,0.02,0.0018,False,0.0975
+USR_00296,Arun Choudhary,34,M,Rajasthan,Jaipur,hi,daily_wage,gig_worker,10K-20K,10000.0,graduate,True,False,65,0.7,False,zomato,True,android,0.218,0.7526,0.3869,0.0059,False,0.105
+USR_00297,Parvati Reddy,18,F,Uttar Pradesh,Kanpur,hi,daily_wage,gig_worker,20K-50K,27003.43,secondary,True,False,6,1.9,False,swiggy,True,android,0.044,0.7578,0.3394,0.0417,False,0.0975
+USR_00298,Suresh Patel,23,M,Karnataka,Mysore,kn,daily_wage,gig_worker,10K-20K,18643.67,graduate,True,False,3,0.5,False,swiggy,True,android,0.1335,0.4933,0.127,0.0015,False,0.15
+USR_00299,Rohit Yadav,27,M,Maharashtra,Nagpur,mr,delivery_partner,gig_worker,20K-50K,22123.24,secondary,True,True,97,1.2,False,uber,True,android,0.2062,0.7344,0.0992,0.1653,False,0.1024
+USR_00300,Sunita Joshi,31,F,Rajasthan,Udaipur,hi,daily_wage,gig_worker,20K-50K,28393.24,graduate,True,False,166,1.5,False,zomato,True,android,0.1978,0.6544,0.1262,0.09,False,0.105
+USR_00301,Geeta Sharma,32,F,Delhi,South Delhi,hi,cab_driver,gig_worker,10K-20K,18532.59,secondary,True,True,3,0.5,False,dunzo,True,android,0.1059,0.5406,0.085,0.0318,False,0.1125
+USR_00302,Arjun Bhat,30,M,Maharashtra,Nashik,mr,delivery_partner,gig_worker,20K-50K,30000.0,secondary,True,False,50,3.4,False,swiggy,True,android,0.1422,0.2952,0.6778,0.1199,False,0.18
+USR_00303,Rajesh Yadav,36,M,Rajasthan,Udaipur,hi,freelancer,gig_worker,10K-20K,12848.34,secondary,True,True,11,0.8,False,dunzo,True,android,0.0377,0.5015,0.2037,0.0178,False,0.1125
+USR_00304,Anjali Deshmukh,40,F,Maharashtra,Mumbai,mr,cab_driver,gig_worker,10K-20K,11569.89,secondary,True,False,6,0.5,False,uber,False,feature_phone,0.239,0.7594,0.3225,0.1341,False,0.105
+USR_00305,Sunil Deshmukh,29,M,Maharashtra,Nashik,mr,cab_driver,gig_worker,20K-50K,30000.0,graduate,True,False,38,9.1,False,dunzo,False,feature_phone,-0.0524,0.4746,0.258,0.0312,True,0.15
+USR_00306,Vikram Das,31,M,Maharashtra,Mumbai,mr,daily_wage,gig_worker,20K-50K,30000.0,secondary,False,True,3,4.3,False,swiggy,True,android,0.1282,0.5462,0.1054,0.1393,False,0.1125
+USR_00307,Sanjay Shah,18,M,Delhi,North Delhi,hi,delivery_partner,gig_worker,10K-20K,14176.4,secondary,False,False,3,0.5,False,zomato,True,android,0.0469,0.9529,0.1335,0.0867,False,0.09
+USR_00308,Arjun Jain,32,M,Delhi,East Delhi,hi,freelancer,gig_worker,10K-20K,19264.77,secondary,False,True,15,1.8,False,ola,True,android,0.1861,0.4389,0.1886,0.0329,False,0.0788
+USR_00309,Kiran Singh,23,M,Uttar Pradesh,Agra,hi,delivery_partner,gig_worker,20K-50K,24938.89,secondary,False,False,17,6.6,False,dunzo,True,android,0.0471,0.7379,0.8,0.0576,False,0.18
+USR_00310,Prakash Tiwari,25,M,Uttar Pradesh,Kanpur,hi,cab_driver,gig_worker,10K-20K,16310.51,secondary,True,False,23,2.1,False,ola,False,feature_phone,0.0828,0.8692,0.3763,0.0035,False,0.0585
+USR_00311,Naveen Choudhary,19,M,Delhi,New Delhi,hi,freelancer,gig_worker,10K-20K,18413.57,secondary,True,False,34,11.2,False,ola,True,android,0.0331,0.5317,0.2839,0.0234,False,0.15
+USR_00312,Shanti Tiwari,23,F,Delhi,East Delhi,hi,delivery_partner,gig_worker,10K-20K,17818.09,secondary,True,True,15,2.1,False,ola,True,android,0.1726,0.9248,0.5269,0.0021,False,0.0567
+USR_00313,Pooja Verma,23,F,Uttar Pradesh,Varanasi,hi,daily_wage,gig_worker,10K-20K,12376.36,secondary,True,True,76,3.3,False,dunzo,True,android,0.0566,0.6304,0.7446,0.0504,False,0.135
+USR_00314,Seema Jain,24,F,Uttar Pradesh,Varanasi,hi,delivery_partner,gig_worker,10K-20K,12037.18,secondary,True,True,50,3.0,False,swiggy,True,android,0.2162,0.3153,0.0475,0.0895,False,0.0788
+USR_00315,Gaurav Nair,36,M,Delhi,South Delhi,hi,delivery_partner,gig_worker,20K-50K,21155.0,graduate,False,False,20,1.9,False,dunzo,True,android,0.0651,0.383,0.2553,0.0197,False,0.15
+USR_00316,Durga Gupta,18,F,Delhi,East Delhi,hi,freelancer,gig_worker,10K-20K,19258.43,secondary,True,False,46,1.7,False,dunzo,True,android,0.1136,0.7042,0.4588,0.0155,False,0.15
+USR_00317,Sunil Jain,40,M,Maharashtra,Pune,mr,delivery_partner,gig_worker,20K-50K,30000.0,graduate,True,True,41,0.5,False,ola,True,android,-0.0235,0.9754,0.0562,0.0271,False,0.0675
+USR_00318,Radha Verma,37,F,Karnataka,Hubli,kn,daily_wage,gig_worker,20K-50K,23366.98,secondary,True,False,3,2.0,False,ola,True,android,0.1001,0.5557,0.02,0.0901,False,0.0975
+USR_00319,Varun Choudhary,30,M,Rajasthan,Kota,hi,cab_driver,gig_worker,10K-20K,17331.41,secondary,True,True,93,2.2,False,dunzo,True,android,-0.0727,0.8253,0.1098,0.0021,False,0.1125
+USR_00320,Sunil Bhat,27,M,Uttar Pradesh,Agra,hi,freelancer,gig_worker,10K-20K,10006.67,secondary,True,True,131,3.1,False,zomato,True,android,0.1996,0.8972,0.1409,0.0399,False,0.0472
+USR_00321,Sachin Pillai,26,M,Rajasthan,Udaipur,hi,cab_driver,gig_worker,10K-20K,15714.82,graduate,True,False,64,6.6,False,uber,True,android,0.0234,0.7121,0.0711,0.0698,True,0.15
+USR_00322,Prakash Mishra,26,M,Karnataka,Hubli,kn,daily_wage,gig_worker,10K-20K,15374.93,graduate,True,False,21,1.6,False,ola,True,android,0.1339,0.2,0.0501,0.0081,False,0.15
+USR_00323,Durga Verma,29,F,Maharashtra,Nashik,mr,freelancer,gig_worker,10K-20K,14486.07,secondary,True,True,18,4.6,False,uber,True,android,-0.0276,0.906,0.0903,0.1086,True,0.0675
+USR_00324,Amit Iyer,24,M,Delhi,South Delhi,hi,delivery_partner,gig_worker,20K-50K,25527.12,graduate,True,False,9,2.1,False,zomato,True,android,0.1409,0.3648,0.051,0.067,False,0.15
+USR_00325,Amit Mehta,31,M,Karnataka,Hubli,kn,daily_wage,gig_worker,20K-50K,30000.0,graduate,False,False,11,0.5,False,dunzo,True,android,-0.0113,0.5817,0.1025,0.0315,False,0.0975
+USR_00326,Pankaj Agarwal,18,M,Karnataka,Mangalore,kn,cab_driver,gig_worker,20K-50K,30000.0,graduate,True,False,20,1.6,False,zomato,True,android,0.1716,0.6805,0.2437,0.0756,True,0.105
+USR_00327,Nitin Das,30,M,Karnataka,Bangalore,kn,cab_driver,gig_worker,20K-50K,26078.5,graduate,True,False,10,8.0,False,ola,True,android,0.0221,0.4796,0.2773,0.0574,False,0.15
+USR_00328,Pankaj Tiwari,18,M,Karnataka,Hubli,kn,daily_wage,gig_worker,20K-50K,30000.0,graduate,True,False,11,5.9,False,uber,True,android,0.1383,0.3279,0.02,0.007,False,0.15
+USR_00329,Kiran Shah,32,M,Rajasthan,Jaipur,hi,delivery_partner,gig_worker,20K-50K,30000.0,graduate,True,False,3,5.3,False,uber,True,android,0.106,0.9528,0.1878,0.0007,False,0.09
+USR_00330,Pankaj Sharma,25,M,Rajasthan,Kota,hi,freelancer,gig_worker,10K-20K,17585.06,secondary,True,False,3,4.0,False,dunzo,True,android,0.1955,0.2044,0.02,0.1105,True,0.105
+USR_00331,Vikram Mehta,18,M,Delhi,East Delhi,hi,freelancer,gig_worker,20K-50K,30000.0,graduate,True,False,24,0.5,False,dunzo,True,android,0.2361,0.8294,0.1566,0.0077,False,0.105
+USR_00332,Manoj Nair,19,M,Maharashtra,Nagpur,mr,delivery_partner,gig_worker,20K-50K,30000.0,secondary,True,False,26,4.8,False,swiggy,True,android,0.0889,0.6445,0.02,0.0159,False,0.15
+USR_00333,Manoj Mishra,28,M,Karnataka,Mangalore,kn,delivery_partner,gig_worker,20K-50K,25966.07,graduate,True,True,36,3.6,False,uber,True,android,-0.011,0.9246,0.0434,0.005,False,0.0439
+USR_00334,Dinesh Naidu,20,M,Karnataka,Hubli,kn,freelancer,gig_worker,20K-50K,22434.18,secondary,True,False,18,5.2,False,uber,True,android,0.0498,0.8506,0.02,0.0389,False,0.0585
+USR_00335,Ashok Kumar,37,M,Rajasthan,Jaipur,hi,delivery_partner,gig_worker,20K-50K,25510.63,secondary,True,False,3,3.2,False,uber,True,android,0.3013,0.9541,0.0299,0.0189,False,0.063
+USR_00336,Naveen Sharma,26,M,Uttar Pradesh,Agra,hi,cab_driver,gig_worker,20K-50K,22323.26,graduate,True,True,27,8.3,False,dunzo,True,android,0.035,0.5492,0.1136,0.0071,False,0.1125
+USR_00337,Rahul Mishra,19,M,Delhi,North Delhi,hi,delivery_partner,gig_worker,10K-20K,13859.37,secondary,True,False,31,4.7,False,dunzo,True,android,0.1061,0.6704,0.3931,0.0483,False,0.15
+USR_00338,Pankaj Pillai,23,M,Delhi,South Delhi,hi,cab_driver,gig_worker,10K-20K,10000.0,secondary,True,False,34,7.6,False,swiggy,True,android,0.0563,0.6687,0.2339,0.0045,False,0.15
+USR_00339,Suresh Joshi,19,M,Maharashtra,Nashik,mr,freelancer,gig_worker,20K-50K,30000.0,secondary,True,False,9,4.1,False,uber,True,android,0.2623,0.844,0.2853,0.1141,False,0.105
+USR_00340,Lakshmi Yadav,29,F,Karnataka,Bangalore,kn,daily_wage,gig_worker,20K-50K,30000.0,graduate,True,False,47,1.8,False,dunzo,True,android,0.0385,0.7992,0.7269,0.0011,False,0.18
+USR_00341,Deepa Gupta,41,F,Delhi,East Delhi,hi,daily_wage,gig_worker,10K-20K,17219.8,secondary,True,True,52,4.8,False,uber,True,android,0.0676,0.9207,0.1816,0.0266,False,0.0675
+USR_00342,Vikram Reddy,28,M,Delhi,North Delhi,hi,freelancer,gig_worker,10K-20K,13520.49,secondary,False,True,125,1.9,False,uber,True,android,0.0655,0.5456,0.1803,0.0219,False,0.1125
+USR_00343,Pankaj Sharma,19,M,Maharashtra,Mumbai,mr,cab_driver,gig_worker,10K-20K,13799.31,graduate,False,False,77,2.1,False,dunzo,True,android,0.0608,0.9269,0.02,0.084,False,0.09
+USR_00344,Kamla Jain,28,F,Delhi,East Delhi,hi,cab_driver,gig_worker,20K-50K,24534.43,graduate,True,False,111,0.7,False,dunzo,True,android,0.2756,0.9003,0.1491,0.0089,False,0.041
+USR_00345,Rajesh Patil,18,M,Rajasthan,Jodhpur,hi,cab_driver,gig_worker,10K-20K,14290.22,secondary,True,False,3,3.2,False,zomato,True,android,0.1341,0.7459,0.4874,0.0389,False,0.15
+USR_00346,Seema Gupta,27,F,Delhi,New Delhi,hi,freelancer,gig_worker,10K-20K,14571.22,secondary,True,True,85,2.0,False,uber,True,android,0.0183,0.335,0.8,0.0704,False,0.135
+USR_00347,Sanjay Singh,18,M,Maharashtra,Mumbai,mr,freelancer,gig_worker,20K-50K,30000.0,graduate,True,False,3,2.6,False,ola,True,android,0.1054,0.7298,0.8,0.0066,False,0.18
+USR_00348,Deepak Choudhary,31,M,Maharashtra,Nagpur,mr,freelancer,gig_worker,10K-20K,14444.59,graduate,False,True,3,2.1,False,dunzo,True,android,0.2907,0.7741,0.8,0.0011,False,0.0614
+USR_00349,Rani Dubey,43,F,Uttar Pradesh,Kanpur,hi,cab_driver,gig_worker,10K-20K,15796.19,graduate,True,True,5,2.3,False,swiggy,True,android,0.1475,0.2777,0.6981,0.0242,False,0.135
+USR_00350,Varun Deshmukh,24,M,Delhi,New Delhi,hi,cab_driver,gig_worker,10K-20K,11200.57,secondary,True,True,3,6.9,False,zomato,True,android,0.1061,0.7634,0.2995,0.0767,False,0.1125
+USR_00351,Rajesh Verma,38,M,Rajasthan,Jaipur,hi,freelancer,gig_worker,10K-20K,10881.82,secondary,False,False,114,3.1,False,dunzo,True,android,0.2197,0.4064,0.0613,0.0031,False,0.105
+USR_00352,Savitri Deshmukh,38,F,Delhi,New Delhi,hi,cab_driver,gig_worker,20K-50K,24963.68,graduate,True,True,26,1.0,False,dunzo,True,android,0.0326,0.773,0.1467,0.0026,False,0.1125
+USR_00353,Durga Nair,23,F,Rajasthan,Udaipur,hi,delivery_partner,gig_worker,20K-50K,22425.76,graduate,True,True,23,1.9,False,zomato,True,android,-0.1,0.6319,0.0221,0.0427,False,0.1125
+USR_00354,Kiran Deshmukh,35,M,Uttar Pradesh,Kanpur,hi,delivery_partner,gig_worker,20K-50K,21467.21,secondary,True,False,29,12.9,False,dunzo,False,feature_phone,0.2483,0.8114,0.0407,0.0066,False,0.105
+USR_00355,Amit Agarwal,25,M,Uttar Pradesh,Agra,hi,cab_driver,gig_worker,10K-20K,10388.41,graduate,False,False,15,18.2,False,uber,True,android,0.0896,0.7007,0.2427,0.004,False,0.15
+USR_00356,Arjun Deshmukh,18,M,Rajasthan,Jaipur,hi,delivery_partner,gig_worker,20K-50K,30000.0,secondary,True,False,24,2.1,False,zomato,True,android,0.0888,0.8654,0.0306,0.0099,False,0.0585
+USR_00357,Arun Dubey,18,M,Maharashtra,Mumbai,mr,freelancer,gig_worker,20K-50K,25636.86,secondary,True,True,28,2.6,False,dunzo,True,android,0.1632,0.4782,0.0763,0.0255,False,0.0788
+USR_00358,Naveen Mehta,24,M,Uttar Pradesh,Varanasi,hi,daily_wage,gig_worker,20K-50K,22758.12,secondary,True,False,7,6.4,False,dunzo,True,android,0.0751,0.8944,0.5362,0.0815,False,0.108
+USR_00359,Arun Jain,20,M,Delhi,North Delhi,hi,delivery_partner,gig_worker,20K-50K,23700.35,secondary,True,True,19,3.2,False,zomato,True,android,0.1202,0.847,0.0519,0.1491,False,0.1125
+USR_00360,Usha Sharma,37,F,Delhi,New Delhi,hi,cab_driver,gig_worker,10K-20K,12531.38,secondary,True,False,23,2.2,False,uber,True,android,0.1714,0.4484,0.2534,0.0118,True,0.105
+USR_00361,Arun Tiwari,18,M,Maharashtra,Nashik,mr,delivery_partner,gig_worker,20K-50K,30000.0,graduate,False,False,29,1.2,False,ola,True,android,0.0301,0.4899,0.2826,0.0335,False,0.0975
+USR_00362,Savitri Choudhary,23,F,Rajasthan,Udaipur,hi,cab_driver,gig_worker,10K-20K,15657.71,secondary,True,True,19,3.7,False,zomato,True,android,-0.0678,0.9418,0.02,0.044,False,0.0439
+USR_00363,Arun Pandey,26,M,Uttar Pradesh,Varanasi,hi,delivery_partner,gig_worker,10K-20K,14002.63,secondary,True,True,35,3.2,False,uber,True,android,0.0751,0.9854,0.02,0.0989,False,0.0675
+USR_00364,Pooja Gupta,34,F,Rajasthan,Udaipur,hi,daily_wage,gig_worker,20K-50K,21534.5,secondary,False,False,32,6.6,False,ola,True,android,0.2047,0.851,0.0664,0.0142,False,0.063
+USR_00365,Anjali Rao,29,F,Rajasthan,Udaipur,hi,freelancer,gig_worker,20K-50K,24649.51,graduate,True,False,31,2.2,False,zomato,True,android,-0.0668,0.5579,0.219,0.012,False,0.15
+USR_00366,Rahul Deshmukh,21,M,Uttar Pradesh,Agra,hi,freelancer,gig_worker,10K-20K,10702.7,secondary,True,False,60,0.5,False,zomato,False,feature_phone,0.187,0.4875,0.341,0.1342,False,0.105
+USR_00367,Arjun Gupta,18,M,Delhi,New Delhi,hi,delivery_partner,gig_worker,20K-50K,25933.39,graduate,True,False,3,1.1,False,dunzo,True,android,0.0509,0.5769,0.5879,0.0347,False,0.18
+USR_00368,Arjun Reddy,18,M,Delhi,South Delhi,hi,daily_wage,gig_worker,20K-50K,27096.48,secondary,True,True,51,5.7,False,uber,True,android,0.0155,0.4292,0.1085,0.0761,False,0.1125
+USR_00369,Anjali Singh,27,F,Karnataka,Hubli,kn,daily_wage,gig_worker,20K-50K,27106.66,secondary,True,False,121,2.0,False,swiggy,True,android,0.1644,0.8451,0.0695,0.0351,False,0.105
+USR_00370,Dinesh Pillai,21,M,Delhi,East Delhi,hi,daily_wage,gig_worker,10K-20K,10000.0,graduate,True,False,37,5.5,False,ola,True,android,0.0399,0.3795,0.1387,0.0696,False,0.15
+USR_00371,Sachin Verma,21,M,Maharashtra,Nashik,mr,daily_wage,gig_worker,10K-20K,10940.34,graduate,False,False,3,2.7,False,swiggy,True,android,-0.0126,0.7322,0.625,0.018,False,0.18
+USR_00372,Arun Pandey,22,M,Maharashtra,Mumbai,mr,freelancer,gig_worker,20K-50K,23689.15,secondary,True,False,42,11.6,False,uber,True,android,-0.0108,0.7771,0.1122,0.0811,False,0.15
+USR_00373,Varun Shah,44,M,Rajasthan,Udaipur,hi,daily_wage,gig_worker,10K-20K,18994.94,secondary,True,True,39,5.6,False,uber,True,android,0.1073,0.823,0.4064,0.0566,False,0.1125
+USR_00374,Hemant Das,31,M,Rajasthan,Jodhpur,hi,daily_wage,gig_worker,10K-20K,17266.5,secondary,False,True,6,0.5,False,zomato,True,android,0.0637,0.9329,0.2388,0.0105,True,0.0675
+USR_00375,Usha Choudhary,23,F,Uttar Pradesh,Agra,hi,daily_wage,gig_worker,20K-50K,20742.25,graduate,True,False,33,2.5,False,ola,True,android,0.2245,0.6684,0.5476,0.0556,False,0.0819
+USR_00376,Pankaj Singh,19,M,Karnataka,Hubli,kn,freelancer,gig_worker,20K-50K,30000.0,graduate,True,True,76,5.2,False,uber,True,android,0.0623,0.3848,0.0858,0.1424,False,0.1125
+USR_00377,Pankaj Dubey,38,M,Delhi,South Delhi,hi,freelancer,gig_worker,20K-50K,29795.05,secondary,True,False,17,0.6,False,ola,True,android,0.0216,0.7336,0.1326,0.0211,False,0.15
+USR_00378,Rajesh Pillai,18,M,Delhi,East Delhi,hi,freelancer,gig_worker,20K-50K,29158.61,secondary,True,False,76,2.8,False,swiggy,True,android,-0.011,0.7201,0.2714,0.0268,False,0.0975
+USR_00379,Sunil Das,26,M,Delhi,North Delhi,hi,freelancer,gig_worker,20K-50K,30000.0,graduate,False,False,7,6.9,False,dunzo,False,feature_phone,0.0494,0.2805,0.4184,0.036,False,0.15
+USR_00380,Rajesh Jain,34,M,Karnataka,Mysore,kn,freelancer,gig_worker,10K-20K,10245.44,secondary,False,False,180,2.3,False,zomato,True,android,0.0617,0.8018,0.02,0.1233,True,0.15
+USR_00381,Geeta Choudhary,18,F,Uttar Pradesh,Lucknow,hi,delivery_partner,gig_worker,20K-50K,24221.96,secondary,True,True,6,0.5,False,ola,True,android,0.1344,0.7498,0.0381,0.0359,False,0.1125
+USR_00382,Rajesh Choudhary,18,M,Delhi,East Delhi,hi,delivery_partner,gig_worker,10K-20K,11021.82,secondary,True,True,34,5.1,False,ola,False,feature_phone,0.0715,0.7563,0.2133,0.0988,False,0.1125
+USR_00383,Parvati Mishra,18,F,Delhi,East Delhi,hi,daily_wage,gig_worker,10K-20K,18370.77,secondary,True,False,161,2.6,False,dunzo,True,android,0.2003,0.9275,0.0307,0.0613,False,0.063
+USR_00384,Suresh Patil,18,M,Delhi,East Delhi,hi,freelancer,gig_worker,10K-20K,16262.75,graduate,True,True,61,1.6,False,dunzo,True,android,-0.0051,0.8983,0.1419,0.1043,False,0.0675
+USR_00385,Rahul Agarwal,30,M,Delhi,North Delhi,hi,daily_wage,gig_worker,10K-20K,19873.06,graduate,True,False,14,0.5,False,dunzo,True,android,0.1533,0.7571,0.4586,0.0065,True,0.105
+USR_00386,Sachin Shah,19,M,Delhi,South Delhi,hi,cab_driver,gig_worker,20K-50K,22727.72,graduate,True,False,3,9.6,False,ola,True,android,0.1188,0.5277,0.5771,0.0007,True,0.18
+USR_00387,Renu Mishra,23,F,Karnataka,Hubli,kn,daily_wage,gig_worker,20K-50K,30000.0,graduate,True,True,98,9.6,False,swiggy,True,android,0.0855,0.7718,0.1499,0.0393,False,0.1125
+USR_00388,Priya Patel,30,F,Delhi,East Delhi,hi,delivery_partner,gig_worker,10K-20K,14132.92,secondary,True,True,6,1.5,False,ola,True,android,0.1957,0.8438,0.0275,0.0237,False,0.0788
+USR_00389,Sanjay Shah,30,M,Karnataka,Bangalore,kn,daily_wage,gig_worker,10K-20K,16351.68,graduate,False,False,11,12.5,False,uber,True,android,0.0724,0.6021,0.1494,0.1476,False,0.0975
+USR_00390,Geeta Kumar,30,F,Karnataka,Bangalore,kn,cab_driver,gig_worker,10K-20K,16054.49,graduate,True,False,4,15.9,False,swiggy,True,android,0.1852,0.8268,0.8,0.1248,False,0.126
+USR_00391,Gaurav Gupta,30,M,Karnataka,Mangalore,kn,cab_driver,gig_worker,20K-50K,22361.24,secondary,True,False,59,0.5,False,zomato,True,android,0.1489,0.7434,0.0482,0.0454,False,0.15
+USR_00392,Renu Verma,23,F,Delhi,North Delhi,hi,freelancer,gig_worker,20K-50K,30000.0,secondary,True,True,5,0.9,False,swiggy,True,android,0.0175,0.3008,0.5212,0.0114,False,0.135
+USR_00393,Sanjay Sharma,33,M,Maharashtra,Pune,mr,freelancer,gig_worker,20K-50K,30000.0,secondary,True,True,7,0.5,False,swiggy,True,android,0.0684,0.512,0.3514,0.019,False,0.1125
+USR_00394,Suresh Gupta,28,M,Rajasthan,Jodhpur,hi,daily_wage,gig_worker,10K-20K,15873.2,secondary,True,False,9,2.0,False,swiggy,False,feature_phone,0.0371,0.6576,0.1103,0.1302,False,0.0975
+USR_00395,Asha Nair,25,F,Rajasthan,Jaipur,hi,daily_wage,gig_worker,20K-50K,26070.97,graduate,True,True,28,8.6,False,zomato,True,android,0.0154,0.5124,0.7448,0.0199,True,0.135
+USR_00396,Varun Yadav,37,M,Uttar Pradesh,Varanasi,hi,freelancer,gig_worker,10K-20K,15403.72,secondary,True,False,14,12.2,False,dunzo,True,android,0.1294,0.9526,0.7548,0.0276,False,0.108
+USR_00397,Arjun Mishra,25,M,Maharashtra,Pune,mr,daily_wage,gig_worker,20K-50K,22526.45,graduate,True,False,21,2.7,False,zomato,True,android,0.0719,0.7917,0.5011,0.0209,False,0.18
+USR_00398,Lakshmi Saxena,36,F,Delhi,South Delhi,hi,cab_driver,gig_worker,10K-20K,18322.31,graduate,True,False,16,6.3,False,dunzo,True,android,0.0928,0.6808,0.02,0.0257,False,0.15
+USR_00399,Durga Kumar,30,F,Delhi,New Delhi,hi,cab_driver,gig_worker,10K-20K,16022.55,secondary,True,True,49,1.8,False,zomato,True,android,0.2352,0.4432,0.0685,0.0173,False,0.0512
+USR_00400,Sunil Pandey,26,M,Uttar Pradesh,Agra,hi,delivery_partner,gig_worker,20K-50K,30000.0,graduate,True,False,8,13.7,False,zomato,True,android,0.0093,0.8114,0.0395,0.0115,False,0.15
+USR_00401,Amit Iyer,34,M,Maharashtra,Nashik,mr,freelancer,gig_worker,20K-50K,24064.21,graduate,True,True,28,0.7,False,dunzo,True,android,0.1337,0.9695,0.0213,0.1138,False,0.0439
+USR_00402,Rohit Singh,33,M,Delhi,New Delhi,hi,cab_driver,gig_worker,10K-20K,17391.06,secondary,True,True,60,3.6,False,zomato,True,android,0.0182,0.9658,0.6113,0.0046,False,0.081
+USR_00403,Pankaj Pandey,31,M,Rajasthan,Kota,hi,daily_wage,gig_worker,20K-50K,23736.33,graduate,True,True,7,2.3,False,zomato,True,android,0.1212,0.8012,0.02,0.0194,False,0.1125
+USR_00404,Sanjay Mishra,31,M,Karnataka,Mangalore,kn,freelancer,gig_worker,20K-50K,30000.0,graduate,True,False,39,2.3,False,uber,True,android,0.0949,0.5673,0.3885,0.0065,False,0.15
+USR_00405,Hemant Das,29,M,Karnataka,Mangalore,kn,daily_wage,gig_worker,10K-20K,10000.0,graduate,True,True,29,3.7,False,uber,True,android,0.0482,0.5226,0.064,0.0549,False,0.1125
+USR_00406,Asha Yadav,27,F,Delhi,New Delhi,hi,delivery_partner,gig_worker,20K-50K,30000.0,graduate,True,False,24,3.0,False,dunzo,True,android,0.2112,0.9618,0.0617,0.0044,False,0.063
+USR_00407,Anita Iyer,42,F,Rajasthan,Jodhpur,hi,cab_driver,gig_worker,10K-20K,14671.2,secondary,True,False,20,1.3,False,uber,True,android,-0.078,0.7602,0.4008,0.0019,True,0.15
+USR_00408,Hemant Nair,33,M,Uttar Pradesh,Kanpur,hi,cab_driver,gig_worker,10K-20K,10000.0,graduate,True,False,91,0.5,False,swiggy,True,android,0.0544,0.7818,0.8,0.0365,False,0.18
+USR_00409,Sunita Bhat,18,F,Rajasthan,Kota,hi,freelancer,gig_worker,20K-50K,25349.5,graduate,False,True,23,2.2,False,swiggy,False,feature_phone,0.0409,0.5196,0.258,0.0063,False,0.1125
+USR_00410,Pankaj Mehta,27,M,Rajasthan,Jaipur,hi,freelancer,gig_worker,10K-20K,19377.36,secondary,True,True,66,1.2,False,uber,True,android,0.0337,0.6397,0.2538,0.0202,False,0.1125
+USR_00411,Ashok Pandey,21,M,Maharashtra,Nashik,mr,cab_driver,gig_worker,10K-20K,17609.48,secondary,True,False,16,0.5,False,uber,True,android,0.2079,0.8589,0.4254,0.0166,False,0.041
+USR_00412,Geeta Choudhary,44,F,Maharashtra,Nashik,mr,cab_driver,gig_worker,20K-50K,24594.21,graduate,True,False,3,2.7,False,ola,True,android,0.0623,0.5871,0.1261,0.0955,False,0.15
+USR_00413,Pooja Bhat,32,F,Rajasthan,Jodhpur,hi,freelancer,gig_worker,20K-50K,30000.0,graduate,True,False,3,0.5,False,ola,True,android,0.0717,0.6921,0.2572,0.0067,False,0.15
+USR_00414,Rahul Bhat,22,M,Delhi,North Delhi,hi,cab_driver,gig_worker,20K-50K,30000.0,graduate,False,False,18,8.5,False,ola,False,feature_phone,0.1159,0.7206,0.1112,0.0113,False,0.15
+USR_00415,Rajesh Bhat,28,M,Karnataka,Mysore,kn,delivery_partner,gig_worker,20K-50K,22525.09,secondary,True,True,40,1.4,False,zomato,True,android,0.1258,0.4971,0.1184,0.0316,False,0.1125
+USR_00416,Vikram Joshi,18,M,Maharashtra,Nagpur,mr,daily_wage,gig_worker,10K-20K,17122.5,graduate,True,True,8,5.9,False,zomato,True,android,0.0556,0.9734,0.1771,0.0848,False,0.0675
+USR_00417,Rajesh Agarwal,33,M,Rajasthan,Kota,hi,daily_wage,gig_worker,20K-50K,20648.71,secondary,True,False,17,7.1,False,zomato,True,android,-0.0079,0.9052,0.4349,0.1325,False,0.0585
+USR_00418,Usha Sharma,18,F,Rajasthan,Udaipur,hi,daily_wage,gig_worker,20K-50K,25379.17,secondary,True,False,48,0.5,False,uber,False,feature_phone,0.0328,0.6351,0.3088,0.0632,True,0.15
+USR_00419,Rohit Agarwal,26,M,Uttar Pradesh,Kanpur,hi,freelancer,gig_worker,20K-50K,22042.7,secondary,True,False,58,2.3,False,zomato,True,android,0.064,0.815,0.1501,0.0469,False,0.15
+USR_00420,Rani Joshi,18,F,Maharashtra,Mumbai,mr,daily_wage,gig_worker,20K-50K,30000.0,graduate,True,True,9,0.5,False,uber,True,android,0.0502,0.9351,0.1532,0.003,False,0.0675
+USR_00421,Pankaj Das,34,M,Rajasthan,Udaipur,hi,delivery_partner,gig_worker,20K-50K,21731.73,graduate,False,False,5,3.6,False,uber,True,android,0.0095,0.8179,0.353,0.0541,False,0.15
+USR_00422,Naveen Tiwari,18,M,Maharashtra,Nashik,mr,daily_wage,gig_worker,10K-20K,19132.86,secondary,True,True,139,2.2,False,dunzo,False,feature_phone,0.0489,0.7717,0.4796,0.0999,False,0.1125
+USR_00423,Naveen Rao,18,M,Karnataka,Mysore,kn,cab_driver,gig_worker,10K-20K,10000.0,secondary,True,False,17,13.6,False,zomato,True,android,0.0388,0.8283,0.162,0.1051,False,0.15
+USR_00424,Shanti Mishra,26,F,Karnataka,Mysore,kn,cab_driver,gig_worker,20K-50K,24688.73,secondary,True,False,29,0.5,False,uber,True,android,0.0418,0.6094,0.5853,0.0182,False,0.18
+USR_00425,Pankaj Jain,24,M,Uttar Pradesh,Varanasi,hi,cab_driver,gig_worker,10K-20K,18122.95,graduate,True,True,12,6.1,False,dunzo,True,android,-0.0434,0.5907,0.8,0.0332,False,0.135
+USR_00426,Deepak Saxena,25,M,Rajasthan,Jodhpur,hi,freelancer,gig_worker,20K-50K,30000.0,secondary,True,False,148,0.5,False,dunzo,True,android,0.0526,0.7947,0.02,0.0011,False,0.15
+USR_00427,Rajesh Reddy,23,M,Karnataka,Mangalore,kn,cab_driver,gig_worker,20K-50K,23092.84,secondary,True,False,22,3.7,False,uber,True,android,0.0467,0.7072,0.1944,0.0246,False,0.15
+USR_00428,Anita Pillai,34,F,Karnataka,Mysore,kn,freelancer,gig_worker,20K-50K,30000.0,graduate,False,False,94,13.1,False,swiggy,True,android,-0.0453,0.2,0.0462,0.0434,False,0.15
+USR_00429,Hemant Pandey,19,M,Delhi,East Delhi,hi,delivery_partner,gig_worker,10K-20K,13569.64,secondary,True,False,18,25.0,False,zomato,True,android,0.0888,0.6469,0.0898,0.019,False,0.15
+USR_00430,Pankaj Verma,18,M,Maharashtra,Nashik,mr,freelancer,gig_worker,10K-20K,18050.91,secondary,True,False,122,11.6,False,uber,True,android,0.037,0.9585,0.4993,0.1482,False,0.09
+USR_00431,Rajesh Patil,27,M,Rajasthan,Jaipur,hi,delivery_partner,gig_worker,20K-50K,25004.78,graduate,True,True,3,1.2,False,dunzo,True,android,0.2285,0.328,0.0556,0.1896,False,0.1024
+USR_00432,Kamla Agarwal,45,F,Uttar Pradesh,Lucknow,hi,daily_wage,gig_worker,10K-20K,19955.57,secondary,True,True,33,1.0,False,zomato,True,android,0.1743,0.79,0.2835,0.0232,False,0.0788
+USR_00433,Suresh Choudhary,22,M,Maharashtra,Nashik,mr,cab_driver,gig_worker,20K-50K,24471.9,graduate,True,True,17,1.7,False,uber,True,android,0.1948,0.5837,0.4982,0.0136,False,0.0788
+USR_00434,Kiran Bhat,37,M,Karnataka,Mysore,kn,daily_wage,gig_worker,20K-50K,20202.71,secondary,True,False,10,0.5,False,uber,False,feature_phone,-0.0434,0.5344,0.2526,0.1012,True,0.15
+USR_00435,Pooja Sharma,28,F,Karnataka,Mysore,kn,daily_wage,gig_worker,20K-50K,30000.0,graduate,False,False,16,0.5,False,ola,True,android,0.1298,0.5208,0.8,0.1587,False,0.234
+USR_00436,Suresh Tiwari,20,M,Uttar Pradesh,Agra,hi,cab_driver,gig_worker,10K-20K,12148.75,secondary,False,True,81,13.6,False,zomato,True,android,-0.071,0.8153,0.02,0.0025,False,0.0731
+USR_00437,Sunita Saxena,34,F,Delhi,New Delhi,hi,freelancer,gig_worker,10K-20K,10658.44,graduate,False,True,13,2.7,False,zomato,True,android,-0.0177,0.6689,0.1589,0.0294,False,0.1125
+USR_00438,Hemant Pandey,29,M,Rajasthan,Jodhpur,hi,delivery_partner,gig_worker,20K-50K,20370.36,graduate,True,True,9,4.6,False,ola,True,android,0.1408,0.8669,0.4036,0.0118,False,0.0675
+USR_00439,Rekha Singh,28,F,Rajasthan,Jaipur,hi,freelancer,gig_worker,10K-20K,18917.97,graduate,True,False,8,0.6,False,dunzo,True,android,0.1764,0.8178,0.0403,0.0171,False,0.0682
+USR_00440,Sunil Tiwari,21,M,Rajasthan,Jaipur,hi,daily_wage,gig_worker,10K-20K,15238.71,graduate,True,True,19,4.9,False,dunzo,True,android,0.0332,0.6437,0.1143,0.0155,False,0.1125
+USR_00441,Pankaj Deshmukh,32,M,Rajasthan,Kota,hi,cab_driver,gig_worker,20K-50K,30000.0,graduate,False,True,70,7.5,False,zomato,True,android,0.0826,0.9156,0.3628,0.0005,True,0.0439
+USR_00442,Nitin Shah,18,M,Maharashtra,Pune,mr,freelancer,gig_worker,10K-20K,13863.72,secondary,True,False,42,5.8,False,zomato,True,android,0.155,0.3481,0.8,0.0128,False,0.126
+USR_00443,Shanti Nair,23,F,Maharashtra,Nagpur,mr,delivery_partner,gig_worker,20K-50K,30000.0,secondary,True,True,88,0.7,False,dunzo,True,android,0.2083,0.4969,0.1218,0.0433,False,0.0788
+USR_00444,Naveen Deshmukh,28,M,Karnataka,Hubli,kn,delivery_partner,gig_worker,20K-50K,29308.04,graduate,True,False,35,2.9,False,dunzo,True,android,-0.0773,0.9518,0.1871,0.0072,False,0.09
+USR_00445,Ravi Pandey,27,M,Uttar Pradesh,Lucknow,hi,delivery_partner,gig_worker,10K-20K,15713.91,graduate,True,False,53,6.6,False,uber,True,android,0.1054,0.5875,0.2584,0.052,False,0.0975
+USR_00446,Pankaj Mishra,40,M,Maharashtra,Nagpur,mr,daily_wage,gig_worker,10K-20K,10000.0,secondary,True,True,3,4.1,False,uber,True,android,0.07,0.7907,0.4754,0.0089,False,0.1125
+USR_00447,Varun Gupta,28,M,Maharashtra,Nagpur,mr,daily_wage,gig_worker,20K-50K,20640.26,graduate,False,True,22,0.5,False,zomato,True,android,0.1643,0.7216,0.0235,0.006,False,0.0788
+USR_00448,Rahul Rao,23,M,Karnataka,Bangalore,kn,cab_driver,gig_worker,10K-20K,15627.0,graduate,True,False,17,11.5,False,dunzo,True,android,0.1698,0.6758,0.3058,0.0208,False,0.105
+USR_00449,Sunita Patil,22,F,Maharashtra,Pune,mr,delivery_partner,gig_worker,20K-50K,22739.03,graduate,True,False,3,4.8,False,dunzo,True,android,0.0668,0.688,0.0203,0.0863,False,0.15
+USR_00450,Naveen Jain,37,M,Maharashtra,Mumbai,mr,delivery_partner,gig_worker,20K-50K,30000.0,graduate,True,True,4,4.2,False,uber,False,feature_phone,0.0367,0.5887,0.02,0.0278,False,0.1125
+USR_00451,Naveen Singh,49,M,Odisha,Rourkela,or,agri_laborer,rural_farmer,20K-50K,20464.85,primary,True,True,36,1.5,False,none,False,feature_phone,0.0455,0.485,0.2924,0.0219,False,0.0878
+USR_00452,Arjun Patel,50,M,Odisha,Rourkela,or,dairy_farmer,rural_farmer,20K-50K,24884.08,secondary,True,True,45,1.2,False,none,True,android,-0.0109,0.5382,0.8,0.0298,False,0.162
+USR_00453,Durga Verma,38,F,Madhya Pradesh,Indore,hi,fisherman,rural_farmer,10K-20K,10880.65,none,True,False,39,6.9,False,none,True,android,0.0438,0.8397,0.1254,0.04,False,0.117
+USR_00454,Kavita Agarwal,40,F,Bihar,Muzaffarpur,hi,farmer,rural_farmer,20K-50K,24037.85,secondary,False,False,15,3.2,False,none,True,android,0.066,0.6633,0.0264,0.0443,False,0.117
+USR_00455,Naveen Dubey,38,M,Bihar,Patna,hi,fisherman,rural_farmer,10K-20K,15585.56,secondary,True,False,61,1.6,False,none,True,android,0.0025,0.9438,0.598,0.0491,False,0.1296
+USR_00456,Durga Nair,54,F,Rajasthan,Kota,hi,fisherman,rural_farmer,10K-20K,18471.0,primary,True,True,40,0.9,False,none,True,android,-0.0195,0.4151,0.4454,0.0102,False,0.0878
+USR_00457,Rajesh Choudhary,45,M,Rajasthan,Udaipur,hi,fisherman,rural_farmer,20K-50K,25000.0,none,False,False,54,4.9,False,none,True,android,0.1495,0.6242,0.1697,0.1585,False,0.234
+USR_00458,Nitin Gupta,42,M,Odisha,Berhampur,or,agri_laborer,rural_farmer,10K-20K,12472.19,secondary,True,False,6,5.0,False,none,True,android,0.0073,0.4331,0.8,0.0079,False,0.1404
+USR_00459,Nitin Pandey,37,M,Odisha,Berhampur,or,agri_laborer,rural_farmer,5K-10K,9147.15,primary,True,False,6,4.6,False,none,False,feature_phone,0.104,0.7036,0.234,0.207,False,0.2691
+USR_00460,Anjali Naidu,33,F,Madhya Pradesh,Gwalior,hi,agri_laborer,rural_farmer,5K-10K,9880.91,primary,True,False,15,3.3,False,none,False,feature_phone,0.0751,0.4653,0.8,0.0302,False,0.2484
+USR_00461,Naveen Verma,44,M,Bihar,Muzaffarpur,hi,agri_laborer,rural_farmer,10K-20K,15933.1,none,False,False,12,0.8,False,none,False,feature_phone,0.0804,0.579,0.2474,0.0794,True,0.18
+USR_00462,Ravi Mehta,32,M,Uttar Pradesh,Kanpur,hi,fisherman,rural_farmer,10K-20K,18628.79,secondary,True,False,3,0.7,False,none,True,android,0.1577,0.2278,0.1392,0.002,False,0.0819
+USR_00463,Prakash Kumar,51,M,Rajasthan,Kota,hi,farmer,rural_farmer,20K-50K,22133.61,secondary,True,False,30,7.1,False,none,False,feature_phone,0.0412,0.5654,0.5222,0.014,True,0.216
+USR_00464,Shanti Naidu,40,F,Odisha,Bhubaneswar,or,farmer,rural_farmer,10K-20K,15852.49,primary,False,False,54,9.6,False,none,True,android,0.1719,0.8013,0.8,0.1413,False,0.1512
+USR_00465,Nitin Mishra,37,M,Rajasthan,Kota,hi,agri_laborer,rural_farmer,10K-20K,15814.46,none,True,True,48,1.2,False,none,True,android,0.0408,0.6413,0.5745,0.0149,False,0.162
+USR_00466,Naveen Patel,53,M,Uttar Pradesh,Varanasi,hi,farmer,rural_farmer,5K-10K,8479.07,none,True,True,5,6.9,False,none,False,feature_phone,0.1059,0.5995,0.8,0.0157,False,0.1211
+USR_00467,Radha Pillai,43,F,Uttar Pradesh,Lucknow,hi,fisherman,rural_farmer,10K-20K,11398.88,primary,True,False,39,13.5,False,none,True,android,-0.0175,0.4683,0.8,0.1667,False,0.2808
+USR_00468,Rahul Pandey,37,M,Uttar Pradesh,Kanpur,hi,agri_laborer,rural_farmer,10K-20K,10679.42,primary,True,False,3,1.3,False,none,False,feature_phone,0.0141,0.9,0.8,0.086,True,0.0842
+USR_00469,Vikram Pandey,56,M,Madhya Pradesh,Gwalior,hi,farmer,rural_farmer,10K-20K,13099.53,primary,True,False,3,0.5,False,none,False,feature_phone,0.0362,0.6857,0.2657,0.0617,False,0.18
+USR_00470,Ashok Kumar,35,M,Bihar,Patna,hi,fisherman,rural_farmer,10K-20K,18671.0,none,True,False,16,4.1,False,none,False,feature_phone,0.0342,0.5192,0.2546,0.0796,False,0.18
+USR_00471,Sanjay Mishra,43,M,Odisha,Rourkela,or,fisherman,rural_farmer,20K-50K,21728.9,none,True,False,19,3.7,False,none,False,feature_phone,0.0683,0.2,0.02,0.1034,False,0.117
+USR_00472,Parvati Tiwari,36,F,Rajasthan,Udaipur,hi,dairy_farmer,rural_farmer,10K-20K,11474.52,secondary,True,False,47,1.5,False,none,True,android,-0.0503,0.3856,0.02,0.001,False,0.117
+USR_00473,Ashok Sharma,37,M,Madhya Pradesh,Jabalpur,hi,fisherman,rural_farmer,5K-10K,9389.23,primary,True,False,26,0.5,False,none,False,feature_phone,0.2319,0.8625,0.1194,0.0839,False,0.0565
+USR_00474,Rahul Jain,31,M,Rajasthan,Udaipur,hi,agri_laborer,rural_farmer,10K-20K,17705.72,none,False,False,9,4.0,False,none,False,feature_phone,0.0254,0.699,0.3012,0.0114,False,0.117
+USR_00475,Rani Pillai,48,F,Uttar Pradesh,Agra,hi,dairy_farmer,rural_farmer,5K-10K,8349.25,none,False,False,180,2.6,False,none,False,feature_phone,0.1552,0.2621,0.3051,0.0107,False,0.1449
+USR_00476,Anita Jain,38,F,Bihar,Bhagalpur,hi,agri_laborer,rural_farmer,5K-10K,7856.69,secondary,True,False,88,1.6,False,none,True,android,0.0316,0.5125,0.0623,0.0236,False,0.207
+USR_00477,Geeta Deshmukh,43,F,Madhya Pradesh,Bhopal,hi,fisherman,rural_farmer,10K-20K,10882.31,primary,True,False,21,6.0,False,none,True,android,0.0048,0.5043,0.3277,0.0044,False,0.117
+USR_00478,Radha Sharma,45,F,Bihar,Muzaffarpur,hi,fisherman,rural_farmer,10K-20K,19471.91,primary,True,False,4,13.5,False,none,True,android,-0.0805,0.8461,0.6749,0.056,True,0.216
+USR_00479,Nitin Tiwari,48,M,Odisha,Rourkela,or,dairy_farmer,rural_farmer,10K-20K,16586.3,secondary,True,False,3,1.6,False,none,True,android,0.1677,0.6415,0.2383,0.0133,False,0.126
+USR_00480,Naveen Agarwal,36,M,Uttar Pradesh,Kanpur,hi,dairy_farmer,rural_farmer,10K-20K,14511.83,none,True,False,14,0.5,False,none,False,feature_phone,0.0694,0.6502,0.7025,0.0479,True,0.1404
+USR_00481,Hemant Joshi,43,M,Madhya Pradesh,Gwalior,hi,agri_laborer,rural_farmer,10K-20K,12433.54,primary,True,False,13,1.8,False,none,True,android,0.1033,0.7112,0.2976,0.1139,False,0.117
+USR_00482,Vikram Kumar,46,M,Uttar Pradesh,Lucknow,hi,agri_laborer,rural_farmer,10K-20K,11760.07,secondary,True,False,58,7.6,False,none,False,feature_phone,0.0974,0.6339,0.3471,0.0429,False,0.18
+USR_00483,Anita Saxena,47,F,Madhya Pradesh,Indore,hi,fisherman,rural_farmer,10K-20K,15686.02,none,False,False,39,6.9,False,none,True,android,0.0521,0.7236,0.3148,0.0724,False,0.18
+USR_00484,Lakshmi Das,41,F,Rajasthan,Udaipur,hi,fisherman,rural_farmer,5K-10K,9322.82,none,True,False,37,0.8,False,none,True,android,0.046,0.495,0.3288,0.0038,True,0.207
+USR_00485,Manoj Tiwari,31,M,Madhya Pradesh,Gwalior,hi,agri_laborer,rural_farmer,10K-20K,19858.82,primary,True,True,58,6.8,False,none,True,android,0.0501,0.7644,0.3556,0.0047,False,0.0878
+USR_00486,Vikram Verma,45,M,Madhya Pradesh,Gwalior,hi,farmer,rural_farmer,20K-50K,23327.28,none,True,False,69,0.5,False,none,True,android,0.0295,0.6581,0.5728,0.0053,True,0.216
+USR_00487,Arjun Patel,30,M,Madhya Pradesh,Bhopal,hi,dairy_farmer,rural_farmer,20K-50K,25000.0,secondary,False,False,55,1.1,False,none,True,android,-0.0516,0.6588,0.251,0.0088,False,0.18
+USR_00488,Suresh Mishra,50,M,Bihar,Bhagalpur,hi,farmer,rural_farmer,20K-50K,22642.2,none,True,False,4,2.8,False,none,False,feature_phone,0.1137,0.6956,0.8,0.034,False,0.1404
+USR_00489,Arun Verma,33,M,Rajasthan,Udaipur,hi,farmer,rural_farmer,5K-10K,5000.0,secondary,True,False,67,7.1,False,none,True,android,-0.0853,0.7821,0.2999,0.0203,False,0.207
+USR_00490,Sunita Mehta,45,F,Rajasthan,Jodhpur,hi,agri_laborer,rural_farmer,10K-20K,13488.11,secondary,True,False,107,1.5,False,none,True,android,0.018,0.8266,0.1756,0.0393,False,0.18
+USR_00491,Kavita Sharma,25,F,Bihar,Gaya,hi,agri_laborer,rural_farmer,20K-50K,20160.44,secondary,True,True,21,13.5,False,none,True,android,-0.0616,0.2639,0.556,0.0011,False,0.1053
+USR_00492,Sunita Nair,39,F,Bihar,Patna,hi,farmer,rural_farmer,20K-50K,25000.0,secondary,True,False,14,3.3,False,none,False,feature_phone,0.0164,0.8245,0.0994,0.1037,False,0.117
+USR_00493,Deepak Kumar,52,M,Odisha,Cuttack,or,agri_laborer,rural_farmer,10K-20K,10572.71,none,True,True,13,9.5,False,none,False,feature_phone,0.0373,0.4675,0.1415,0.0606,False,0.135
+USR_00494,Sunita Joshi,40,F,Uttar Pradesh,Lucknow,hi,fisherman,rural_farmer,20K-50K,21233.06,none,True,False,3,0.5,False,none,True,android,-0.0449,0.5902,0.0738,0.0168,True,0.18
+USR_00495,Kavita Shah,52,F,Odisha,Cuttack,or,fisherman,rural_farmer,10K-20K,11548.77,primary,True,False,27,0.5,False,none,False,feature_phone,0.1048,0.6238,0.0516,0.1043,False,0.117
+USR_00496,Sanjay Kumar,53,M,Uttar Pradesh,Lucknow,hi,dairy_farmer,rural_farmer,10K-20K,11980.9,none,True,False,25,2.7,False,none,False,feature_phone,0.0883,0.6605,0.0232,0.0032,False,0.117
+USR_00497,Usha Tiwari,48,F,Odisha,Bhubaneswar,or,agri_laborer,rural_farmer,20K-50K,21923.86,primary,True,False,5,7.2,False,none,True,android,0.0119,0.772,0.2355,0.2155,True,0.1521
+USR_00498,Varun Agarwal,36,M,Odisha,Rourkela,or,agri_laborer,rural_farmer,10K-20K,15908.03,none,True,False,3,7.2,False,none,True,android,0.0082,0.7368,0.0991,0.0192,False,0.117
+USR_00499,Ashok Kumar,31,M,Madhya Pradesh,Indore,hi,dairy_farmer,rural_farmer,10K-20K,17830.97,secondary,True,True,4,14.0,False,none,True,android,-0.0045,0.6647,0.687,0.1386,False,0.1053
+USR_00500,Sachin Choudhary,35,M,Madhya Pradesh,Jabalpur,hi,fisherman,rural_farmer,10K-20K,10666.37,none,False,False,10,7.4,False,none,True,android,0.088,0.2522,0.0426,0.1477,False,0.117
+USR_00501,Durga Verma,35,F,Bihar,Bhagalpur,hi,dairy_farmer,rural_farmer,5K-10K,9210.43,none,True,False,18,0.5,False,none,True,android,-0.0351,0.4131,0.0749,0.0228,False,0.207
+USR_00502,Sachin Reddy,36,M,Madhya Pradesh,Bhopal,hi,farmer,rural_farmer,5K-10K,9945.19,none,True,True,57,4.9,False,none,False,feature_phone,0.0201,0.7703,0.0582,0.2132,False,0.2018
+USR_00503,Durga Nair,37,F,Rajasthan,Kota,hi,farmer,rural_farmer,20K-50K,25000.0,none,True,True,31,9.7,False,none,False,feature_phone,-0.0518,0.5713,0.8,0.1122,False,0.162
+USR_00504,Varun Verma,50,M,Uttar Pradesh,Lucknow,hi,agri_laborer,rural_farmer,20K-50K,25000.0,primary,True,False,50,3.7,False,none,True,android,0.0744,0.7591,0.2805,0.0096,False,0.117
+USR_00505,Manoj Nair,50,M,Uttar Pradesh,Varanasi,hi,farmer,rural_farmer,5K-10K,6243.55,none,True,True,34,4.4,False,none,True,android,0.0132,0.7174,0.8,0.0347,False,0.1863
+USR_00506,Neha Tiwari,43,F,Uttar Pradesh,Varanasi,hi,agri_laborer,rural_farmer,20K-50K,22222.9,none,True,False,15,10.5,False,none,True,android,-0.062,0.7586,0.1329,0.0227,False,0.117
+USR_00507,Arjun Sharma,38,M,Uttar Pradesh,Agra,hi,fisherman,rural_farmer,10K-20K,17847.28,secondary,True,False,63,3.3,False,none,True,android,0.1132,0.5712,0.8,0.0301,False,0.1404
+USR_00508,Rahul Shah,43,M,Odisha,Cuttack,or,farmer,rural_farmer,10K-20K,13204.41,none,False,False,109,1.5,False,none,True,android,-0.0324,0.5566,0.6874,0.0292,False,0.1404
+USR_00509,Suresh Mishra,54,M,Madhya Pradesh,Gwalior,hi,fisherman,rural_farmer,10K-20K,14521.52,none,False,True,17,2.3,False,none,True,android,-0.0678,0.4767,0.4999,0.0157,True,0.135
+USR_00510,Anita Pillai,51,F,Bihar,Muzaffarpur,hi,farmer,rural_farmer,10K-20K,16823.22,secondary,False,False,46,3.4,False,none,True,android,0.0382,0.5691,0.3551,0.0223,False,0.18
+USR_00511,Rahul Pillai,41,M,Rajasthan,Kota,hi,farmer,rural_farmer,10K-20K,18816.97,secondary,True,False,22,0.5,False,none,True,android,0.1069,0.9276,0.2779,0.0169,False,0.0702
+USR_00512,Suresh Tiwari,46,M,Odisha,Cuttack,or,farmer,rural_farmer,20K-50K,20109.29,primary,True,False,37,7.0,False,none,True,android,-0.0519,0.5236,0.4081,0.0618,False,0.117
+USR_00513,Kiran Dubey,42,M,Bihar,Patna,hi,farmer,rural_farmer,10K-20K,13639.59,secondary,True,False,3,3.4,False,none,True,android,-0.1,0.8707,0.1236,0.0317,False,0.0702
+USR_00514,Deepak Nair,43,M,Bihar,Gaya,hi,dairy_farmer,rural_farmer,20K-50K,25000.0,primary,True,False,15,0.7,False,none,True,android,-0.0488,0.7612,0.8,0.1216,False,0.1404
+USR_00515,Sachin Saxena,47,M,Odisha,Bhubaneswar,or,dairy_farmer,rural_farmer,10K-20K,18604.89,secondary,True,False,123,8.8,False,none,False,feature_phone,0.1073,0.8665,0.3666,0.0679,False,0.108
+USR_00516,Gaurav Kumar,29,M,Madhya Pradesh,Indore,hi,fisherman,rural_farmer,10K-20K,18314.42,none,False,False,3,2.1,False,none,False,feature_phone,-0.0854,0.5513,0.3103,0.02,False,0.117
+USR_00517,Kavita Choudhary,50,F,Uttar Pradesh,Agra,hi,farmer,rural_farmer,10K-20K,13920.72,secondary,True,False,41,8.6,False,none,True,android,0.0773,0.6371,0.3229,0.1412,False,0.117
+USR_00518,Lakshmi Sharma,47,F,Bihar,Patna,hi,dairy_farmer,rural_farmer,10K-20K,14191.53,none,True,False,69,2.0,False,none,False,feature_phone,0.0161,0.8224,0.6458,0.0352,False,0.1404
+USR_00519,Dinesh Patel,41,M,Odisha,Berhampur,or,agri_laborer,rural_farmer,10K-20K,16839.44,primary,False,False,3,1.2,False,none,True,android,-0.0443,0.731,0.5752,0.1417,False,0.1404
+USR_00520,Meena Tiwari,49,F,Uttar Pradesh,Varanasi,hi,dairy_farmer,rural_farmer,10K-20K,15249.78,none,True,True,53,3.3,False,none,False,feature_phone,0.133,0.4223,0.1409,0.0011,False,0.135
+USR_00521,Deepa Pandey,49,F,Uttar Pradesh,Kanpur,hi,fisherman,rural_farmer,20K-50K,25000.0,none,True,True,124,2.6,False,none,False,feature_phone,0.0568,0.3888,0.43,0.026,False,0.0878
+USR_00522,Sachin Reddy,39,M,Rajasthan,Jodhpur,hi,dairy_farmer,rural_farmer,10K-20K,14325.0,secondary,True,True,11,4.6,False,none,False,feature_phone,0.0223,0.4768,0.4828,0.0868,False,0.135
+USR_00523,Renu Mishra,43,F,Rajasthan,Jodhpur,hi,dairy_farmer,rural_farmer,10K-20K,15476.11,secondary,True,False,45,10.3,False,none,False,feature_phone,-0.0324,0.5776,0.4385,0.0005,False,0.18
+USR_00524,Hemant Patil,34,M,Odisha,Cuttack,or,farmer,rural_farmer,10K-20K,14762.53,primary,True,False,108,1.9,False,none,True,android,-0.0623,0.8638,0.2381,0.0123,False,0.0702
+USR_00525,Suresh Nair,39,M,Bihar,Gaya,hi,agri_laborer,rural_farmer,10K-20K,14587.96,none,True,False,9,6.1,False,none,False,feature_phone,0.0281,0.5092,0.8,0.0575,True,0.1404
+USR_00526,Suresh Choudhary,47,M,Odisha,Berhampur,or,agri_laborer,rural_farmer,10K-20K,17550.88,primary,True,False,25,1.1,False,none,True,android,0.0863,0.5579,0.1151,0.0119,False,0.117
+USR_00527,Nitin Iyer,37,M,Bihar,Gaya,hi,dairy_farmer,rural_farmer,10K-20K,18589.85,primary,True,False,3,25.0,False,none,True,android,0.1327,0.4128,0.2772,0.0467,False,0.117
+USR_00528,Nitin Rao,32,M,Uttar Pradesh,Agra,hi,dairy_farmer,rural_farmer,10K-20K,18454.18,primary,True,False,123,1.3,False,none,False,feature_phone,0.0077,0.4731,0.0702,0.0292,False,0.18
+USR_00529,Neha Deshmukh,44,F,Odisha,Bhubaneswar,or,dairy_farmer,rural_farmer,5K-10K,6541.68,secondary,True,False,31,0.5,False,none,False,feature_phone,0.1136,0.8701,0.0757,0.022,False,0.0807
+USR_00530,Anita Agarwal,37,F,Rajasthan,Kota,hi,agri_laborer,rural_farmer,10K-20K,18688.78,secondary,True,False,17,2.2,False,none,True,android,0.1941,0.594,0.0365,0.0613,False,0.0819
+USR_00531,Hemant Patil,40,M,Rajasthan,Udaipur,hi,farmer,rural_farmer,10K-20K,17375.38,none,False,True,16,3.4,False,none,True,android,0.0205,0.7848,0.0954,0.0782,False,0.135
+USR_00532,Varun Agarwal,22,M,Madhya Pradesh,Jabalpur,hi,agri_laborer,rural_farmer,5K-10K,7166.53,secondary,True,False,17,7.7,False,none,True,android,0.0157,0.3226,0.8,0.0436,False,0.2484
+USR_00533,Arjun Dubey,61,M,Rajasthan,Kota,hi,fisherman,rural_farmer,20K-50K,20883.19,secondary,False,False,16,6.6,False,none,True,android,-0.0321,0.4984,0.8,0.0722,True,0.216
+USR_00534,Rajesh Nair,42,M,Rajasthan,Jodhpur,hi,agri_laborer,rural_farmer,10K-20K,16851.44,primary,True,True,8,1.9,False,none,True,android,0.0094,0.8008,0.2987,0.0389,False,0.135
+USR_00535,Usha Kumar,38,F,Madhya Pradesh,Jabalpur,hi,agri_laborer,rural_farmer,10K-20K,17714.53,secondary,False,True,59,4.7,False,none,True,android,0.1946,0.6156,0.459,0.0206,False,0.0945
+USR_00536,Parvati Agarwal,35,F,Rajasthan,Udaipur,hi,farmer,rural_farmer,10K-20K,16119.28,primary,True,False,3,2.4,False,none,True,android,0.117,0.6057,0.1402,0.0264,False,0.117
+USR_00537,Meena Singh,48,F,Bihar,Bhagalpur,hi,agri_laborer,rural_farmer,10K-20K,17771.68,none,True,False,3,8.0,False,none,False,feature_phone,-0.0273,0.8354,0.0653,0.0176,False,0.117
+USR_00538,Suresh Singh,37,M,Odisha,Bhubaneswar,or,farmer,rural_farmer,5K-10K,7824.41,none,True,False,15,5.5,False,none,True,android,0.2118,0.5806,0.0742,0.007,False,0.1449
+USR_00539,Neha Sharma,50,F,Odisha,Rourkela,or,farmer,rural_farmer,10K-20K,12047.87,secondary,True,False,10,0.5,False,none,True,android,-0.0569,0.3957,0.8,0.0185,True,0.1404
+USR_00540,Vikram Kumar,45,M,Uttar Pradesh,Lucknow,hi,fisherman,rural_farmer,5K-10K,8329.92,none,False,True,28,0.5,False,none,True,android,-0.051,0.396,0.3714,0.0675,False,0.1552
+USR_00541,Pooja Verma,32,F,Madhya Pradesh,Gwalior,hi,dairy_farmer,rural_farmer,20K-50K,25000.0,none,True,False,59,1.4,False,none,False,feature_phone,0.1759,0.7411,0.8,0.0394,False,0.1512
+USR_00542,Rahul Kumar,27,M,Uttar Pradesh,Kanpur,hi,dairy_farmer,rural_farmer,10K-20K,19817.78,none,False,False,3,1.1,False,none,True,android,0.0723,0.6349,0.0421,0.0288,False,0.117
+USR_00543,Kamla Bhat,35,F,Uttar Pradesh,Lucknow,hi,agri_laborer,rural_farmer,10K-20K,10140.67,none,True,False,53,0.5,False,none,True,android,0.0282,0.7945,0.8,0.0823,True,0.216
+USR_00544,Sunil Deshmukh,36,M,Madhya Pradesh,Indore,hi,agri_laborer,rural_farmer,5K-10K,8199.18,primary,True,False,97,1.7,False,none,True,android,0.0324,0.8474,0.1224,0.1394,False,0.1345
+USR_00545,Sanjay Singh,50,M,Uttar Pradesh,Kanpur,hi,farmer,rural_farmer,10K-20K,16316.41,primary,True,False,23,20.9,False,none,True,android,0.0086,0.9013,0.1633,0.0045,False,0.0702
+USR_00546,Arun Joshi,36,M,Madhya Pradesh,Jabalpur,hi,dairy_farmer,rural_farmer,10K-20K,16618.53,primary,True,False,180,1.4,False,none,True,android,0.1455,0.5911,0.7084,0.1181,False,0.1404
+USR_00547,Varun Saxena,39,M,Bihar,Gaya,hi,agri_laborer,rural_farmer,20K-50K,20417.07,primary,True,False,4,8.2,False,none,False,feature_phone,-0.0343,0.5081,0.8,0.0028,False,0.1404
+USR_00548,Geeta Agarwal,34,F,Madhya Pradesh,Bhopal,hi,farmer,rural_farmer,10K-20K,13438.57,secondary,True,False,25,1.5,False,none,True,android,-0.1,0.6333,0.8,0.04,False,0.1404
+USR_00549,Radha Jain,37,F,Uttar Pradesh,Agra,hi,dairy_farmer,rural_farmer,20K-50K,21456.22,primary,False,False,18,1.5,False,none,False,feature_phone,-0.0946,0.6959,0.0265,0.0059,False,0.18
+USR_00550,Ashok Mehta,39,M,Bihar,Muzaffarpur,hi,dairy_farmer,rural_farmer,10K-20K,13900.9,primary,True,False,20,6.4,False,none,True,android,-0.0698,0.2939,0.6692,0.0027,False,0.1404
+USR_00551,Sunita Naidu,33,F,Uttar Pradesh,Lucknow,hi,fisherman,rural_farmer,10K-20K,14598.25,none,True,False,9,10.8,False,none,True,android,0.0845,0.6375,0.1091,0.0833,True,0.18
+USR_00552,Naveen Bhat,42,M,Odisha,Bhubaneswar,or,fisherman,rural_farmer,10K-20K,11863.71,secondary,False,False,40,2.1,False,none,False,feature_phone,0.0004,0.7167,0.2055,0.0483,False,0.117
+USR_00553,Amit Shah,31,M,Rajasthan,Jaipur,hi,fisherman,rural_farmer,5K-10K,6276.82,none,True,False,32,0.5,False,none,True,android,0.0582,0.4539,0.8,0.0502,False,0.1615
+USR_00554,Rajesh Joshi,30,M,Rajasthan,Jodhpur,hi,fisherman,rural_farmer,5K-10K,7035.34,secondary,True,True,17,0.8,False,none,False,feature_phone,0.0749,0.6706,0.4354,0.0208,False,0.1552
+USR_00555,Kiran Choudhary,40,M,Odisha,Berhampur,or,fisherman,rural_farmer,20K-50K,23464.07,none,True,False,7,0.8,False,none,True,android,-0.0111,0.8176,0.8,0.1342,False,0.216
+USR_00556,Kamla Verma,33,F,Rajasthan,Udaipur,hi,dairy_farmer,rural_farmer,10K-20K,11940.36,none,True,False,5,2.9,False,none,True,android,-0.0443,0.7428,0.3045,0.1133,False,0.18
+USR_00557,Sita Shah,35,F,Madhya Pradesh,Gwalior,hi,farmer,rural_farmer,5K-10K,7377.7,primary,True,False,9,0.9,False,none,False,feature_phone,0.0586,0.4857,0.2421,0.1905,False,0.1749
+USR_00558,Meena Sharma,44,F,Madhya Pradesh,Jabalpur,hi,dairy_farmer,rural_farmer,10K-20K,11790.24,secondary,True,False,12,0.8,False,none,True,android,-0.0007,0.746,0.8,0.0025,False,0.1404
+USR_00559,Sanjay Mehta,44,M,Madhya Pradesh,Gwalior,hi,fisherman,rural_farmer,5K-10K,8544.37,secondary,True,True,34,0.5,False,none,True,android,0.1864,0.7425,0.2507,0.0069,False,0.1087
+USR_00560,Neha Iyer,50,F,Bihar,Muzaffarpur,hi,agri_laborer,rural_farmer,10K-20K,14782.06,primary,True,False,13,5.8,False,none,False,feature_phone,0.1028,0.2585,0.503,0.0024,False,0.216
+USR_00561,Kamla Mehta,54,F,Rajasthan,Udaipur,hi,farmer,rural_farmer,10K-20K,17474.52,none,True,False,5,1.0,False,none,False,feature_phone,0.0364,0.7088,0.5457,0.1562,False,0.1825
+USR_00562,Prakash Rao,24,M,Odisha,Berhampur,or,dairy_farmer,rural_farmer,5K-10K,5779.56,none,True,False,110,4.1,False,none,False,feature_phone,0.1096,0.5776,0.4861,0.0318,False,0.1345
+USR_00563,Sachin Reddy,45,M,Rajasthan,Kota,hi,agri_laborer,rural_farmer,5K-10K,9004.97,none,True,False,3,2.1,False,none,False,feature_phone,-0.1,0.7202,0.0971,0.0385,False,0.207
+USR_00564,Hemant Dubey,46,M,Odisha,Berhampur,or,agri_laborer,rural_farmer,10K-20K,12361.7,none,True,True,20,2.5,False,none,True,android,0.1173,0.6081,0.4949,0.1213,False,0.135
+USR_00565,Lakshmi Dubey,51,F,Bihar,Bhagalpur,hi,fisherman,rural_farmer,5K-10K,8169.95,none,True,False,3,0.8,False,none,True,android,0.0904,0.5962,0.1242,0.0117,False,0.207
+USR_00566,Priya Gupta,23,F,Uttar Pradesh,Lucknow,hi,fisherman,rural_farmer,20K-50K,20275.6,primary,True,False,11,0.9,False,none,True,android,0.0008,0.7459,0.1983,0.0688,False,0.18
+USR_00567,Pooja Saxena,52,F,Rajasthan,Jodhpur,hi,agri_laborer,rural_farmer,10K-20K,16317.67,secondary,True,True,115,6.3,False,none,False,feature_phone,0.0372,0.8494,0.4944,0.0167,True,0.135
+USR_00568,Suresh Shah,42,M,Madhya Pradesh,Jabalpur,hi,farmer,rural_farmer,20K-50K,25000.0,primary,True,False,21,7.2,False,none,False,feature_phone,0.1836,0.8734,0.6896,0.0251,False,0.059
+USR_00569,Dinesh Bhat,34,M,Odisha,Bhubaneswar,or,dairy_farmer,rural_farmer,10K-20K,17649.35,secondary,True,True,97,1.9,False,none,False,feature_phone,0.0449,0.2445,0.3034,0.0064,False,0.135
+USR_00570,Hemant Gupta,42,M,Odisha,Berhampur,or,agri_laborer,rural_farmer,10K-20K,11684.3,primary,True,True,82,9.7,False,none,False,feature_phone,0.1098,0.4993,0.0632,0.0459,False,0.0878
+USR_00571,Prakash Agarwal,41,M,Odisha,Bhubaneswar,or,dairy_farmer,rural_farmer,10K-20K,12119.48,none,True,False,6,0.8,False,none,True,android,-0.0284,0.2562,0.384,0.0507,False,0.117
+USR_00572,Prakash Naidu,35,M,Uttar Pradesh,Varanasi,hi,farmer,rural_farmer,20K-50K,25000.0,primary,True,False,14,5.8,False,none,True,android,0.0813,0.9766,0.4776,0.0482,False,0.108
+USR_00573,Geeta Joshi,37,F,Madhya Pradesh,Indore,hi,dairy_farmer,rural_farmer,10K-20K,13551.12,secondary,False,False,3,10.3,False,none,True,android,-0.0103,0.4774,0.1215,0.1102,False,0.117
+USR_00574,Arjun Joshi,44,M,Madhya Pradesh,Gwalior,hi,agri_laborer,rural_farmer,10K-20K,15696.03,none,True,False,10,0.5,False,none,True,android,0.0867,0.4171,0.2359,0.0106,False,0.117
+USR_00575,Lakshmi Naidu,49,F,Bihar,Patna,hi,fisherman,rural_farmer,10K-20K,15227.89,primary,True,False,58,0.5,False,none,True,android,0.1028,0.7894,0.2375,0.0329,False,0.117
+USR_00576,Rohit Kumar,33,M,Madhya Pradesh,Indore,hi,fisherman,rural_farmer,10K-20K,14022.96,primary,True,False,14,11.6,False,none,False,feature_phone,0.0239,0.8921,0.2999,0.0671,True,0.0702
+USR_00577,Pankaj Patel,44,M,Madhya Pradesh,Indore,hi,fisherman,rural_farmer,20K-50K,21956.02,none,True,False,39,0.5,False,none,False,feature_phone,-0.0092,0.5738,0.2634,0.0481,False,0.117
+USR_00578,Sanjay Patil,48,M,Uttar Pradesh,Agra,hi,agri_laborer,rural_farmer,10K-20K,13093.9,primary,True,False,118,8.8,False,none,False,feature_phone,0.0685,0.7998,0.1699,0.0435,False,0.18
+USR_00579,Geeta Naidu,37,F,Bihar,Muzaffarpur,hi,agri_laborer,rural_farmer,20K-50K,25000.0,secondary,True,True,35,4.8,False,none,False,feature_phone,0.0359,0.9028,0.2969,0.1089,False,0.081
+USR_00580,Parvati Pillai,39,F,Madhya Pradesh,Gwalior,hi,farmer,rural_farmer,20K-50K,25000.0,none,True,False,3,2.6,False,none,True,android,-0.0037,0.8718,0.6815,0.0738,False,0.0842
+USR_00581,Rani Shah,28,F,Odisha,Bhubaneswar,or,fisherman,rural_farmer,20K-50K,25000.0,primary,True,False,25,3.7,False,none,True,android,-0.0013,0.8183,0.0632,0.0727,False,0.18
+USR_00582,Nitin Pillai,38,M,Rajasthan,Kota,hi,agri_laborer,rural_farmer,10K-20K,10253.06,none,False,False,26,0.5,False,none,False,feature_phone,0.0227,0.8271,0.2742,0.0094,False,0.117
+USR_00583,Pooja Gupta,42,F,Uttar Pradesh,Lucknow,hi,fisherman,rural_farmer,5K-10K,7459.31,secondary,False,False,5,3.8,False,none,False,feature_phone,0.1869,0.7735,0.8,0.1789,True,0.1469
+USR_00584,Arun Saxena,38,M,Uttar Pradesh,Varanasi,hi,fisherman,rural_farmer,10K-20K,14383.23,none,True,False,3,2.3,False,none,True,android,0.099,0.7338,0.4274,0.1016,True,0.117
+USR_00585,Prakash Tiwari,35,M,Rajasthan,Jodhpur,hi,farmer,rural_farmer,20K-50K,25000.0,secondary,True,False,61,9.4,False,none,True,android,0.057,0.4156,0.08,0.0837,False,0.18
+USR_00586,Arjun Reddy,39,M,Uttar Pradesh,Lucknow,hi,fisherman,rural_farmer,10K-20K,17961.82,secondary,False,False,13,3.2,False,none,True,android,0.0291,0.2866,0.4988,0.0,False,0.117
+USR_00587,Sunita Patel,38,F,Uttar Pradesh,Varanasi,hi,dairy_farmer,rural_farmer,5K-10K,9226.94,primary,True,False,23,1.8,False,none,True,android,0.0609,0.6181,0.1614,0.005,False,0.207
+USR_00588,Kiran Nair,38,M,Rajasthan,Udaipur,hi,fisherman,rural_farmer,10K-20K,18911.85,secondary,False,True,30,0.5,False,none,False,feature_phone,0.163,0.8262,0.3542,0.0167,False,0.0945
+USR_00589,Asha Reddy,38,F,Madhya Pradesh,Indore,hi,fisherman,rural_farmer,10K-20K,16264.13,none,True,False,4,2.7,False,none,True,android,0.0464,0.5978,0.1445,0.1094,False,0.18
+USR_00590,Sunil Mishra,44,M,Madhya Pradesh,Gwalior,hi,fisherman,rural_farmer,10K-20K,12189.6,primary,True,False,56,0.5,False,none,False,feature_phone,0.1183,0.528,0.0309,0.2271,True,0.1521
+USR_00591,Hemant Choudhary,42,M,Rajasthan,Jodhpur,hi,agri_laborer,rural_farmer,10K-20K,13203.89,primary,True,False,21,11.9,False,none,True,android,0.0664,0.3968,0.1087,0.067,False,0.117
+USR_00592,Naveen Singh,43,M,Madhya Pradesh,Indore,hi,farmer,rural_farmer,10K-20K,16966.73,primary,True,False,8,7.9,False,none,True,android,-0.0542,0.4977,0.023,0.0156,False,0.117
+USR_00593,Lakshmi Patil,45,F,Madhya Pradesh,Jabalpur,hi,fisherman,rural_farmer,20K-50K,25000.0,secondary,True,False,103,2.0,False,none,False,feature_phone,0.0414,0.8505,0.5519,0.1412,False,0.0842
+USR_00594,Renu Jain,28,F,Odisha,Berhampur,or,agri_laborer,rural_farmer,10K-20K,13384.74,secondary,True,True,24,3.1,False,none,False,feature_phone,0.0415,0.7888,0.0988,0.1041,True,0.0878
+USR_00595,Pooja Reddy,38,F,Madhya Pradesh,Gwalior,hi,fisherman,rural_farmer,20K-50K,25000.0,none,True,False,28,7.6,False,none,True,android,-0.1,0.811,0.5046,0.0502,False,0.216
+USR_00596,Radha Jain,44,F,Uttar Pradesh,Lucknow,hi,agri_laborer,rural_farmer,10K-20K,16373.03,primary,True,True,4,0.5,False,none,True,android,-0.0173,0.2,0.2537,0.0096,False,0.0878
+USR_00597,Savitri Shah,42,F,Bihar,Bhagalpur,hi,fisherman,rural_farmer,10K-20K,16701.32,none,False,False,41,1.6,False,none,True,android,0.0022,0.7387,0.0798,0.1127,True,0.117
+USR_00598,Pankaj Saxena,44,M,Rajasthan,Kota,hi,agri_laborer,rural_farmer,5K-10K,9648.25,secondary,False,False,3,4.7,False,none,False,feature_phone,0.1156,0.2,0.4984,0.1765,False,0.1749
+USR_00599,Rekha Saxena,44,F,Madhya Pradesh,Gwalior,hi,agri_laborer,rural_farmer,5K-10K,9294.54,primary,True,False,19,2.4,False,none,True,android,0.1077,0.8902,0.0404,0.0626,True,0.0807
+USR_00600,Gaurav Saxena,45,M,Madhya Pradesh,Gwalior,hi,dairy_farmer,rural_farmer,10K-20K,19163.03,secondary,True,False,17,2.1,False,none,False,feature_phone,-0.0283,0.2862,0.4904,0.0548,False,0.117
+USR_00601,Arun Verma,39,M,Bihar,Gaya,hi,fisherman,rural_farmer,5K-10K,7319.06,none,False,False,7,0.9,False,none,False,feature_phone,-0.0026,0.4404,0.0648,0.0517,False,0.1345
+USR_00602,Meena Yadav,34,F,Odisha,Rourkela,or,farmer,rural_farmer,20K-50K,24940.08,none,True,False,29,1.2,False,none,False,feature_phone,-0.0284,0.4215,0.1403,0.0463,False,0.117
+USR_00603,Meena Dubey,30,F,Madhya Pradesh,Gwalior,hi,fisherman,rural_farmer,20K-50K,25000.0,primary,True,False,9,1.2,False,none,False,feature_phone,-0.1,0.8294,0.8,0.0526,False,0.216
+USR_00604,Sunil Saxena,30,M,Odisha,Rourkela,or,dairy_farmer,rural_farmer,5K-10K,8001.18,primary,True,True,61,0.5,False,none,True,android,0.1365,0.4373,0.4954,0.0006,False,0.1552
+USR_00605,Usha Patel,40,F,Uttar Pradesh,Lucknow,hi,agri_laborer,rural_farmer,20K-50K,22922.24,secondary,True,False,15,0.6,False,none,False,feature_phone,0.0359,0.2,0.4115,0.0824,False,0.117
+USR_00606,Rahul Singh,56,M,Bihar,Gaya,hi,agri_laborer,rural_farmer,10K-20K,13654.66,none,True,False,14,3.4,False,none,True,android,-0.0215,0.8633,0.0601,0.007,False,0.0702
+USR_00607,Geeta Verma,47,F,Uttar Pradesh,Kanpur,hi,farmer,rural_farmer,10K-20K,15500.09,primary,True,False,19,1.6,False,none,True,android,0.1038,0.5939,0.1511,0.0137,False,0.117
+USR_00608,Geeta Deshmukh,34,F,Odisha,Rourkela,or,fisherman,rural_farmer,10K-20K,15630.39,secondary,True,True,29,5.2,False,none,True,android,-0.1,0.9378,0.4603,0.015,False,0.0526
+USR_00609,Vikram Deshmukh,42,M,Rajasthan,Kota,hi,dairy_farmer,rural_farmer,5K-10K,8087.15,secondary,True,False,66,4.8,False,none,True,android,0.0019,0.9059,0.4022,0.2265,False,0.1615
+USR_00610,Dinesh Saxena,38,M,Bihar,Gaya,hi,fisherman,rural_farmer,10K-20K,11261.85,primary,True,False,63,4.9,False,none,False,feature_phone,0.1148,0.49,0.4481,0.0299,False,0.18
+USR_00611,Kiran Tiwari,42,M,Rajasthan,Kota,hi,dairy_farmer,rural_farmer,5K-10K,8652.48,none,True,True,27,6.7,False,none,True,android,0.1181,0.7571,0.8,0.0028,False,0.1211
+USR_00612,Varun Joshi,56,M,Bihar,Patna,hi,agri_laborer,rural_farmer,10K-20K,19734.99,none,True,False,5,5.5,False,none,True,android,-0.1,0.7099,0.5013,0.0251,False,0.1404
+USR_00613,Sanjay Shah,57,M,Uttar Pradesh,Lucknow,hi,agri_laborer,rural_farmer,10K-20K,17552.84,none,True,False,19,5.2,False,none,True,android,-0.0138,0.5329,0.0563,0.2314,False,0.1521
+USR_00614,Sunil Pillai,48,M,Madhya Pradesh,Jabalpur,hi,farmer,rural_farmer,10K-20K,10061.61,secondary,True,False,31,9.4,False,none,True,android,0.0915,0.9034,0.1846,0.0119,False,0.0702
+USR_00615,Ashok Rao,34,M,Madhya Pradesh,Bhopal,hi,farmer,rural_farmer,10K-20K,12047.44,none,True,True,83,2.0,False,none,True,android,0.0243,0.2,0.077,0.0587,False,0.0878
+USR_00616,Varun Jain,40,M,Rajasthan,Kota,hi,agri_laborer,rural_farmer,20K-50K,25000.0,none,True,False,79,2.3,False,none,True,android,0.0655,0.5805,0.1773,0.2055,False,0.234
+USR_00617,Seema Nair,39,F,Bihar,Patna,hi,agri_laborer,rural_farmer,10K-20K,15716.04,primary,True,False,14,3.9,False,none,False,feature_phone,-0.1,0.6699,0.3252,0.0112,False,0.117
+USR_00618,Rajesh Rao,37,M,Uttar Pradesh,Agra,hi,fisherman,rural_farmer,20K-50K,21180.22,primary,False,False,3,0.6,False,none,False,feature_phone,-0.0856,0.589,0.2917,0.0514,False,0.117
+USR_00619,Priya Agarwal,42,F,Madhya Pradesh,Gwalior,hi,farmer,rural_farmer,10K-20K,12698.39,secondary,True,False,54,2.8,False,none,False,feature_phone,-0.0576,0.3449,0.6609,0.0412,True,0.1404
+USR_00620,Amit Dubey,45,M,Madhya Pradesh,Indore,hi,dairy_farmer,rural_farmer,10K-20K,15453.79,secondary,True,False,26,3.4,False,none,False,feature_phone,0.1321,0.4967,0.0443,0.0731,False,0.18
+USR_00621,Pooja Choudhary,35,F,Rajasthan,Udaipur,hi,agri_laborer,rural_farmer,20K-50K,23264.73,secondary,True,False,13,7.3,False,none,True,android,0.0961,0.5234,0.1897,0.0162,False,0.117
+USR_00622,Pankaj Mehta,55,M,Bihar,Muzaffarpur,hi,dairy_farmer,rural_farmer,5K-10K,8788.31,none,True,False,3,0.5,False,none,True,android,0.1569,0.7419,0.02,0.0228,False,0.1449
+USR_00623,Rani Mishra,39,F,Odisha,Rourkela,or,dairy_farmer,rural_farmer,5K-10K,8076.27,primary,False,True,3,12.3,False,none,True,android,0.0711,0.5378,0.0455,0.0276,False,0.1552
+USR_00624,Rohit Singh,43,M,Uttar Pradesh,Varanasi,hi,farmer,rural_farmer,10K-20K,15439.23,secondary,False,False,26,0.6,False,none,True,android,0.1091,0.7729,0.4925,0.0041,False,0.117
+USR_00625,Renu Sharma,32,F,Madhya Pradesh,Gwalior,hi,dairy_farmer,rural_farmer,10K-20K,17253.58,primary,False,False,47,1.4,False,none,False,feature_phone,0.237,0.6576,0.0775,0.0583,False,0.0819
+USR_00626,Ravi Saxena,50,M,Odisha,Cuttack,or,agri_laborer,rural_farmer,10K-20K,13808.11,secondary,True,False,10,5.5,False,none,True,android,-0.0325,0.7445,0.4282,0.0046,False,0.117
+USR_00627,Parvati Shah,54,F,Rajasthan,Kota,hi,farmer,rural_farmer,10K-20K,10988.09,primary,True,False,38,3.9,False,none,True,android,-0.0153,0.3516,0.1288,0.0196,True,0.117
+USR_00628,Rohit Bhat,56,M,Odisha,Berhampur,or,dairy_farmer,rural_farmer,20K-50K,23196.75,primary,True,False,81,2.9,False,none,False,feature_phone,0.0043,0.5482,0.8,0.0336,False,0.216
+USR_00629,Rekha Deshmukh,46,F,Bihar,Gaya,hi,fisherman,rural_farmer,10K-20K,13735.79,secondary,True,False,3,3.5,False,none,False,feature_phone,-0.0682,0.4405,0.8,0.009,False,0.1404
+USR_00630,Sachin Iyer,48,M,Bihar,Patna,hi,fisherman,rural_farmer,10K-20K,11010.38,none,True,False,3,0.5,False,none,True,android,-0.0197,0.6353,0.1136,0.0029,False,0.117
+USR_00631,Seema Sharma,40,F,Rajasthan,Udaipur,hi,agri_laborer,rural_farmer,10K-20K,10389.99,none,False,False,9,2.9,False,none,False,feature_phone,0.0615,0.9007,0.2704,0.0972,False,0.0702
+USR_00632,Shanti Iyer,27,F,Uttar Pradesh,Agra,hi,farmer,rural_farmer,10K-20K,14059.08,none,True,False,29,0.5,False,none,False,feature_phone,0.0851,0.8142,0.0775,0.0304,False,0.18
+USR_00633,Rohit Dubey,54,M,Bihar,Gaya,hi,fisherman,rural_farmer,20K-50K,21300.61,primary,True,True,17,8.1,False,none,False,feature_phone,-0.0883,0.6455,0.8,0.0341,False,0.1053
+USR_00634,Arun Nair,40,M,Odisha,Berhampur,or,farmer,rural_farmer,20K-50K,23132.77,secondary,False,False,56,1.4,False,none,False,feature_phone,-0.0361,0.2,0.066,0.011,False,0.18
+USR_00635,Vikram Dubey,37,M,Madhya Pradesh,Jabalpur,hi,farmer,rural_farmer,5K-10K,9671.59,secondary,True,False,15,0.5,False,none,False,feature_phone,0.2334,0.6017,0.025,0.0306,False,0.0942
+USR_00636,Rahul Singh,32,M,Uttar Pradesh,Agra,hi,agri_laborer,rural_farmer,20K-50K,22233.3,secondary,False,False,3,6.9,False,none,True,android,0.0601,0.8014,0.0734,0.035,False,0.18
+USR_00637,Shanti Tiwari,39,F,Odisha,Berhampur,or,fisherman,rural_farmer,20K-50K,25000.0,primary,True,False,24,7.6,False,none,False,feature_phone,0.043,0.7856,0.1411,0.0813,False,0.117
+USR_00638,Suresh Singh,49,M,Madhya Pradesh,Jabalpur,hi,agri_laborer,rural_farmer,10K-20K,16853.04,none,True,True,18,2.7,False,none,False,feature_phone,0.0209,0.416,0.02,0.014,False,0.0878
+USR_00639,Sanjay Reddy,35,M,Uttar Pradesh,Lucknow,hi,farmer,rural_farmer,10K-20K,17326.32,none,True,True,4,2.1,False,none,True,android,0.1566,0.627,0.6663,0.0092,False,0.1134
+USR_00640,Savitri Pandey,38,F,Madhya Pradesh,Bhopal,hi,fisherman,rural_farmer,10K-20K,18597.27,none,True,False,32,1.6,False,none,False,feature_phone,0.1014,0.5963,0.2004,0.0323,False,0.117
+USR_00641,Priya Shah,53,F,Odisha,Berhampur,or,agri_laborer,rural_farmer,5K-10K,8757.99,secondary,False,True,83,0.7,False,none,False,feature_phone,-0.0303,0.5152,0.8,0.0033,True,0.1211
+USR_00642,Radha Patil,43,F,Odisha,Cuttack,or,agri_laborer,rural_farmer,10K-20K,11797.6,none,False,True,80,3.0,False,none,True,android,0.0612,0.6571,0.8,0.0189,False,0.1053
+USR_00643,Anita Naidu,41,F,Bihar,Bhagalpur,hi,dairy_farmer,rural_farmer,5K-10K,9730.69,secondary,True,True,32,0.5,False,none,True,android,0.1228,0.7847,0.3268,0.0083,False,0.1552
+USR_00644,Pankaj Yadav,45,M,Rajasthan,Kota,hi,dairy_farmer,rural_farmer,10K-20K,15696.42,secondary,True,False,47,4.9,False,none,False,feature_phone,0.0649,0.6461,0.2599,0.0762,False,0.117
+USR_00645,Arjun Shah,40,M,Madhya Pradesh,Indore,hi,dairy_farmer,rural_farmer,20K-50K,25000.0,none,False,False,56,7.3,False,none,False,feature_phone,-0.0453,0.8144,0.1058,0.0304,False,0.18
+USR_00646,Sanjay Nair,39,M,Rajasthan,Jodhpur,hi,fisherman,rural_farmer,20K-50K,22011.76,none,False,False,3,10.2,False,none,False,feature_phone,0.1402,0.2,0.5322,0.002,False,0.1404
+USR_00647,Priya Saxena,40,F,Odisha,Berhampur,or,fisherman,rural_farmer,20K-50K,24359.01,none,True,False,36,1.0,False,none,True,android,0.1381,0.8307,0.31,0.0922,True,0.117
+USR_00648,Naveen Patil,59,M,Madhya Pradesh,Bhopal,hi,farmer,rural_farmer,10K-20K,12844.3,secondary,True,False,9,2.1,False,none,False,feature_phone,0.1545,0.4233,0.1963,0.0514,False,0.0819
+USR_00649,Manoj Patil,38,M,Madhya Pradesh,Bhopal,hi,agri_laborer,rural_farmer,10K-20K,13364.74,none,True,False,56,0.5,False,none,False,feature_phone,0.1053,0.6316,0.5532,0.0016,True,0.216
+USR_00650,Deepak Gupta,56,M,Odisha,Rourkela,or,dairy_farmer,rural_farmer,10K-20K,14162.34,primary,True,False,116,4.7,False,none,False,feature_phone,0.0368,0.3408,0.2948,0.0401,True,0.18
+USR_00651,Pooja Pandey,24,F,Bihar,Patna,hi,handicraft,shg_woman,10K-20K,12073.53,secondary,True,False,106,0.7,True,none,False,feature_phone,-0.0462,0.948,0.2639,0.0579,False,0.06
+USR_00652,Kamla Patel,50,F,Telangana,Hyderabad,te,shg_member,shg_woman,5K-10K,7331.57,secondary,True,False,33,3.5,True,none,False,feature_phone,0.1747,0.9786,0.0481,0.0056,False,0.0483
+USR_00653,Durga Sharma,43,F,Odisha,Cuttack,or,tailor,shg_woman,10K-20K,14984.19,secondary,True,False,108,5.2,True,none,True,android,0.1063,0.8362,0.02,0.0106,False,0.1
+USR_00654,Radha Pillai,38,F,Andhra Pradesh,Guntur,te,tailor,shg_woman,10K-20K,15000.0,primary,True,False,60,17.8,True,none,True,android,0.0049,0.75,0.0443,0.0341,True,0.1
+USR_00655,Pooja Shah,41,F,Telangana,Hyderabad,te,handicraft,shg_woman,10K-20K,12172.85,secondary,True,False,24,1.5,True,none,True,android,-0.0072,0.8174,0.0685,0.0496,False,0.1
+USR_00656,Lakshmi Gupta,30,F,Telangana,Nizamabad,te,home_based_worker,shg_woman,10K-20K,10270.44,none,True,True,11,0.5,True,none,False,feature_phone,0.0549,0.6679,0.7074,0.0234,False,0.0585
+USR_00657,Pooja Gupta,31,F,Andhra Pradesh,Guntur,te,handicraft,shg_woman,5K-10K,9679.6,none,True,False,18,13.3,True,none,True,android,-0.0243,0.6664,0.6029,0.0011,False,0.138
+USR_00658,Anjali Dubey,45,F,Andhra Pradesh,Tirupati,te,shg_member,shg_woman,10K-20K,10955.07,primary,True,True,13,1.2,True,none,True,android,0.1017,0.835,0.317,0.01,False,0.075
+USR_00659,Sunita Rao,28,F,Andhra Pradesh,Vijayawada,te,shg_member,shg_woman,10K-20K,15000.0,primary,True,False,18,6.1,True,none,True,android,0.0697,0.5647,0.1146,0.0108,False,0.1
+USR_00660,Geeta Singh,33,F,Odisha,Berhampur,or,handicraft,shg_woman,10K-20K,11016.12,secondary,True,False,23,1.4,True,none,False,feature_phone,0.1622,0.4875,0.02,0.005,False,0.0455
+USR_00661,Deepa Dubey,28,F,Bihar,Patna,hi,shg_member,shg_woman,5K-10K,7483.63,secondary,True,False,9,11.0,True,none,True,android,-0.0602,0.9529,0.0949,0.019,False,0.0448
+USR_00662,Kamla Patel,26,F,Andhra Pradesh,Vijayawada,te,tailor,shg_woman,5K-10K,5609.33,secondary,True,False,30,0.5,True,none,False,feature_phone,0.1997,0.9047,0.2182,0.0147,False,0.0314
+USR_00663,Rekha Joshi,28,F,Andhra Pradesh,Visakhapatnam,te,handicraft,shg_woman,5K-10K,7418.9,secondary,True,False,6,5.7,True,none,True,android,0.123,0.361,0.0699,0.0661,False,0.115
+USR_00664,Seema Joshi,37,F,Telangana,Warangal,te,tailor,shg_woman,5K-10K,8163.01,secondary,True,False,3,9.1,True,none,False,feature_phone,0.1436,0.9765,0.178,0.0372,False,0.069
+USR_00665,Radha Iyer,33,F,Telangana,Hyderabad,te,home_based_worker,shg_woman,5K-10K,5126.55,none,True,False,57,3.6,True,none,True,android,0.1286,0.6047,0.2477,0.0566,False,0.0748
+USR_00666,Kamla Pandey,44,F,Bihar,Muzaffarpur,hi,tailor,shg_woman,5K-10K,8763.93,primary,True,False,14,4.4,True,none,True,android,0.0914,0.9377,0.5088,0.192,True,0.1076
+USR_00667,Usha Gupta,43,F,Telangana,Hyderabad,te,home_based_worker,shg_woman,5K-10K,8117.37,secondary,True,False,10,15.9,True,none,True,android,0.2215,0.7336,0.3395,0.0007,False,0.0805
+USR_00668,Geeta Reddy,29,F,Bihar,Gaya,hi,tailor,shg_woman,5K-10K,5517.56,none,True,False,34,4.8,True,none,False,feature_phone,0.234,0.7563,0.1471,0.0678,False,0.0523
+USR_00669,Sunita Sharma,18,F,Jharkhand,Dhanbad,hi,home_based_worker,shg_woman,10K-20K,10308.48,none,True,False,18,0.5,True,none,True,android,0.0905,0.8458,0.02,0.0357,False,0.065
+USR_00670,Kavita Sharma,44,F,Telangana,Warangal,te,tailor,shg_woman,10K-20K,11345.21,none,False,True,34,4.1,True,none,False,feature_phone,0.1568,0.5853,0.02,0.0112,False,0.0525
+USR_00671,Kavita Joshi,30,F,Andhra Pradesh,Guntur,te,home_based_worker,shg_woman,5K-10K,5977.03,primary,True,False,19,2.8,True,none,True,android,-0.0201,0.9362,0.4034,0.0687,False,0.069
+USR_00672,Parvati Kumar,47,F,Jharkhand,Bokaro,hi,home_based_worker,shg_woman,5K-10K,8941.79,none,False,True,5,4.8,True,none,True,android,0.2125,0.9208,0.0269,0.1167,False,0.0362
+USR_00673,Usha Gupta,34,F,Odisha,Berhampur,or,home_based_worker,shg_woman,10K-20K,14042.17,none,False,False,49,3.9,True,none,True,android,0.0958,0.7766,0.1242,0.0769,False,0.065
+USR_00674,Rani Pandey,34,F,Odisha,Cuttack,or,home_based_worker,shg_woman,5K-10K,9821.56,primary,True,False,7,2.5,True,none,False,feature_phone,0.2231,0.9167,0.3827,0.0397,False,0.0483
+USR_00675,Seema Choudhary,30,F,Bihar,Muzaffarpur,hi,home_based_worker,shg_woman,5K-10K,6013.92,primary,True,False,11,3.0,True,none,False,feature_phone,0.097,0.6472,0.1186,0.078,False,0.115
+USR_00676,Usha Rao,18,F,Odisha,Berhampur,or,shg_member,shg_woman,5K-10K,6329.49,secondary,True,False,6,2.3,True,none,True,android,0.1415,0.9098,0.0374,0.0129,False,0.0448
+USR_00677,Kamla Reddy,20,F,Bihar,Bhagalpur,hi,tailor,shg_woman,10K-20K,15000.0,primary,True,True,26,0.7,True,none,True,android,0.193,0.7442,0.1808,0.0047,False,0.0525
+USR_00678,Anita Choudhary,34,F,Jharkhand,Ranchi,hi,tailor,shg_woman,5K-10K,6568.96,secondary,True,False,115,5.0,True,none,True,android,0.1363,0.6967,0.3909,0.1571,False,0.1495
+USR_00679,Meena Patil,41,F,Bihar,Patna,hi,tailor,shg_woman,5K-10K,8993.83,none,True,False,31,3.1,True,none,True,android,0.0049,0.7466,0.119,0.1972,False,0.1495
+USR_00680,Asha Singh,22,F,Andhra Pradesh,Guntur,te,shg_member,shg_woman,5K-10K,6926.89,none,True,False,5,0.5,True,none,True,android,-0.044,0.6034,0.1696,0.0146,False,0.115
+USR_00681,Parvati Tiwari,31,F,Odisha,Cuttack,or,tailor,shg_woman,5K-10K,6634.33,none,True,False,4,17.0,True,none,False,feature_phone,0.0592,0.8355,0.6514,0.0142,False,0.138
+USR_00682,Seema Dubey,36,F,Bihar,Patna,hi,home_based_worker,shg_woman,5K-10K,7678.15,secondary,False,False,36,2.1,True,none,False,feature_phone,0.1167,0.804,0.0396,0.0584,False,0.0748
+USR_00683,Renu Naidu,43,F,Jharkhand,Bokaro,hi,tailor,shg_woman,5K-10K,9752.31,primary,True,False,4,6.2,True,none,True,android,0.06,0.7101,0.2059,0.0241,False,0.115
+USR_00684,Anita Pillai,34,F,Telangana,Nizamabad,te,shg_member,shg_woman,5K-10K,8608.04,secondary,True,False,117,9.3,True,none,True,android,0.1439,0.8897,0.1148,0.0367,True,0.069
+USR_00685,Asha Shah,29,F,Odisha,Rourkela,or,handicraft,shg_woman,5K-10K,6218.94,primary,True,False,21,0.8,True,none,True,android,0.1509,0.6521,0.02,0.0142,False,0.0805
+USR_00686,Rekha Nair,45,F,Andhra Pradesh,Vijayawada,te,handicraft,shg_woman,10K-20K,13087.36,secondary,False,False,3,2.9,True,none,True,android,0.1822,0.8015,0.1265,0.1395,False,0.07
+USR_00687,Kamla Patil,35,F,Andhra Pradesh,Guntur,te,tailor,shg_woman,5K-10K,9530.98,secondary,True,True,6,1.5,True,none,False,feature_phone,-0.0204,0.5914,0.041,0.0527,False,0.0561
+USR_00688,Meena Yadav,36,F,Bihar,Patna,hi,handicraft,shg_woman,10K-20K,13410.64,none,True,False,13,1.2,True,none,False,feature_phone,0.2102,0.8585,0.0341,0.0278,False,0.0273
+USR_00689,Meena Nair,31,F,Jharkhand,Ranchi,hi,handicraft,shg_woman,5K-10K,9117.39,primary,True,True,21,6.1,True,none,False,feature_phone,0.2058,0.8506,0.1559,0.0196,False,0.0362
+USR_00690,Kavita Joshi,32,F,Telangana,Warangal,te,handicraft,shg_woman,10K-20K,13688.89,primary,True,False,31,4.5,True,none,True,android,0.1135,0.6708,0.325,0.0234,False,0.065
+USR_00691,Kavita Sharma,28,F,Bihar,Muzaffarpur,hi,handicraft,shg_woman,5K-10K,8230.41,none,True,False,88,0.5,True,none,False,feature_phone,0.0364,0.9073,0.2957,0.0881,False,0.069
+USR_00692,Anita Pandey,36,F,Bihar,Bhagalpur,hi,shg_member,shg_woman,10K-20K,12452.32,none,True,False,23,3.1,True,none,True,android,0.1466,0.6734,0.0676,0.0156,False,0.1
+USR_00693,Savitri Naidu,27,F,Odisha,Berhampur,or,handicraft,shg_woman,10K-20K,11073.03,none,True,False,15,0.5,True,none,False,feature_phone,0.1915,0.7388,0.4136,0.0719,False,0.07
+USR_00694,Geeta Agarwal,22,F,Telangana,Hyderabad,te,home_based_worker,shg_woman,10K-20K,15000.0,none,False,False,67,0.5,True,none,False,feature_phone,0.1326,0.8462,0.1509,0.0214,False,0.1
+USR_00695,Seema Shah,52,F,Andhra Pradesh,Vijayawada,te,shg_member,shg_woman,10K-20K,10074.81,secondary,False,True,19,5.0,True,none,True,android,0.1174,0.5394,0.2045,0.105,False,0.075
+USR_00696,Pooja Yadav,28,F,Bihar,Gaya,hi,shg_member,shg_woman,10K-20K,12514.22,secondary,True,True,179,0.5,True,none,False,feature_phone,0.1069,0.8434,0.0649,0.0991,False,0.075
+USR_00697,Geeta Verma,42,F,Bihar,Gaya,hi,tailor,shg_woman,5K-10K,5722.27,none,True,False,40,1.0,True,none,True,android,0.1129,0.654,0.1865,0.0463,False,0.115
+USR_00698,Shanti Saxena,39,F,Andhra Pradesh,Visakhapatnam,te,handicraft,shg_woman,5K-10K,8039.56,none,True,False,11,1.2,True,none,False,feature_phone,0.2185,0.2591,0.2536,0.012,True,0.0523
+USR_00699,Neha Singh,31,F,Andhra Pradesh,Vijayawada,te,handicraft,shg_woman,5K-10K,5340.39,secondary,True,False,9,3.5,True,none,True,android,0.053,0.637,0.1137,0.0266,False,0.115
+USR_00700,Parvati Verma,31,F,Telangana,Warangal,te,home_based_worker,shg_woman,5K-10K,8991.48,secondary,True,True,29,3.3,True,none,False,feature_phone,0.0765,0.6063,0.5881,0.0073,False,0.1035
+USR_00701,Parvati Joshi,23,F,Andhra Pradesh,Tirupati,te,shg_member,shg_woman,5K-10K,8955.83,primary,True,True,3,1.6,True,none,True,android,0.1554,0.7845,0.0822,0.044,False,0.0392
+USR_00702,Lakshmi Sharma,38,F,Telangana,Warangal,te,shg_member,shg_woman,5K-10K,7141.9,primary,False,False,9,0.8,True,none,True,android,0.0994,0.935,0.1464,0.0465,False,0.069
+USR_00703,Renu Reddy,35,F,Andhra Pradesh,Vijayawada,te,handicraft,shg_woman,10K-20K,10888.65,none,True,False,22,3.4,True,none,True,android,0.0304,0.4503,0.02,0.0643,False,0.1
+USR_00704,Radha Singh,35,F,Jharkhand,Bokaro,hi,home_based_worker,shg_woman,5K-10K,7028.41,none,True,False,39,2.2,True,none,True,android,0.1919,0.8519,0.0752,0.0701,True,0.0483
+USR_00705,Asha Kumar,30,F,Telangana,Nizamabad,te,tailor,shg_woman,5K-10K,5303.07,secondary,True,False,72,5.2,True,none,True,android,0.012,0.8523,0.0581,0.0303,False,0.0448
+USR_00706,Anjali Agarwal,30,F,Jharkhand,Bokaro,hi,home_based_worker,shg_woman,5K-10K,9698.98,secondary,True,True,17,0.5,True,none,True,android,0.1165,0.8816,0.1131,0.0028,False,0.0518
+USR_00707,Meena Dubey,43,F,Telangana,Karimnagar,te,tailor,shg_woman,10K-20K,15000.0,secondary,False,False,5,0.5,True,none,True,android,0.0204,0.8512,0.0471,0.0339,False,0.039
+USR_00708,Rani Dubey,39,F,Bihar,Bhagalpur,hi,home_based_worker,shg_woman,10K-20K,13143.77,secondary,True,False,6,6.5,True,none,True,android,0.1244,0.7007,0.0588,0.0153,False,0.065
+USR_00709,Asha Jain,18,F,Andhra Pradesh,Guntur,te,home_based_worker,shg_woman,10K-20K,15000.0,primary,True,True,106,0.5,True,none,True,android,0.0651,0.8839,0.1671,0.0319,False,0.045
+USR_00710,Asha Jain,41,F,Telangana,Hyderabad,te,handicraft,shg_woman,10K-20K,15000.0,secondary,True,False,3,4.4,True,none,True,android,0.1175,0.8823,0.0295,0.0353,False,0.06
+USR_00711,Usha Naidu,34,F,Jharkhand,Bokaro,hi,shg_member,shg_woman,5K-10K,5855.38,primary,True,False,51,1.2,True,none,True,android,0.1398,0.8101,0.02,0.0066,True,0.0748
+USR_00712,Savitri Pillai,44,F,Telangana,Warangal,te,tailor,shg_woman,5K-10K,7578.92,primary,True,False,67,1.7,True,none,True,android,0.0159,0.7429,0.1721,0.0209,False,0.115
+USR_00713,Kavita Patel,32,F,Andhra Pradesh,Vijayawada,te,home_based_worker,shg_woman,10K-20K,11920.24,none,True,False,37,1.6,True,none,False,feature_phone,0.0028,0.4732,0.5749,0.0021,False,0.078
+USR_00714,Meena Jain,29,F,Bihar,Muzaffarpur,hi,home_based_worker,shg_woman,10K-20K,15000.0,none,True,False,91,0.5,True,none,True,android,0.1278,0.8153,0.02,0.0659,False,0.1
+USR_00715,Seema Kumar,36,F,Telangana,Karimnagar,te,handicraft,shg_woman,10K-20K,11158.66,primary,True,False,20,0.5,True,none,True,android,0.1153,0.8456,0.0482,0.0033,False,0.1
+USR_00716,Priya Bhat,50,F,Telangana,Nizamabad,te,handicraft,shg_woman,10K-20K,15000.0,primary,False,False,25,6.8,True,none,False,feature_phone,0.2131,0.6604,0.1083,0.0417,False,0.07
+USR_00717,Geeta Patil,24,F,Telangana,Karimnagar,te,handicraft,shg_woman,10K-20K,15000.0,primary,True,False,89,0.6,True,none,True,android,0.0978,0.6514,0.02,0.0193,False,0.1
+USR_00718,Kavita Sharma,23,F,Telangana,Warangal,te,tailor,shg_woman,10K-20K,11386.81,none,True,False,46,4.8,True,none,False,feature_phone,0.197,0.7661,0.7872,0.034,False,0.084
+USR_00719,Usha Pandey,41,F,Bihar,Muzaffarpur,hi,handicraft,shg_woman,5K-10K,4420.06,none,False,False,3,11.5,True,none,True,android,0.1772,0.6675,0.2032,0.0495,False,0.0805
+USR_00720,Renu Iyer,46,F,Bihar,Muzaffarpur,hi,handicraft,shg_woman,10K-20K,10112.54,secondary,True,False,47,6.0,True,none,True,android,0.1226,0.6884,0.1443,0.0884,False,0.1
+USR_00721,Seema Verma,51,F,Telangana,Warangal,te,shg_member,shg_woman,5K-10K,4697.49,primary,True,False,26,0.5,True,none,True,android,0.211,0.5837,0.0264,0.1957,False,0.1046
+USR_00722,Savitri Pandey,48,F,Odisha,Cuttack,or,home_based_worker,shg_woman,5K-10K,5215.22,secondary,True,False,6,4.4,True,none,False,feature_phone,0.0774,0.7327,0.0986,0.0188,False,0.115
+USR_00723,Rani Yadav,18,F,Jharkhand,Ranchi,hi,home_based_worker,shg_woman,5K-10K,6581.01,primary,True,False,71,10.6,True,none,True,android,0.1813,0.936,0.02,0.0416,False,0.0483
+USR_00724,Renu Shah,39,F,Bihar,Muzaffarpur,hi,shg_member,shg_woman,5K-10K,5411.93,secondary,True,False,37,7.6,True,none,False,feature_phone,0.0278,0.8012,0.1198,0.0006,False,0.115
+USR_00725,Parvati Joshi,50,F,Telangana,Nizamabad,te,home_based_worker,shg_woman,10K-20K,11846.2,none,True,True,32,5.3,True,none,True,android,0.0631,0.9432,0.1123,0.0404,False,0.045
+USR_00726,Meena Reddy,40,F,Odisha,Berhampur,or,home_based_worker,shg_woman,10K-20K,14578.56,primary,True,False,37,1.6,True,none,True,android,0.0451,0.6626,0.02,0.0596,False,0.1
+USR_00727,Kavita Verma,39,F,Telangana,Warangal,te,home_based_worker,shg_woman,5K-10K,8453.95,secondary,True,False,61,3.5,True,none,False,feature_phone,0.0576,0.9489,0.0362,0.1902,False,0.0897
+USR_00728,Usha Reddy,33,F,Jharkhand,Ranchi,hi,tailor,shg_woman,5K-10K,9193.05,none,True,True,46,2.3,True,none,True,android,0.1892,0.4336,0.1379,0.0433,False,0.0392
+USR_00729,Priya Verma,27,F,Bihar,Patna,hi,shg_member,shg_woman,5K-10K,5126.33,primary,True,False,3,0.5,True,none,True,android,0.1024,0.9128,0.1327,0.0182,False,0.0448
+USR_00730,Seema Deshmukh,42,F,Bihar,Muzaffarpur,hi,handicraft,shg_woman,5K-10K,3491.16,primary,True,False,29,0.5,True,none,True,android,0.1483,0.9291,0.1211,0.0636,False,0.069
+USR_00731,Geeta Tiwari,28,F,Odisha,Berhampur,or,tailor,shg_woman,10K-20K,11847.54,none,False,False,5,1.5,True,none,True,android,0.0818,0.687,0.342,0.0396,False,0.1
+USR_00732,Savitri Singh,35,F,Telangana,Hyderabad,te,tailor,shg_woman,5K-10K,8736.3,secondary,False,False,30,12.0,True,none,True,android,0.1052,0.6637,0.5115,0.0958,False,0.138
+USR_00733,Durga Yadav,30,F,Bihar,Bhagalpur,hi,tailor,shg_woman,10K-20K,15000.0,none,True,False,25,2.5,True,none,True,android,0.1227,0.6913,0.0924,0.0675,False,0.1
+USR_00734,Savitri Deshmukh,47,F,Bihar,Gaya,hi,shg_member,shg_woman,10K-20K,11844.36,primary,True,False,46,0.9,True,none,False,feature_phone,0.1793,0.9662,0.0799,0.0074,False,0.042
+USR_00735,Neha Tiwari,37,F,Andhra Pradesh,Tirupati,te,home_based_worker,shg_woman,5K-10K,8796.17,none,False,False,9,3.8,True,none,False,feature_phone,0.0606,0.7465,0.0682,0.0045,True,0.115
+USR_00736,Neha Naidu,50,F,Bihar,Patna,hi,handicraft,shg_woman,5K-10K,8413.66,secondary,True,False,30,6.3,True,none,True,android,0.1683,0.9272,0.0313,0.0834,False,0.0483
+USR_00737,Durga Agarwal,40,F,Telangana,Warangal,te,shg_member,shg_woman,5K-10K,6201.7,none,True,False,103,3.0,True,none,True,android,-0.0452,0.9231,0.3963,0.11,False,0.069
+USR_00738,Renu Das,51,F,Odisha,Cuttack,or,handicraft,shg_woman,5K-10K,7588.95,secondary,False,False,81,2.0,True,none,False,feature_phone,0.1128,0.7889,0.2742,0.0368,False,0.115
+USR_00739,Parvati Nair,35,F,Bihar,Patna,hi,shg_member,shg_woman,10K-20K,12780.23,none,True,False,28,4.3,True,none,False,feature_phone,0.0613,0.966,0.0442,0.163,False,0.078
+USR_00740,Asha Gupta,48,F,Jharkhand,Bokaro,hi,shg_member,shg_woman,5K-10K,9312.32,primary,True,True,19,1.8,True,none,True,android,-0.0099,0.6439,0.1371,0.0093,False,0.0863
+USR_00741,Rekha Pillai,59,F,Andhra Pradesh,Guntur,te,handicraft,shg_woman,10K-20K,15000.0,primary,True,True,18,9.6,True,none,True,android,0.2063,0.7771,0.3435,0.0962,False,0.0525
+USR_00742,Sita Rao,30,F,Bihar,Muzaffarpur,hi,home_based_worker,shg_woman,5K-10K,6601.24,secondary,True,False,12,1.3,True,none,True,android,0.105,0.6397,0.02,0.028,False,0.115
+USR_00743,Rekha Naidu,29,F,Bihar,Muzaffarpur,hi,home_based_worker,shg_woman,5K-10K,6192.07,primary,True,False,40,4.8,True,none,False,feature_phone,0.1022,0.7223,0.3366,0.1172,False,0.0748
+USR_00744,Neha Choudhary,38,F,Andhra Pradesh,Guntur,te,shg_member,shg_woman,10K-20K,10566.7,secondary,True,False,3,5.4,True,none,False,feature_phone,0.1267,0.7987,0.1294,0.135,False,0.1
+USR_00745,Sunita Rao,40,F,Odisha,Berhampur,or,home_based_worker,shg_woman,5K-10K,9007.73,primary,True,False,41,6.3,True,none,False,feature_phone,0.055,0.8064,0.103,0.0012,False,0.115
+USR_00746,Seema Jain,38,F,Andhra Pradesh,Vijayawada,te,tailor,shg_woman,5K-10K,4034.95,primary,False,False,87,7.5,True,none,False,feature_phone,0.1898,0.8132,0.267,0.0323,False,0.0805
+USR_00747,Durga Deshmukh,33,F,Odisha,Berhampur,or,handicraft,shg_woman,10K-20K,15000.0,primary,True,False,16,0.5,True,none,True,android,0.0936,0.8871,0.2378,0.06,False,0.06
+USR_00748,Anjali Patel,34,F,Jharkhand,Bokaro,hi,shg_member,shg_woman,10K-20K,15000.0,primary,True,False,88,2.7,True,none,True,android,0.0089,0.7374,0.0725,0.0737,False,0.065
+USR_00749,Rekha Yadav,31,F,Bihar,Muzaffarpur,hi,home_based_worker,shg_woman,5K-10K,5687.6,none,True,True,6,6.0,True,none,False,feature_phone,0.0585,0.8948,0.2006,0.0832,False,0.0518
+USR_00750,Radha Saxena,34,F,Telangana,Nizamabad,te,shg_member,shg_woman,5K-10K,8669.05,none,True,False,11,0.6,True,none,True,android,0.0394,0.8501,0.0819,0.0171,False,0.0448
+USR_00751,Rekha Dubey,47,F,Odisha,Berhampur,or,handicraft,shg_woman,5K-10K,7601.88,secondary,True,True,3,2.2,True,none,True,android,0.1229,0.7554,0.2636,0.0472,False,0.0863
+USR_00752,Parvati Rao,32,F,Telangana,Nizamabad,te,shg_member,shg_woman,10K-20K,14635.01,secondary,True,False,9,2.9,True,none,False,feature_phone,0.2627,0.8666,0.0207,0.0154,False,0.042
+USR_00753,Anjali Singh,37,F,Odisha,Bhubaneswar,or,shg_member,shg_woman,10K-20K,14607.06,none,True,False,25,5.5,True,none,False,feature_phone,0.1186,0.8251,0.0866,0.0154,False,0.065
+USR_00754,Pooja Agarwal,45,F,Jharkhand,Bokaro,hi,shg_member,shg_woman,5K-10K,6143.56,secondary,True,False,16,3.2,True,none,True,android,0.236,0.6006,0.112,0.0101,False,0.0805
+USR_00755,Anjali Nair,33,F,Jharkhand,Jamshedpur,hi,home_based_worker,shg_woman,5K-10K,7031.45,none,True,False,59,4.8,True,none,True,android,0.0312,0.521,0.0475,0.0501,False,0.115
+USR_00756,Lakshmi Choudhary,50,F,Jharkhand,Bokaro,hi,shg_member,shg_woman,5K-10K,7534.06,secondary,True,False,28,7.4,True,none,False,feature_phone,0.15,0.8621,0.045,0.0041,False,0.0448
+USR_00757,Shanti Patil,28,F,Telangana,Hyderabad,te,shg_member,shg_woman,10K-20K,11132.75,primary,True,False,6,7.7,True,none,False,feature_phone,0.1565,0.5197,0.0431,0.0168,False,0.0455
+USR_00758,Anjali Choudhary,61,F,Andhra Pradesh,Visakhapatnam,te,tailor,shg_woman,10K-20K,11170.03,primary,False,False,58,6.3,True,none,False,feature_phone,0.2326,0.8141,0.1053,0.1045,False,0.07
+USR_00759,Durga Mishra,33,F,Andhra Pradesh,Guntur,te,home_based_worker,shg_woman,10K-20K,11774.33,primary,True,False,16,3.1,True,none,False,feature_phone,-0.0172,0.8546,0.02,0.0309,False,0.06
+USR_00760,Parvati Singh,46,F,Jharkhand,Jamshedpur,hi,shg_member,shg_woman,5K-10K,7582.91,secondary,True,False,41,1.4,True,none,True,android,0.1192,0.4911,0.0529,0.0383,False,0.115
+USR_00761,Kamla Iyer,35,F,Jharkhand,Jamshedpur,hi,home_based_worker,shg_woman,5K-10K,5094.05,primary,True,False,6,4.4,True,none,False,feature_phone,0.0839,0.7728,0.15,0.0364,False,0.115
+USR_00762,Anita Kumar,29,F,Telangana,Nizamabad,te,handicraft,shg_woman,5K-10K,9334.26,primary,False,True,31,2.1,True,none,True,android,0.1831,0.8737,0.3462,0.0105,False,0.0362
+USR_00763,Kamla Saxena,26,F,Telangana,Karimnagar,te,home_based_worker,shg_woman,10K-20K,13543.06,secondary,True,False,12,1.4,True,none,False,feature_phone,0.0472,0.9039,0.0542,0.0239,True,0.06
+USR_00764,Lakshmi Das,39,F,Jharkhand,Jamshedpur,hi,shg_member,shg_woman,5K-10K,7063.58,none,True,False,126,5.0,True,none,True,android,0.1174,0.8507,0.0317,0.0105,False,0.0448
+USR_00765,Asha Das,31,F,Odisha,Cuttack,or,shg_member,shg_woman,10K-20K,11539.35,none,True,False,17,8.2,True,none,True,android,0.0211,0.6922,0.5202,0.12,False,0.078
+USR_00766,Kamla Naidu,34,F,Telangana,Karimnagar,te,shg_member,shg_woman,5K-10K,3665.59,primary,True,False,22,4.7,True,none,False,feature_phone,0.1356,0.7124,0.7713,0.1061,False,0.138
+USR_00767,Deepa Bhat,30,F,Andhra Pradesh,Vijayawada,te,home_based_worker,shg_woman,5K-10K,7943.83,primary,True,False,4,1.4,True,none,False,feature_phone,0.2183,0.8012,0.0857,0.0099,False,0.0805
+USR_00768,Kamla Patel,18,F,Bihar,Bhagalpur,hi,shg_member,shg_woman,5K-10K,7321.23,primary,True,False,24,2.2,True,none,False,feature_phone,0.29,0.8557,0.095,0.0312,False,0.0314
+USR_00769,Renu Dubey,36,F,Odisha,Bhubaneswar,or,home_based_worker,shg_woman,5K-10K,6599.42,primary,True,False,12,0.7,True,none,True,android,0.2596,0.8104,0.1268,0.0637,False,0.0805
+USR_00770,Pooja Shah,46,F,Bihar,Muzaffarpur,hi,home_based_worker,shg_woman,5K-10K,3475.11,secondary,True,False,14,3.8,True,none,False,feature_phone,0.1736,0.7244,0.443,0.005,False,0.0805
+USR_00771,Lakshmi Jain,43,F,Andhra Pradesh,Visakhapatnam,te,shg_member,shg_woman,5K-10K,7658.93,none,True,True,19,2.3,True,none,False,feature_phone,0.2209,0.9335,0.0855,0.0317,False,0.0362
+USR_00772,Durga Choudhary,37,F,Andhra Pradesh,Tirupati,te,home_based_worker,shg_woman,5K-10K,6704.64,secondary,True,False,5,0.5,True,none,False,feature_phone,0.0951,0.8177,0.2644,0.0507,False,0.115
+USR_00773,Savitri Yadav,43,F,Bihar,Patna,hi,shg_member,shg_woman,10K-20K,10863.72,secondary,True,False,4,2.8,True,none,False,feature_phone,0.1792,0.8456,0.0953,0.0208,False,0.0455
+USR_00774,Savitri Patil,31,F,Jharkhand,Ranchi,hi,home_based_worker,shg_woman,10K-20K,12670.86,none,True,False,24,7.0,True,none,True,android,0.1411,0.7321,0.0957,0.0206,True,0.1
+USR_00775,Meena Iyer,42,F,Bihar,Bhagalpur,hi,tailor,shg_woman,10K-20K,12760.31,none,False,False,3,1.0,True,none,False,feature_phone,0.149,0.6948,0.0879,0.0783,False,0.1
+USR_00776,Neha Das,38,F,Odisha,Berhampur,or,shg_member,shg_woman,5K-10K,5829.47,none,True,False,48,2.0,True,none,True,android,0.1224,0.904,0.0554,0.0254,False,0.069
+USR_00777,Anita Tiwari,44,F,Jharkhand,Ranchi,hi,shg_member,shg_woman,10K-20K,11753.17,primary,True,False,60,2.7,True,none,True,android,0.173,0.6416,0.8,0.0984,True,0.084
+USR_00778,Sita Sharma,33,F,Telangana,Nizamabad,te,handicraft,shg_woman,10K-20K,10546.26,none,True,True,46,0.8,True,none,False,feature_phone,0.1336,0.7248,0.0977,0.02,False,0.0488
+USR_00779,Rekha Bhat,42,F,Bihar,Patna,hi,tailor,shg_woman,5K-10K,9965.38,secondary,True,False,3,1.9,True,none,True,android,0.1588,0.8814,0.5509,0.0009,False,0.058
+USR_00780,Anita Saxena,42,F,Odisha,Bhubaneswar,or,home_based_worker,shg_woman,5K-10K,7745.11,primary,True,False,23,2.8,True,none,True,android,0.1161,0.7656,0.305,0.0378,False,0.115
+USR_00781,Neha Verma,24,F,Andhra Pradesh,Vijayawada,te,handicraft,shg_woman,10K-20K,10536.18,none,True,False,12,0.7,True,none,True,android,0.0558,0.6073,0.2053,0.085,False,0.1
+USR_00782,Radha Deshmukh,35,F,Odisha,Bhubaneswar,or,handicraft,shg_woman,5K-10K,4733.77,secondary,True,False,10,0.5,True,none,True,android,0.1516,0.9161,0.245,0.0763,False,0.0483
+USR_00783,Rekha Singh,49,F,Jharkhand,Bokaro,hi,shg_member,shg_woman,5K-10K,7614.93,none,True,False,17,0.7,True,none,True,android,0.2348,0.5809,0.142,0.0012,True,0.0805
+USR_00784,Savitri Jain,28,F,Odisha,Berhampur,or,handicraft,shg_woman,10K-20K,13135.9,none,True,False,29,2.4,True,none,True,android,0.0758,0.8495,0.6835,0.0289,False,0.12
+USR_00785,Asha Das,43,F,Jharkhand,Jamshedpur,hi,tailor,shg_woman,5K-10K,7876.16,none,False,False,20,3.2,True,none,False,feature_phone,0.1808,0.6073,0.2515,0.0805,False,0.0523
+USR_00786,Kavita Pillai,40,F,Andhra Pradesh,Vijayawada,te,home_based_worker,shg_woman,5K-10K,5961.64,secondary,True,True,3,2.4,True,none,True,android,0.0813,0.9051,0.1382,0.0121,False,0.0518
+USR_00787,Savitri Yadav,29,F,Bihar,Patna,hi,shg_member,shg_woman,5K-10K,6611.24,none,True,False,45,5.9,True,none,False,feature_phone,0.0774,0.8959,0.6773,0.086,False,0.0828
+USR_00788,Sunita Choudhary,30,F,Bihar,Bhagalpur,hi,shg_member,shg_woman,5K-10K,7286.33,primary,True,False,4,0.6,True,none,True,android,0.1038,0.8028,0.02,0.0187,False,0.115
+USR_00789,Meena Verma,46,F,Odisha,Bhubaneswar,or,shg_member,shg_woman,5K-10K,5723.97,none,True,False,41,6.3,True,none,True,android,0.191,0.678,0.2926,0.0125,False,0.0805
+USR_00790,Pooja Deshmukh,27,F,Bihar,Gaya,hi,tailor,shg_woman,5K-10K,6505.21,primary,True,True,172,0.9,True,none,True,android,0.1803,0.8142,0.2862,0.2135,False,0.0785
+USR_00791,Renu Rao,37,F,Odisha,Rourkela,or,tailor,shg_woman,10K-20K,11212.13,primary,True,False,14,0.8,True,none,False,feature_phone,0.0672,0.8853,0.8,0.0255,False,0.0468
+USR_00792,Sunita Pandey,22,F,Jharkhand,Ranchi,hi,home_based_worker,shg_woman,10K-20K,15000.0,secondary,True,False,17,4.8,True,none,True,android,0.1255,0.8629,0.1457,0.0008,False,0.06
+USR_00793,Kavita Mishra,35,F,Odisha,Berhampur,or,home_based_worker,shg_woman,5K-10K,9379.0,secondary,True,False,30,10.4,True,none,False,feature_phone,-0.0184,0.4012,0.0446,0.007,False,0.115
+USR_00794,Sita Patil,40,F,Jharkhand,Dhanbad,hi,shg_member,shg_woman,10K-20K,15000.0,secondary,False,True,56,5.4,True,none,True,android,0.0399,0.666,0.2387,0.0453,False,0.075
+USR_00795,Savitri Das,29,F,Andhra Pradesh,Vijayawada,te,home_based_worker,shg_woman,5K-10K,3795.77,secondary,True,False,15,4.0,True,none,True,android,0.0696,0.6844,0.3137,0.0323,False,0.115
+USR_00796,Durga Mishra,47,F,Bihar,Bhagalpur,hi,shg_member,shg_woman,5K-10K,9780.36,secondary,True,False,38,2.1,True,none,True,android,0.1857,0.5251,0.1044,0.0942,False,0.0805
+USR_00797,Meena Sharma,26,F,Odisha,Cuttack,or,home_based_worker,shg_woman,10K-20K,14592.86,none,True,True,25,4.2,True,none,False,feature_phone,-0.0204,0.8144,0.1644,0.0202,False,0.075
+USR_00798,Neha Pillai,36,F,Jharkhand,Dhanbad,hi,tailor,shg_woman,5K-10K,8336.15,none,True,False,26,10.8,True,none,True,android,0.1685,0.9467,0.0384,0.0168,False,0.0314
+USR_00799,Pooja Patel,32,F,Andhra Pradesh,Vijayawada,te,shg_member,shg_woman,5K-10K,4518.59,primary,True,False,8,3.7,True,none,False,feature_phone,0.1298,0.923,0.1668,0.0227,True,0.069
+USR_00800,Deepa Kumar,40,F,Odisha,Rourkela,or,tailor,shg_woman,10K-20K,10227.15,secondary,True,False,58,0.8,True,none,False,feature_phone,0.2039,0.5858,0.0211,0.0632,True,0.07
+USR_00801,Asha Jain,41,F,Andhra Pradesh,Guntur,te,home_based_worker,shg_woman,10K-20K,13084.23,primary,True,True,3,0.5,True,none,False,feature_phone,0.1607,0.7431,0.0993,0.0932,False,0.0525
+USR_00802,Renu Jain,27,F,Jharkhand,Ranchi,hi,handicraft,shg_woman,10K-20K,15000.0,secondary,False,False,100,0.5,True,none,False,feature_phone,-0.0145,0.4931,0.02,0.0294,False,0.1
+USR_00803,Deepa Das,46,F,Bihar,Gaya,hi,handicraft,shg_woman,5K-10K,8242.85,none,True,False,3,1.4,True,none,False,feature_phone,0.0944,0.8882,0.2766,0.1395,False,0.069
+USR_00804,Meena Patil,24,F,Andhra Pradesh,Tirupati,te,home_based_worker,shg_woman,10K-20K,13255.79,none,True,False,10,1.6,True,none,False,feature_phone,0.127,0.289,0.0579,0.0091,True,0.1
+USR_00805,Geeta Saxena,36,F,Telangana,Warangal,te,home_based_worker,shg_woman,10K-20K,14979.62,secondary,True,True,50,4.4,True,none,True,android,0.0566,0.9437,0.1597,0.0338,False,0.045
+USR_00806,Renu Bhat,48,F,Andhra Pradesh,Vijayawada,te,shg_member,shg_woman,10K-20K,11076.8,none,True,True,4,5.5,True,none,False,feature_phone,0.1129,0.5149,0.2012,0.0218,False,0.075
+USR_00807,Asha Bhat,34,F,Andhra Pradesh,Vijayawada,te,tailor,shg_woman,5K-10K,4722.32,none,True,False,86,8.2,True,none,True,android,0.1909,0.4619,0.3384,0.0299,False,0.0805
+USR_00808,Parvati Kumar,32,F,Andhra Pradesh,Guntur,te,home_based_worker,shg_woman,5K-10K,4028.56,none,True,False,61,0.5,True,none,True,android,0.1094,0.9484,0.1869,0.0324,False,0.0448
+USR_00809,Sunita Mishra,25,F,Telangana,Warangal,te,tailor,shg_woman,10K-20K,14868.83,secondary,True,True,51,8.7,True,none,False,feature_phone,0.1749,0.773,0.02,0.0003,False,0.0341
+USR_00810,Rekha Sharma,32,F,Jharkhand,Bokaro,hi,shg_member,shg_woman,5K-10K,8175.19,none,True,False,10,0.8,True,none,True,android,0.1441,0.9374,0.0689,0.0414,False,0.069
+USR_00811,Seema Reddy,45,F,Bihar,Patna,hi,home_based_worker,shg_woman,5K-10K,7717.53,none,True,False,29,5.8,True,none,True,android,0.0799,0.5436,0.8,0.083,True,0.138
+USR_00812,Savitri Patel,42,F,Andhra Pradesh,Visakhapatnam,te,handicraft,shg_woman,5K-10K,8682.93,none,True,False,18,3.0,True,none,False,feature_phone,-0.0959,0.9436,0.02,0.0438,False,0.0448
+USR_00813,Sita Singh,37,F,Odisha,Rourkela,or,handicraft,shg_woman,5K-10K,7225.01,primary,True,False,38,4.6,True,none,False,feature_phone,0.0863,0.5415,0.3294,0.0505,True,0.115
+USR_00814,Usha Patel,28,F,Andhra Pradesh,Vijayawada,te,home_based_worker,shg_woman,5K-10K,6929.27,primary,True,False,21,0.5,True,none,False,feature_phone,0.1248,0.8004,0.1895,0.063,True,0.115
+USR_00815,Renu Das,52,F,Jharkhand,Bokaro,hi,shg_member,shg_woman,10K-20K,15000.0,none,True,True,9,1.0,True,none,False,feature_phone,0.0814,0.8821,0.0965,0.0445,False,0.045
+USR_00816,Savitri Rao,27,F,Bihar,Bhagalpur,hi,tailor,shg_woman,10K-20K,12421.85,secondary,True,False,6,14.3,True,none,False,feature_phone,0.1347,0.8934,0.1434,0.0193,False,0.06
+USR_00817,Shanti Mishra,40,F,Jharkhand,Bokaro,hi,handicraft,shg_woman,5K-10K,7301.53,none,True,False,3,4.9,True,none,False,feature_phone,0.0614,0.6957,0.1897,0.0049,False,0.115
+USR_00818,Asha Iyer,38,F,Telangana,Hyderabad,te,home_based_worker,shg_woman,5K-10K,7999.62,none,False,True,45,0.5,True,none,False,feature_phone,0.1177,0.7511,0.1956,0.0308,False,0.0863
+USR_00819,Sita Pillai,37,F,Andhra Pradesh,Guntur,te,tailor,shg_woman,5K-10K,6444.16,none,True,False,30,3.2,True,none,False,feature_phone,0.1174,0.4857,0.3064,0.0366,False,0.115
+USR_00820,Sunita Jain,24,F,Telangana,Warangal,te,shg_member,shg_woman,5K-10K,7941.4,none,False,False,79,1.1,True,none,True,android,0.2025,0.7719,0.052,0.0132,False,0.0523
+USR_00821,Parvati Singh,51,F,Odisha,Bhubaneswar,or,shg_member,shg_woman,10K-20K,13307.98,secondary,True,False,23,2.0,True,none,True,android,-0.025,0.4882,0.144,0.0139,False,0.065
+USR_00822,Priya Pandey,18,F,Telangana,Hyderabad,te,home_based_worker,shg_woman,5K-10K,7623.67,primary,True,False,35,5.2,True,none,True,android,0.2402,0.4605,0.2044,0.0341,False,0.0805
+USR_00823,Renu Nair,33,F,Bihar,Bhagalpur,hi,shg_member,shg_woman,5K-10K,8363.91,primary,True,False,35,1.4,True,none,False,feature_phone,0.1963,0.8087,0.0729,0.0194,False,0.0523
+USR_00824,Priya Mehta,22,F,Jharkhand,Jamshedpur,hi,handicraft,shg_woman,5K-10K,7596.96,primary,True,False,55,0.7,True,none,False,feature_phone,0.0809,0.8159,0.0253,0.0422,False,0.115
+USR_00825,Pooja Kumar,35,F,Bihar,Gaya,hi,handicraft,shg_woman,5K-10K,9558.83,secondary,False,True,35,1.5,True,none,True,android,0.0495,0.5277,0.0431,0.0152,False,0.0863
+USR_00826,Parvati Patil,38,F,Telangana,Hyderabad,te,tailor,shg_woman,5K-10K,3928.6,primary,True,False,70,2.6,True,none,True,android,0.1323,0.6184,0.3561,0.016,False,0.0748
+USR_00827,Pooja Singh,23,F,Bihar,Gaya,hi,shg_member,shg_woman,5K-10K,9887.57,none,True,False,23,1.5,True,none,True,android,0.1552,0.6281,0.1773,0.0348,False,0.0523
+USR_00828,Kavita Tiwari,33,F,Andhra Pradesh,Visakhapatnam,te,tailor,shg_woman,10K-20K,14276.66,none,True,False,39,11.4,True,none,False,feature_phone,0.213,0.6401,0.097,0.0283,False,0.0455
+USR_00829,Kamla Rao,34,F,Jharkhand,Ranchi,hi,shg_member,shg_woman,10K-20K,12487.54,primary,True,True,35,7.1,True,none,True,android,0.0429,0.4509,0.0231,0.0057,False,0.075
+USR_00830,Deepa Bhat,33,F,Bihar,Gaya,hi,tailor,shg_woman,5K-10K,6307.13,primary,False,False,34,0.6,True,none,True,android,0.1072,0.7533,0.1323,0.1915,False,0.1495
+USR_00831,Priya Pandey,32,F,Andhra Pradesh,Vijayawada,te,handicraft,shg_woman,10K-20K,12824.11,primary,True,False,3,7.5,True,none,True,android,0.1903,0.643,0.7494,0.0165,False,0.0546
+USR_00832,Kavita Rao,33,F,Andhra Pradesh,Vijayawada,te,home_based_worker,shg_woman,10K-20K,10071.42,secondary,True,False,23,1.0,True,none,False,feature_phone,0.2666,0.594,0.623,0.0015,False,0.084
+USR_00833,Anita Rao,29,F,Jharkhand,Dhanbad,hi,tailor,shg_woman,5K-10K,6709.74,none,True,False,19,1.1,True,none,False,feature_phone,0.2068,0.8737,0.0364,0.0772,False,0.0314
+USR_00834,Kavita Tiwari,36,F,Bihar,Gaya,hi,shg_member,shg_woman,5K-10K,7355.55,secondary,False,False,15,7.8,True,none,False,feature_phone,-0.0016,0.9032,0.4709,0.0285,True,0.0448
+USR_00835,Seema Singh,41,F,Odisha,Bhubaneswar,or,tailor,shg_woman,5K-10K,8921.04,primary,True,False,26,2.7,True,none,True,android,0.2597,0.8479,0.3085,0.0237,False,0.0805
+USR_00836,Parvati Bhat,45,F,Andhra Pradesh,Vijayawada,te,tailor,shg_woman,5K-10K,9996.41,primary,False,False,76,8.7,True,none,False,feature_phone,0.0573,0.5638,0.0908,0.1174,False,0.115
+USR_00837,Sunita Iyer,18,F,Andhra Pradesh,Tirupati,te,handicraft,shg_woman,10K-20K,10135.95,primary,True,False,180,2.7,True,none,False,feature_phone,0.1243,0.5302,0.0587,0.0991,False,0.1
+USR_00838,Sita Kumar,40,F,Jharkhand,Dhanbad,hi,handicraft,shg_woman,5K-10K,8748.57,secondary,True,False,5,14.9,True,none,False,feature_phone,0.1273,0.6412,0.02,0.0684,False,0.115
+USR_00839,Parvati Naidu,52,F,Andhra Pradesh,Vijayawada,te,shg_member,shg_woman,5K-10K,9291.36,secondary,True,True,25,2.7,True,none,True,android,0.0768,0.7786,0.1884,0.0084,False,0.0863
+USR_00840,Anita Saxena,29,F,Telangana,Nizamabad,te,tailor,shg_woman,10K-20K,11546.73,none,True,False,9,1.4,True,none,False,feature_phone,0.1713,0.6948,0.0415,0.0297,False,0.07
+USR_00841,Radha Yadav,21,F,Andhra Pradesh,Tirupati,te,tailor,shg_woman,10K-20K,13250.13,primary,True,False,54,7.3,True,none,False,feature_phone,0.1937,0.772,0.2053,0.0319,False,0.0455
+USR_00842,Anita Verma,36,F,Andhra Pradesh,Guntur,te,home_based_worker,shg_woman,5K-10K,8154.71,secondary,False,True,12,2.8,True,none,True,android,0.1788,0.6677,0.3834,0.1803,False,0.0785
+USR_00843,Sita Rao,42,F,Bihar,Patna,hi,handicraft,shg_woman,5K-10K,6064.22,primary,True,False,18,4.5,True,none,True,android,0.137,0.9461,0.02,0.0371,False,0.069
+USR_00844,Lakshmi Patel,32,F,Odisha,Cuttack,or,tailor,shg_woman,10K-20K,15000.0,none,True,False,131,9.7,True,none,False,feature_phone,0.1741,0.881,0.3204,0.0371,False,0.042
+USR_00845,Sunita Kumar,43,F,Odisha,Cuttack,or,tailor,shg_woman,5K-10K,9863.71,primary,False,False,59,0.6,True,none,True,android,0.0785,0.8682,0.0579,0.0593,False,0.069
+USR_00846,Parvati Shah,29,F,Jharkhand,Jamshedpur,hi,handicraft,shg_woman,5K-10K,6665.44,primary,True,False,3,7.6,True,none,False,feature_phone,0.1834,0.4513,0.0537,0.0074,False,0.0523
+USR_00847,Deepa Saxena,26,F,Jharkhand,Jamshedpur,hi,tailor,shg_woman,10K-20K,10469.26,secondary,True,False,27,3.6,True,none,False,feature_phone,0.0509,0.9594,0.2497,0.016,False,0.06
+USR_00848,Rani Jain,18,F,Bihar,Muzaffarpur,hi,handicraft,shg_woman,5K-10K,9562.87,none,False,False,14,2.3,True,none,False,feature_phone,0.0381,0.458,0.2693,0.0612,False,0.115
+USR_00849,Renu Yadav,50,F,Andhra Pradesh,Vijayawada,te,home_based_worker,shg_woman,10K-20K,10465.98,primary,True,False,74,2.3,True,none,True,android,0.2363,0.7145,0.0803,0.0047,False,0.0455
+USR_00850,Sita Sharma,30,F,Andhra Pradesh,Guntur,te,tailor,shg_woman,5K-10K,6272.42,primary,True,False,3,3.8,True,none,False,feature_phone,0.3359,0.7355,0.6118,0.1003,False,0.0966
+USR_00851,Sachin Shah,31,M,Rajasthan,Udaipur,hi,chai_stall,small_vendor,10K-20K,19705.28,graduate,True,True,20,2.1,False,none,True,android,0.2446,0.929,0.0927,0.1775,False,0.0373
+USR_00852,Naveen Agarwal,38,M,Madhya Pradesh,Gwalior,hi,kirana_store,small_vendor,20K-50K,22511.45,graduate,True,False,3,4.9,False,none,False,feature_phone,0.0805,0.538,0.2486,0.0934,True,0.14
+USR_00853,Priya Tiwari,30,F,Uttar Pradesh,Lucknow,hi,shopkeeper,small_vendor,10K-20K,13969.93,secondary,True,False,85,9.2,False,none,False,feature_phone,0.1119,0.7233,0.1886,0.0194,False,0.091
+USR_00854,Nitin Yadav,40,M,Madhya Pradesh,Bhopal,hi,kirana_store,small_vendor,20K-50K,20645.24,primary,True,True,53,3.9,False,none,False,feature_phone,0.1253,0.6684,0.1984,0.047,False,0.105
+USR_00855,Pankaj Agarwal,37,M,Rajasthan,Kota,hi,kirana_store,small_vendor,10K-20K,16808.41,graduate,True,True,7,0.9,False,none,True,android,0.1524,0.6729,0.3449,0.1015,False,0.0478
+USR_00856,Nitin Saxena,28,M,Gujarat,Vadodara,gu,shopkeeper,small_vendor,20K-50K,40000.0,primary,False,True,5,1.7,False,none,True,android,0.1189,0.784,0.0859,0.0477,False,0.0682
+USR_00857,Kamla Shah,36,F,Madhya Pradesh,Jabalpur,hi,kirana_store,small_vendor,20K-50K,35701.93,primary,True,False,26,0.9,False,none,False,feature_phone,0.1361,0.7783,0.1148,0.0226,False,0.14
+USR_00858,Kiran Mehta,37,M,Maharashtra,Nashik,mr,street_vendor,small_vendor,20K-50K,29925.61,secondary,True,True,50,5.6,False,none,False,feature_phone,0.1396,0.4225,0.02,0.111,False,0.105
+USR_00859,Kiran Nair,37,M,Rajasthan,Udaipur,hi,shopkeeper,small_vendor,20K-50K,28656.21,primary,True,True,63,7.4,False,none,True,android,0.1146,0.3022,0.1935,0.0295,True,0.105
+USR_00860,Rahul Jain,28,M,Madhya Pradesh,Bhopal,hi,street_vendor,small_vendor,20K-50K,40000.0,graduate,False,False,3,8.5,False,none,False,feature_phone,0.2695,0.6961,0.0605,0.0114,False,0.0637
+USR_00861,Asha Jain,40,F,Maharashtra,Nagpur,mr,chai_stall,small_vendor,20K-50K,28709.44,secondary,True,True,34,0.8,False,none,False,feature_phone,0.126,0.9447,0.3289,0.0289,False,0.063
+USR_00862,Savitri Singh,34,F,Madhya Pradesh,Bhopal,hi,street_vendor,small_vendor,10K-20K,11517.17,primary,True,False,3,6.4,False,none,True,android,0.1652,0.6098,0.1625,0.065,False,0.098
+USR_00863,Priya Shah,39,F,Maharashtra,Nashik,mr,kirana_store,small_vendor,10K-20K,15183.63,primary,False,True,21,0.7,False,none,True,android,0.0625,0.7142,0.0309,0.0405,False,0.105
+USR_00864,Priya Reddy,40,F,Rajasthan,Jodhpur,hi,shopkeeper,small_vendor,20K-50K,22780.6,graduate,True,True,51,14.4,False,none,True,android,0.1623,0.4417,0.1255,0.0233,False,0.0735
+USR_00865,Arjun Singh,38,M,Uttar Pradesh,Kanpur,hi,shopkeeper,small_vendor,10K-20K,14291.46,primary,True,True,36,1.8,False,none,False,feature_phone,0.0858,0.6886,0.0589,0.0748,False,0.0682
+USR_00866,Asha Kumar,25,F,Maharashtra,Mumbai,mr,street_vendor,small_vendor,20K-50K,23280.19,graduate,True,True,7,0.7,False,none,False,feature_phone,0.0436,0.4974,0.5058,0.03,False,0.0819
+USR_00867,Varun Shah,27,M,Gujarat,Rajkot,gu,kirana_store,small_vendor,20K-50K,23597.72,graduate,False,True,33,3.3,False,none,True,android,0.0777,0.5574,0.3471,0.0207,False,0.105
+USR_00868,Dinesh Joshi,37,M,Rajasthan,Jaipur,hi,street_vendor,small_vendor,20K-50K,24450.37,primary,False,True,18,4.9,False,none,False,feature_phone,0.1548,0.9287,0.2274,0.032,False,0.0441
+USR_00869,Nitin Yadav,46,M,Gujarat,Ahmedabad,gu,chai_stall,small_vendor,10K-20K,18938.71,graduate,True,False,8,1.0,False,none,True,android,0.2417,0.7107,0.1745,0.1244,True,0.0637
+USR_00870,Ravi Tiwari,46,M,Madhya Pradesh,Jabalpur,hi,chai_stall,small_vendor,20K-50K,35256.64,graduate,True,True,3,1.0,False,none,False,feature_phone,0.1919,0.7136,0.1042,0.0263,False,0.0735
+USR_00871,Sita Iyer,39,F,Maharashtra,Mumbai,mr,chai_stall,small_vendor,20K-50K,39155.6,primary,True,True,3,1.7,False,none,True,android,0.0438,0.7906,0.2265,0.0517,False,0.0682
+USR_00872,Arun Joshi,34,M,Gujarat,Surat,gu,street_vendor,small_vendor,20K-50K,27275.22,graduate,True,True,64,4.9,False,none,True,android,0.1752,0.7981,0.02,0.1547,False,0.0956
+USR_00873,Nitin Nair,27,M,Uttar Pradesh,Agra,hi,street_vendor,small_vendor,20K-50K,28054.95,secondary,True,False,25,0.5,False,none,True,android,0.0413,0.5254,0.0737,0.0353,False,0.14
+USR_00874,Deepa Pandey,38,F,Uttar Pradesh,Agra,hi,street_vendor,small_vendor,20K-50K,28970.94,secondary,True,True,79,4.2,False,none,True,android,0.1932,0.7891,0.4833,0.0443,False,0.0735
+USR_00875,Geeta Verma,43,F,Rajasthan,Udaipur,hi,shopkeeper,small_vendor,20K-50K,24014.05,graduate,True,True,16,3.9,False,none,True,android,0.0461,0.5203,0.0361,0.0841,False,0.105
+USR_00876,Sita Mehta,42,F,Gujarat,Vadodara,gu,chai_stall,small_vendor,20K-50K,25274.62,primary,True,True,14,0.5,False,none,True,android,0.0306,0.9748,0.2433,0.044,False,0.063
+USR_00877,Vikram Sharma,41,M,Uttar Pradesh,Varanasi,hi,shopkeeper,small_vendor,20K-50K,29018.64,primary,False,True,13,2.4,False,none,False,feature_phone,0.0797,0.6197,0.0211,0.0245,False,0.105
+USR_00878,Renu Rao,40,F,Maharashtra,Pune,mr,shopkeeper,small_vendor,20K-50K,40000.0,secondary,False,False,42,0.5,False,none,True,android,0.1678,0.7523,0.0415,0.0034,False,0.098
+USR_00879,Parvati Tiwari,46,F,Gujarat,Ahmedabad,gu,chai_stall,small_vendor,20K-50K,20388.34,secondary,True,False,13,2.9,False,none,True,android,0.0751,0.7847,0.1327,0.0321,False,0.091
+USR_00880,Naveen Singh,47,M,Maharashtra,Nashik,mr,street_vendor,small_vendor,20K-50K,21402.35,graduate,True,False,9,0.5,False,none,False,feature_phone,0.0093,0.7849,0.0804,0.0631,False,0.091
+USR_00881,Neha Agarwal,30,F,Maharashtra,Mumbai,mr,chai_stall,small_vendor,10K-20K,12223.38,primary,True,False,3,5.5,False,none,True,android,0.1731,0.8398,0.5158,0.0996,False,0.1176
+USR_00882,Amit Yadav,28,M,Uttar Pradesh,Lucknow,hi,street_vendor,small_vendor,10K-20K,19315.48,primary,True,True,53,2.3,False,none,True,android,0.1039,0.8759,0.285,0.003,False,0.041
+USR_00883,Ravi Agarwal,28,M,Madhya Pradesh,Jabalpur,hi,street_vendor,small_vendor,10K-20K,17993.25,secondary,False,True,3,8.3,False,none,True,android,0.1566,0.5435,0.4793,0.0189,False,0.0735
+USR_00884,Manoj Kumar,23,M,Rajasthan,Jodhpur,hi,kirana_store,small_vendor,20K-50K,40000.0,secondary,True,True,15,8.9,False,none,False,feature_phone,0.0793,0.8702,0.7323,0.0142,False,0.0756
+USR_00885,Anita Reddy,42,F,Uttar Pradesh,Lucknow,hi,shopkeeper,small_vendor,20K-50K,38725.4,secondary,True,True,21,11.1,False,none,True,android,0.1671,0.4511,0.2242,0.1055,False,0.0478
+USR_00886,Geeta Choudhary,27,F,Gujarat,Rajkot,gu,chai_stall,small_vendor,10K-20K,16218.57,secondary,True,True,8,0.5,False,none,True,android,0.1917,0.8349,0.1114,0.1307,False,0.0735
+USR_00887,Geeta Reddy,47,F,Rajasthan,Jodhpur,hi,chai_stall,small_vendor,10K-20K,15726.38,graduate,True,True,29,3.0,False,none,True,android,0.1692,0.8905,0.7423,0.0513,False,0.0529
+USR_00888,Sunita Pandey,40,F,Uttar Pradesh,Kanpur,hi,street_vendor,small_vendor,20K-50K,32749.47,secondary,True,True,15,2.9,False,none,True,android,0.1182,0.6677,0.7645,0.0607,False,0.126
+USR_00889,Renu Naidu,39,F,Rajasthan,Kota,hi,chai_stall,small_vendor,5K-10K,8000.0,graduate,True,True,30,0.6,False,none,True,android,0.0085,0.8403,0.02,0.0269,False,0.1208
+USR_00890,Rani Agarwal,44,F,Gujarat,Ahmedabad,gu,kirana_store,small_vendor,20K-50K,31104.57,graduate,True,False,104,3.8,False,none,True,android,0.1197,0.462,0.3115,0.023,False,0.091
+USR_00891,Anita Patel,43,F,Maharashtra,Pune,mr,kirana_store,small_vendor,10K-20K,13670.42,primary,True,True,6,0.5,False,none,False,feature_phone,-0.0365,0.8777,0.1063,0.0457,False,0.063
+USR_00892,Dinesh Sharma,45,M,Uttar Pradesh,Varanasi,hi,street_vendor,small_vendor,20K-50K,33329.62,secondary,True,True,3,7.9,False,none,True,android,0.1094,0.3896,0.02,0.0178,False,0.105
+USR_00893,Vikram Singh,36,M,Maharashtra,Pune,mr,chai_stall,small_vendor,5K-10K,9093.2,secondary,True,False,11,0.6,False,none,False,feature_phone,0.1658,0.8818,0.1244,0.1177,False,0.044
+USR_00894,Sita Joshi,24,F,Gujarat,Rajkot,gu,chai_stall,small_vendor,20K-50K,40000.0,graduate,False,False,37,12.2,False,none,False,feature_phone,0.0713,0.3269,0.8,0.0159,False,0.168
+USR_00895,Hemant Dubey,42,M,Uttar Pradesh,Varanasi,hi,street_vendor,small_vendor,20K-50K,27432.18,primary,False,False,16,5.3,False,none,True,android,0.1376,0.7832,0.2666,0.0513,False,0.091
+USR_00896,Hemant Kumar,52,M,Maharashtra,Nashik,mr,kirana_store,small_vendor,10K-20K,11805.51,primary,True,False,75,10.5,False,none,False,feature_phone,0.2303,0.8577,0.2514,0.0009,False,0.0588
+USR_00897,Durga Iyer,43,F,Rajasthan,Jodhpur,hi,kirana_store,small_vendor,20K-50K,32735.0,secondary,True,False,18,2.4,False,none,True,android,0.1412,0.6967,0.284,0.0414,False,0.091
+USR_00898,Gaurav Pandey,34,M,Gujarat,Ahmedabad,gu,chai_stall,small_vendor,10K-20K,16881.16,secondary,True,True,82,4.7,False,none,False,feature_phone,0.0709,0.8578,0.1343,0.0892,False,0.041
+USR_00899,Naveen Reddy,35,M,Madhya Pradesh,Jabalpur,hi,kirana_store,small_vendor,20K-50K,27612.93,secondary,True,False,7,4.3,False,none,True,android,0.088,0.4659,0.3587,0.02,False,0.091
+USR_00900,Neha Sharma,32,F,Madhya Pradesh,Bhopal,hi,chai_stall,small_vendor,20K-50K,24537.89,secondary,True,True,8,2.7,False,none,True,android,0.1154,0.7326,0.8,0.0514,False,0.126
+USR_00901,Sunil Das,43,M,Madhya Pradesh,Indore,hi,street_vendor,small_vendor,20K-50K,40000.0,primary,True,False,166,0.5,False,none,True,android,0.169,0.4357,0.0416,0.0116,False,0.0637
+USR_00902,Vikram Das,30,M,Maharashtra,Nashik,mr,chai_stall,small_vendor,20K-50K,27148.04,secondary,True,True,11,7.2,False,none,False,feature_phone,0.0887,0.5847,0.352,0.116,False,0.105
+USR_00903,Shanti Yadav,27,F,Maharashtra,Nagpur,mr,chai_stall,small_vendor,20K-50K,24443.81,secondary,True,False,9,0.5,False,none,True,android,0.1055,0.687,0.02,0.0906,False,0.14
+USR_00904,Anita Agarwal,34,F,Rajasthan,Jaipur,hi,chai_stall,small_vendor,10K-20K,12856.97,secondary,True,True,39,2.2,False,none,True,android,0.0425,0.6958,0.1377,0.0606,True,0.105
+USR_00905,Nitin Kumar,39,M,Madhya Pradesh,Bhopal,hi,chai_stall,small_vendor,20K-50K,40000.0,primary,True,False,33,0.5,False,none,True,android,0.0775,0.5236,0.5223,0.031,False,0.168
+USR_00906,Arun Patel,30,M,Gujarat,Ahmedabad,gu,shopkeeper,small_vendor,10K-20K,17682.65,secondary,True,False,74,0.8,False,none,True,android,-0.0035,0.9653,0.478,0.0403,False,0.084
+USR_00907,Anjali Naidu,35,F,Gujarat,Ahmedabad,gu,kirana_store,small_vendor,20K-50K,29924.9,secondary,True,False,83,1.6,False,none,True,android,0.1242,0.8315,0.0901,0.0474,False,0.14
+USR_00908,Sachin Jain,51,M,Uttar Pradesh,Kanpur,hi,street_vendor,small_vendor,10K-20K,19997.43,secondary,True,False,81,4.5,False,none,False,feature_phone,0.0453,0.843,0.0892,0.0165,False,0.091
+USR_00909,Manoj Singh,39,M,Uttar Pradesh,Agra,hi,shopkeeper,small_vendor,20K-50K,38927.94,primary,True,False,51,1.2,False,none,True,android,0.1318,0.9409,0.0957,0.0404,False,0.0546
+USR_00910,Vikram Joshi,37,M,Uttar Pradesh,Agra,hi,kirana_store,small_vendor,20K-50K,21503.65,secondary,False,False,5,4.4,False,none,False,feature_phone,0.0733,0.7664,0.02,0.1542,False,0.182
+USR_00911,Pankaj Sharma,39,M,Rajasthan,Jaipur,hi,street_vendor,small_vendor,20K-50K,28589.05,primary,True,False,3,0.5,False,none,True,android,0.04,0.7342,0.1101,0.147,False,0.14
+USR_00912,Durga Singh,48,F,Rajasthan,Kota,hi,kirana_store,small_vendor,20K-50K,40000.0,graduate,True,True,9,0.5,False,none,True,android,0.2473,0.669,0.4534,0.0014,False,0.0735
+USR_00913,Anita Singh,36,F,Rajasthan,Jodhpur,hi,kirana_store,small_vendor,20K-50K,25841.58,graduate,True,True,78,5.2,False,none,True,android,0.119,0.5492,0.1271,0.0093,False,0.105
+USR_00914,Gaurav Jain,35,M,Uttar Pradesh,Varanasi,hi,chai_stall,small_vendor,20K-50K,35137.1,secondary,True,True,16,12.1,False,none,True,android,0.076,0.7906,0.08,0.0455,False,0.105
+USR_00915,Kiran Dubey,35,M,Madhya Pradesh,Gwalior,hi,chai_stall,small_vendor,20K-50K,27022.85,primary,True,False,4,10.2,False,none,True,android,0.1427,0.6586,0.07,0.0653,False,0.14
+USR_00916,Usha Deshmukh,34,F,Gujarat,Rajkot,gu,kirana_store,small_vendor,20K-50K,27136.22,secondary,True,True,15,10.2,False,none,True,android,0.0959,0.494,0.3409,0.0315,False,0.105
+USR_00917,Dinesh Pandey,32,M,Gujarat,Surat,gu,kirana_store,small_vendor,10K-20K,18772.56,secondary,True,True,19,5.6,False,none,True,android,0.2281,0.873,0.8,0.0261,False,0.0344
+USR_00918,Asha Bhat,37,F,Rajasthan,Kota,hi,street_vendor,small_vendor,20K-50K,38280.51,graduate,True,False,55,1.2,False,none,True,android,0.2271,0.6526,0.0398,0.0301,False,0.098
+USR_00919,Vikram Verma,36,M,Uttar Pradesh,Lucknow,hi,shopkeeper,small_vendor,20K-50K,35518.57,graduate,True,True,65,3.6,False,none,True,android,0.1273,0.7682,0.02,0.0052,False,0.0682
+USR_00920,Pankaj Pandey,35,M,Uttar Pradesh,Agra,hi,street_vendor,small_vendor,10K-20K,12155.76,graduate,True,True,93,1.9,False,none,True,android,0.0412,0.5185,0.7114,0.0378,False,0.0819
+USR_00921,Priya Dubey,34,F,Rajasthan,Jodhpur,hi,shopkeeper,small_vendor,20K-50K,36845.22,graduate,True,False,3,4.5,False,none,False,feature_phone,0.099,0.687,0.4252,0.0354,False,0.14
+USR_00922,Durga Jain,38,F,Madhya Pradesh,Bhopal,hi,kirana_store,small_vendor,20K-50K,32709.41,graduate,True,True,79,6.2,False,none,False,feature_phone,0.0994,0.9578,0.1655,0.0891,False,0.063
+USR_00923,Gaurav Shah,36,M,Madhya Pradesh,Indore,hi,kirana_store,small_vendor,20K-50K,34355.87,graduate,False,False,3,7.9,False,none,True,android,0.1338,0.5809,0.1378,0.0183,True,0.14
+USR_00924,Shanti Nair,37,F,Rajasthan,Jodhpur,hi,street_vendor,small_vendor,20K-50K,22301.14,primary,False,True,35,1.6,False,none,False,feature_phone,0.0908,0.7217,0.0597,0.0975,False,0.105
+USR_00925,Kamla Gupta,30,F,Maharashtra,Nagpur,mr,chai_stall,small_vendor,20K-50K,30187.65,graduate,True,True,33,5.2,False,none,True,android,0.1738,0.5092,0.0452,0.0258,False,0.0478
+USR_00926,Radha Das,21,F,Gujarat,Ahmedabad,gu,chai_stall,small_vendor,10K-20K,15670.51,primary,False,True,51,2.6,False,none,True,android,-0.0347,0.6765,0.1974,0.0396,False,0.105
+USR_00927,Dinesh Tiwari,36,M,Uttar Pradesh,Kanpur,hi,shopkeeper,small_vendor,10K-20K,19049.49,graduate,True,True,11,25.0,False,none,True,android,0.1558,0.6135,0.5372,0.0087,False,0.0882
+USR_00928,Arjun Jain,21,M,Madhya Pradesh,Gwalior,hi,shopkeeper,small_vendor,10K-20K,14482.02,primary,True,True,3,3.6,False,none,True,android,0.0016,0.5411,0.1178,0.0076,False,0.105
+USR_00929,Rahul Bhat,44,M,Maharashtra,Mumbai,mr,kirana_store,small_vendor,20K-50K,28711.14,primary,True,False,41,0.5,False,none,True,android,0.2226,0.7442,0.8,0.0044,False,0.0764
+USR_00930,Sachin Patel,47,M,Maharashtra,Nashik,mr,kirana_store,small_vendor,20K-50K,36705.29,primary,True,False,85,2.8,False,none,False,feature_phone,0.0741,0.7647,0.4153,0.0328,False,0.14
+USR_00931,Kamla Sharma,20,F,Uttar Pradesh,Kanpur,hi,kirana_store,small_vendor,10K-20K,13587.63,primary,True,False,25,11.6,False,none,False,feature_phone,0.1484,0.6165,0.2334,0.0416,False,0.14
+USR_00932,Suresh Verma,42,M,Uttar Pradesh,Kanpur,hi,kirana_store,small_vendor,20K-50K,26461.56,primary,True,True,4,7.6,False,none,True,android,0.1219,0.6612,0.413,0.0153,False,0.105
+USR_00933,Varun Saxena,37,M,Gujarat,Surat,gu,shopkeeper,small_vendor,20K-50K,22358.05,primary,True,False,3,5.6,False,none,True,android,0.0657,0.3687,0.2604,0.1247,False,0.14
+USR_00934,Prakash Bhat,32,M,Maharashtra,Nashik,mr,chai_stall,small_vendor,20K-50K,35738.19,graduate,False,True,4,1.2,False,none,False,feature_phone,0.146,0.6806,0.1337,0.0023,False,0.0682
+USR_00935,Radha Agarwal,43,F,Uttar Pradesh,Lucknow,hi,kirana_store,small_vendor,20K-50K,36790.99,graduate,True,True,23,9.2,False,none,True,android,-0.0003,0.6158,0.0605,0.0534,False,0.105
+USR_00936,Renu Naidu,49,F,Madhya Pradesh,Indore,hi,shopkeeper,small_vendor,20K-50K,37339.54,primary,False,False,107,6.6,False,none,True,android,0.0698,0.8815,0.02,0.0244,False,0.084
+USR_00937,Kamla Mehta,36,F,Rajasthan,Jaipur,hi,shopkeeper,small_vendor,20K-50K,27430.07,secondary,True,False,8,14.0,False,none,True,android,0.0863,0.7063,0.02,0.0026,False,0.091
+USR_00938,Geeta Reddy,29,F,Rajasthan,Jaipur,hi,kirana_store,small_vendor,20K-50K,23158.75,graduate,True,False,15,2.2,False,none,True,android,0.2288,0.74,0.2378,0.0489,False,0.098
+USR_00939,Arjun Rao,18,M,Madhya Pradesh,Jabalpur,hi,street_vendor,small_vendor,10K-20K,19980.66,graduate,True,True,154,6.9,False,none,False,feature_phone,0.2331,0.7356,0.02,0.0843,False,0.0735
+USR_00940,Hemant Saxena,32,M,Uttar Pradesh,Lucknow,hi,kirana_store,small_vendor,20K-50K,36564.31,secondary,True,False,3,0.8,False,none,False,feature_phone,-0.0474,0.9276,0.8,0.0497,False,0.0655
+USR_00941,Priya Das,30,F,Rajasthan,Jodhpur,hi,chai_stall,small_vendor,20K-50K,30787.37,graduate,True,True,15,3.4,False,none,True,android,0.1522,0.6522,0.039,0.0133,False,0.0478
+USR_00942,Naveen Das,32,M,Madhya Pradesh,Jabalpur,hi,shopkeeper,small_vendor,10K-20K,15883.04,graduate,True,False,34,3.1,False,none,True,android,0.0555,0.6879,0.02,0.0653,False,0.091
+USR_00943,Gaurav Verma,47,M,Rajasthan,Jaipur,hi,kirana_store,small_vendor,10K-20K,14197.51,secondary,True,False,11,3.4,False,none,True,android,0.0329,0.7829,0.0402,0.0505,True,0.14
+USR_00944,Gaurav Reddy,37,M,Madhya Pradesh,Jabalpur,hi,chai_stall,small_vendor,20K-50K,40000.0,secondary,True,True,69,0.5,False,none,True,android,-0.034,0.3897,0.02,0.0594,False,0.0682
+USR_00945,Sunita Reddy,31,F,Uttar Pradesh,Kanpur,hi,kirana_store,small_vendor,10K-20K,15482.42,graduate,True,True,4,8.0,False,none,True,android,0.3215,0.8925,0.034,0.0055,False,0.0287
+USR_00946,Sita Mishra,35,F,Gujarat,Vadodara,gu,shopkeeper,small_vendor,10K-20K,16523.87,graduate,True,True,13,2.6,False,none,True,android,0.1539,0.8925,0.313,0.0173,False,0.0441
+USR_00947,Sita Naidu,32,F,Maharashtra,Pune,mr,kirana_store,small_vendor,10K-20K,11374.5,graduate,True,True,13,16.8,False,none,True,android,0.066,0.758,0.3337,0.0121,False,0.0682
+USR_00948,Pankaj Iyer,29,M,Gujarat,Vadodara,gu,chai_stall,small_vendor,20K-50K,25974.73,secondary,True,True,59,7.3,False,none,True,android,-0.1,0.6028,0.2083,0.0143,False,0.105
+USR_00949,Sanjay Choudhary,53,M,Uttar Pradesh,Lucknow,hi,chai_stall,small_vendor,10K-20K,16120.81,graduate,False,True,10,0.5,False,none,True,android,0.0392,0.7889,0.4879,0.0567,False,0.105
+USR_00950,Deepak Pandey,34,M,Uttar Pradesh,Lucknow,hi,kirana_store,small_vendor,20K-50K,29719.18,graduate,True,True,45,5.2,False,none,False,feature_phone,-0.0415,0.7531,0.1405,0.0513,False,0.105
+USR_00951,Kavita Naidu,46,F,Madhya Pradesh,Gwalior,hi,chai_stall,small_vendor,20K-50K,23186.43,graduate,False,True,9,2.6,False,none,False,feature_phone,0.0772,0.5685,0.02,0.0056,False,0.105
+USR_00952,Gaurav Jain,33,M,Gujarat,Ahmedabad,gu,chai_stall,small_vendor,20K-50K,20055.24,secondary,True,False,9,2.9,False,none,True,android,0.0675,0.5011,0.6382,0.0535,False,0.168
+USR_00953,Deepak Pandey,49,M,Maharashtra,Nashik,mr,street_vendor,small_vendor,20K-50K,21203.57,primary,True,True,61,1.4,False,none,True,android,0.1408,0.7284,0.3692,0.126,False,0.0682
+USR_00954,Lakshmi Shah,33,F,Gujarat,Vadodara,gu,street_vendor,small_vendor,10K-20K,16514.13,secondary,True,False,31,6.0,False,none,False,feature_phone,0.1062,0.7635,0.8,0.0033,False,0.168
+USR_00955,Pooja Bhat,42,F,Uttar Pradesh,Kanpur,hi,kirana_store,small_vendor,20K-50K,21016.5,graduate,True,True,76,5.7,False,none,True,android,0.0194,0.577,0.6037,0.0007,False,0.126
+USR_00956,Rohit Mehta,33,M,Uttar Pradesh,Kanpur,hi,chai_stall,small_vendor,20K-50K,20492.01,secondary,True,False,3,0.5,False,none,True,android,0.1247,0.6664,0.1008,0.049,False,0.091
+USR_00957,Amit Kumar,35,M,Gujarat,Ahmedabad,gu,chai_stall,small_vendor,20K-50K,40000.0,graduate,False,False,36,7.8,False,none,True,android,-0.0205,0.776,0.2055,0.0254,False,0.14
+USR_00958,Hemant Bhat,34,M,Rajasthan,Jodhpur,hi,shopkeeper,small_vendor,20K-50K,20453.33,graduate,True,True,4,2.8,False,none,True,android,0.1126,0.783,0.2943,0.0065,False,0.105
+USR_00959,Renu Pandey,31,F,Gujarat,Rajkot,gu,shopkeeper,small_vendor,20K-50K,40000.0,secondary,True,True,43,5.6,False,none,True,android,0.0904,0.9464,0.6161,0.2263,False,0.0983
+USR_00960,Geeta Nair,41,F,Madhya Pradesh,Gwalior,hi,street_vendor,small_vendor,20K-50K,30963.75,primary,True,False,62,1.1,False,none,False,feature_phone,0.062,0.8409,0.1568,0.0136,False,0.14
+USR_00961,Neha Reddy,42,F,Gujarat,Vadodara,gu,chai_stall,small_vendor,20K-50K,40000.0,primary,True,True,3,0.7,False,none,False,feature_phone,0.0042,0.8268,0.0238,0.0069,False,0.0682
+USR_00962,Naveen Das,36,M,Madhya Pradesh,Bhopal,hi,shopkeeper,small_vendor,20K-50K,30010.04,primary,True,False,93,7.0,False,none,False,feature_phone,0.0676,0.7663,0.8,0.0071,False,0.1092
+USR_00963,Priya Iyer,38,F,Madhya Pradesh,Indore,hi,chai_stall,small_vendor,20K-50K,21717.02,primary,False,False,64,7.5,False,none,True,android,0.1234,0.8124,0.1986,0.0302,False,0.14
+USR_00964,Vikram Patil,44,M,Gujarat,Ahmedabad,gu,kirana_store,small_vendor,20K-50K,33891.21,secondary,True,False,3,1.5,False,none,False,feature_phone,0.0336,0.9544,0.1483,0.1245,False,0.084
+USR_00965,Deepak Jain,23,M,Gujarat,Ahmedabad,gu,chai_stall,small_vendor,20K-50K,21706.39,primary,True,True,5,0.5,False,none,True,android,0.0222,0.9338,0.3726,0.1467,False,0.063
+USR_00966,Amit Shah,43,M,Uttar Pradesh,Varanasi,hi,chai_stall,small_vendor,20K-50K,20602.27,primary,True,False,100,1.5,False,none,False,feature_phone,0.1592,0.6346,0.1881,0.1315,False,0.098
+USR_00967,Geeta Pillai,46,F,Uttar Pradesh,Kanpur,hi,street_vendor,small_vendor,20K-50K,22142.21,primary,True,True,21,15.5,False,none,False,feature_phone,0.0923,0.8144,0.02,0.0906,False,0.105
+USR_00968,Hemant Jain,41,M,Maharashtra,Mumbai,mr,shopkeeper,small_vendor,20K-50K,40000.0,primary,True,True,69,14.6,False,none,True,android,-0.0488,0.6832,0.1485,0.0185,True,0.105
+USR_00969,Deepak Dubey,20,M,Gujarat,Rajkot,gu,kirana_store,small_vendor,20K-50K,24305.5,secondary,True,False,50,3.1,False,none,False,feature_phone,0.1097,0.7918,0.2442,0.0221,False,0.14
+USR_00970,Arun Tiwari,47,M,Rajasthan,Kota,hi,kirana_store,small_vendor,20K-50K,22493.56,secondary,True,True,46,0.5,False,none,False,feature_phone,0.1956,0.7613,0.0814,0.02,False,0.0735
+USR_00971,Durga Shah,47,F,Rajasthan,Kota,hi,street_vendor,small_vendor,20K-50K,32102.09,primary,True,True,49,2.9,False,none,True,android,0.0786,0.761,0.2161,0.052,False,0.105
+USR_00972,Naveen Gupta,38,M,Rajasthan,Kota,hi,chai_stall,small_vendor,20K-50K,22865.87,primary,True,True,14,15.1,False,none,False,feature_phone,0.1582,0.5633,0.0404,0.1583,False,0.0956
+USR_00973,Nitin Mehta,45,M,Gujarat,Vadodara,gu,kirana_store,small_vendor,20K-50K,21719.09,secondary,True,False,7,3.2,False,none,True,android,0.2478,0.7167,0.2368,0.0398,False,0.098
+USR_00974,Deepak Pandey,26,M,Uttar Pradesh,Varanasi,hi,street_vendor,small_vendor,10K-20K,16595.2,primary,True,True,5,7.6,False,none,False,feature_phone,0.0344,0.5244,0.3394,0.0539,False,0.105
+USR_00975,Rahul Rao,25,M,Madhya Pradesh,Bhopal,hi,shopkeeper,small_vendor,10K-20K,18901.95,secondary,True,True,139,6.4,False,none,True,android,0.1656,0.7912,0.0294,0.0641,True,0.0735
+USR_00976,Manoj Reddy,24,M,Uttar Pradesh,Kanpur,hi,kirana_store,small_vendor,20K-50K,32829.13,graduate,False,True,180,0.5,False,none,False,feature_phone,0.0545,0.848,0.1073,0.0302,False,0.105
+USR_00977,Amit Pillai,40,M,Maharashtra,Pune,mr,shopkeeper,small_vendor,20K-50K,24704.1,primary,True,False,14,10.3,False,none,True,android,0.0656,0.9354,0.0303,0.0214,True,0.0546
+USR_00978,Anjali Naidu,30,F,Maharashtra,Mumbai,mr,kirana_store,small_vendor,20K-50K,30160.81,secondary,True,False,3,7.6,False,none,True,android,0.2113,0.7614,0.1605,0.0523,False,0.0637
+USR_00979,Shanti Tiwari,34,F,Rajasthan,Jaipur,hi,shopkeeper,small_vendor,10K-20K,19175.21,primary,True,False,20,2.7,False,none,True,android,0.1324,0.6805,0.1182,0.0495,False,0.14
+USR_00980,Rahul Joshi,32,M,Gujarat,Rajkot,gu,kirana_store,small_vendor,10K-20K,13000.85,secondary,True,True,15,3.8,False,none,True,android,0.1215,0.6885,0.1136,0.1058,False,0.105
+USR_00981,Sachin Das,48,M,Uttar Pradesh,Kanpur,hi,chai_stall,small_vendor,20K-50K,37812.36,secondary,False,True,3,3.7,False,none,True,android,0.0222,0.7145,0.02,0.0626,False,0.0682
+USR_00982,Sunil Singh,45,M,Rajasthan,Udaipur,hi,street_vendor,small_vendor,20K-50K,33815.43,secondary,True,True,25,2.3,False,none,False,feature_phone,0.222,0.48,0.0932,0.0299,False,0.0735
+USR_00983,Usha Kumar,34,F,Uttar Pradesh,Varanasi,hi,street_vendor,small_vendor,20K-50K,28241.51,primary,True,False,12,4.6,False,none,True,android,0.1822,0.9325,0.2399,0.0356,False,0.0382
+USR_00984,Seema Das,46,F,Rajasthan,Jodhpur,hi,chai_stall,small_vendor,10K-20K,16992.6,secondary,True,False,24,4.6,False,none,True,android,0.2632,0.8144,0.0545,0.0332,False,0.098
+USR_00985,Sachin Rao,37,M,Uttar Pradesh,Varanasi,hi,kirana_store,small_vendor,20K-50K,40000.0,secondary,True,False,14,0.5,False,none,True,android,-0.0361,0.7869,0.3694,0.1143,False,0.14
+USR_00986,Suresh Mehta,26,M,Uttar Pradesh,Lucknow,hi,shopkeeper,small_vendor,20K-50K,37615.82,primary,True,False,53,3.1,False,none,True,android,0.1542,0.5859,0.1906,0.0867,False,0.098
+USR_00987,Pankaj Rao,37,M,Uttar Pradesh,Agra,hi,kirana_store,small_vendor,20K-50K,26858.79,graduate,True,False,51,0.5,False,none,True,android,0.0526,0.67,0.6444,0.004,False,0.1092
+USR_00988,Ashok Iyer,25,M,Gujarat,Vadodara,gu,street_vendor,small_vendor,20K-50K,25865.15,graduate,True,True,14,2.0,False,none,True,android,0.1311,0.5824,0.1673,0.2296,False,0.1365
+USR_00989,Manoj Nair,34,M,Madhya Pradesh,Jabalpur,hi,street_vendor,small_vendor,10K-20K,13794.18,graduate,True,False,12,5.8,False,none,True,android,0.0376,0.8149,0.8,0.0317,False,0.1092
+USR_00990,Rahul Joshi,36,M,Rajasthan,Jaipur,hi,street_vendor,small_vendor,20K-50K,29135.22,graduate,True,True,24,3.7,False,none,True,android,0.0759,0.8337,0.1056,0.0491,False,0.0682
+USR_00991,Usha Mishra,36,F,Madhya Pradesh,Indore,hi,chai_stall,small_vendor,20K-50K,28695.36,primary,True,False,25,12.7,False,none,True,android,0.1434,0.8385,0.2882,0.0121,False,0.14
+USR_00992,Arun Das,48,M,Madhya Pradesh,Jabalpur,hi,street_vendor,small_vendor,10K-20K,14355.92,graduate,True,True,3,14.0,False,none,True,android,0.0735,0.7833,0.0561,0.0781,False,0.0682
+USR_00993,Dinesh Dubey,35,M,Uttar Pradesh,Kanpur,hi,chai_stall,small_vendor,20K-50K,26394.26,secondary,True,False,87,0.9,False,none,True,android,0.1082,0.757,0.0522,0.0347,False,0.14
+USR_00994,Priya Rao,40,F,Madhya Pradesh,Gwalior,hi,street_vendor,small_vendor,10K-20K,19946.24,primary,True,False,38,1.6,False,none,True,android,0.131,0.9388,0.0424,0.078,False,0.0546
+USR_00995,Amit Patel,45,M,Gujarat,Ahmedabad,gu,kirana_store,small_vendor,20K-50K,28233.0,graduate,True,True,10,1.6,False,none,True,android,-0.0168,0.8252,0.3727,0.0206,False,0.105
+USR_00996,Sunil Deshmukh,41,M,Rajasthan,Kota,hi,chai_stall,small_vendor,10K-20K,19770.73,secondary,False,True,33,0.7,False,none,True,android,0.1115,0.523,0.02,0.0253,False,0.105
+USR_00997,Nitin Mishra,26,M,Maharashtra,Nagpur,mr,kirana_store,small_vendor,10K-20K,17031.71,secondary,True,True,87,5.6,False,none,True,android,0.1119,0.7549,0.1737,0.0336,False,0.105
+USR_00998,Gaurav Bhat,43,M,Maharashtra,Mumbai,mr,chai_stall,small_vendor,10K-20K,13573.88,graduate,True,True,50,2.4,False,none,True,android,0.083,0.7472,0.4393,0.0223,False,0.105
+USR_00999,Renu Sharma,29,F,Rajasthan,Udaipur,hi,kirana_store,small_vendor,20K-50K,27312.72,primary,True,True,27,1.0,False,none,True,android,0.1154,0.8738,0.0385,0.0053,False,0.041
+USR_01000,Amit Dubey,40,M,Gujarat,Ahmedabad,gu,kirana_store,small_vendor,20K-50K,25794.88,secondary,True,False,54,1.8,False,none,True,android,0.0235,0.6744,0.2841,0.0893,True,0.091
